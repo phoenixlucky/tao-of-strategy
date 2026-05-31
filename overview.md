@@ -6,42 +6,52 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：全面扩充后
+> 数据更新日期：全面扩充后 | **28 位人物 × 20 条 = 560 条格言**
 
 ## 人物统计
 
-### 兵家（共 8 人，80 条格言）
+### ⚔️🛡️ 兵家（共 12 人，240 条格言）
 
-| 人物 | 核心著作 | 格言数 |
-|------|---------|--------|
-| [孙子](people/bingjia/sunzi.html) | 《孙子兵法》 | 10 |
-| [吴起](people/bingjia/wuzi.html) | 《吴子》 | 10 |
-| [孙膑](people/bingjia/sunbin.html) | 《孙膑兵法》 | 10 |
-| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 10 |
-| [曹操](people/bingjia/caocao.html) | 注《孙子》 | 10 |
-| [李靖](people/bingjia/lijing.html) | 《唐太宗李卫公问对》 | 10 |
-| [韩信](people/bingjia/hanxin.html) | 《韩信兵法》（已佚） | 10 |
-| [司马穰苴](people/bingjia/simarangju.html) | 《司马法》 | 10 |
+| 人物 | 核心著作 | 格言 |
+|------|---------|------|
+| [孙子](people/bingjia/sunzi.html) | 《孙子兵法》 | 20 |
+| [吴起](people/bingjia/wuzi.html) | 《吴子》 | 20 |
+| [孙膑](people/bingjia/sunbin.html) | 《孙膑兵法》 | 20 |
+| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 20 |
+| [曹操](people/bingjia/caocao.html) | 注《孙子》 | 20 |
+| [李靖](people/bingjia/lijing.html) | 《唐太宗李卫公问对》 | 20 |
+| [韩信](people/bingjia/hanxin.html) | 《韩信兵法》（已佚） | 20 |
+| [司马穰苴](people/bingjia/simarangju.html) | 《司马法》 | 20 |
+| [姜子牙](people/bingjia/jiangziya.html) | 《六韬》 | 20 |
+| [岳飞](people/bingjia/yuefei.html) | 《岳武穆遗文》 | 20 |
+| [戚继光](people/bingjia/qi-jiguang.html) | 《纪效新书》 | 20 |
+| [白起](people/bingjia/baiqi.html) | —（无专著） | 20 |
 
-### 道家（共 5 人，50 条格言）
+### ☯️ 道家（共 9 人，180 条格言）
 
-| 人物 | 核心著作 | 格言数 |
-|------|---------|--------|
-| [老子](people/daojia/laozi.html) | 《道德经》 | 10 |
-| [庄子](people/daojia/zhuangzi.html) | 《庄子》 | 10 |
-| [列子](people/daojia/liezi.html) | 《列子》 | 10 |
-| [文子](people/daojia/wenzi.html) | 《文子》 | 10 |
-| [河上公](people/daojia/heshanggong.html) | 《老子河上公章句》 | 10 |
+| 人物 | 核心著作 | 格言 |
+|------|---------|------|
+| [老子](people/daojia/laozi.html) | 《道德经》 | 20 |
+| [庄子](people/daojia/zhuangzi.html) | 《庄子》 | 20 |
+| [列子](people/daojia/liezi.html) | 《列子》 | 20 |
+| [文子](people/daojia/wenzi.html) | 《文子》 | 20 |
+| [河上公](people/daojia/heshanggong.html) | 《老子河上公章句》 | 20 |
+| [关尹子](people/daojia/guanyinzi.html) | 《关尹子》 | 20 |
+| [葛洪](people/daojia/gehong.html) | 《抱朴子》 | 20 |
+| [陶渊明](people/daojia/taoyuanming.html) | 《桃花源记》 | 20 |
+| [嵇康](people/daojia/jikang.html) | 《声无哀乐论》 | 20 |
 
-### 跨界者（共 5 人，50 条格言）
+### 🔄 跨界者（共 7 人，140 条格言）
 
-| 人物 | 核心著作 | 格言数 |
-|------|---------|--------|
-| [范蠡](people/crossover/fanli.html) | 《计然篇》（传） | 10 |
-| [张良](people/crossover/zhangliang.html) | —（无专著） | 10 |
-| [诸葛亮](people/crossover/zhugeliang.html) | 《诫子书》《出师表》 | 10 |
-| [刘伯温](people/crossover/liubowen.html) | 《郁离子》《百战奇略》 | 10 |
-| [王阳明](people/crossover/wangyangming.html) | 《传习录》《大学问》 | 10 |
+| 人物 | 核心著作 | 格言 | 跨界特色 |
+|------|---------|------|---------|
+| [范蠡](people/crossover/fanli.html) | 《计然篇》（传） | 20 | 兵家灭吴 → 道家经商 |
+| [张良](people/crossover/zhangliang.html) | —（无专著） | 20 | 运筹帷幄 → 从赤松子游 |
+| [诸葛亮](people/crossover/zhugeliang.html) | 《诫子书》《出师表》 | 20 | 淡泊明志 + 六出祁山 |
+| [刘伯温](people/crossover/liubowen.html) | 《郁离子》《百战奇略》 | 20 | 开国谋臣 + 归隐寓言 |
+| [王阳明](people/crossover/wangyangming.html) | 《传习录》 | 20 | 心学宗师 + 平定宁王 |
+| [曾国藩](people/crossover/zeng-guofan.html) | 《曾国藩家书》 | 20 | 湘军统帅 + 内圣外王 |
+| [郭子仪](people/crossover/guoziyi.html) | —（以功业闻名） | 20 | 功盖一代而主不疑 |
 
 ## 主题聚合（共 6 个主题）
 
@@ -56,7 +66,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 格言总数
 
-**当前总计：180 条**（18 位人物 × 10 条，6 个主题页，完整 quotes.json）
+**当前总计：560 条**（28 位人物 × 20 条，6 个主题页，完整 quotes.json）
 
 ## 网站功能
 
@@ -64,14 +74,11 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 180 条格言 JSON |
-| [📖 关于本项目](about.html) | 项目哲学与一体两面标签体系 |
+| [📦 结构化数据](quotes/quotes.json) | 待扩充至 560 条 |
 
 ## Roadmap
 
-- ✅ 18 位人物全部 10 条格言
+- ✅ 28 位人物全部 20 条格言
 - ✅ 6 个主题聚合
-- ✅ quotes.json 完整填充
-- ✅ 静态网站 + 随机卡片 + 每日一面
-- ✅ 反者道之动对比功能
+- 🚧 quotes.json 扩充至 560 条
 - 🚧 更多主题持续扩展
