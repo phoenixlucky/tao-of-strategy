@@ -126,7 +126,7 @@ function renderCard(q) {
   if (q.face === 'bi') faceClassActual = 'face-bi';
   else if (q.face === 'zhuan') faceClassActual = 'face-zhuan';
 
-  const personLink = `people/${q.face === 'jin' ? 'bingjia' : q.face === 'bi' ? 'daojia' : 'crossover'}/${q.personId}.md`;
+  const personLink = `people/${q.face === 'jin' ? 'bingjia' : q.face === 'bi' ? 'daojia' : 'crossover'}/${q.personId}.html`;
 
   return `
     <div class="quote-card">
