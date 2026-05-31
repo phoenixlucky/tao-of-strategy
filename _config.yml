@@ -2,10 +2,19 @@
 
 title: 韬略之道
 description: 一枚硬币的两面：无为与战争 — 兵家进取与道家避世格言汇编
+baseurl: "/tao-of-strategy"
+url: "https://phoenixlucky.github.io"
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+
+# 布局：所有 .md 文件使用自定义模板
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # 包含所有目录
 include:

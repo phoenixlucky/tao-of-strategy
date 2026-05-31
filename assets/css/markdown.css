@@ -1,0 +1,119 @@
+/* ========================================
+   韬略之道 — Markdown 渲染排版
+   ======================================== */
+
+.markdown-content {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px 36px;
+  box-shadow: var(--shadow);
+  margin-bottom: 28px;
+  line-height: 1.9;
+  font-size: 0.96rem;
+  color: var(--text);
+}
+
+/* ---- Headings ---- */
+.markdown-content h1 { font-size: 1.6rem; margin: 1.2em 0 0.6em; color: var(--accent); border-bottom: 2px solid var(--border); padding-bottom: 0.3em; }
+.markdown-content h2 { font-size: 1.25rem; margin: 1.2em 0 0.5em; color: var(--accent); }
+.markdown-content h3 { font-size: 1.08rem; margin: 1em 0 0.4em; color: var(--text); }
+
+/* ---- Paragraphs & Text ---- */
+.markdown-content p { margin: 0.6em 0; }
+.markdown-content strong { color: var(--accent); }
+.markdown-content em { color: var(--text-muted); }
+.markdown-content blockquote {
+  margin: 1em 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-light);
+  border-radius: 0 8px 8px 0;
+  color: var(--text);
+  font-style: italic;
+}
+.markdown-content blockquote p { margin: 0; }
+
+/* ---- Links ---- */
+.markdown-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.markdown-content a:hover { text-decoration: underline; }
+
+/* ---- Lists ---- */
+.markdown-content ul, .markdown-content ol { margin: 0.6em 0; padding-left: 1.8em; }
+.markdown-content li { margin: 0.3em 0; }
+.markdown-content li.task-list-item { list-style: none; }
+.markdown-content input[type="checkbox"] { margin-right: 6px; }
+
+/* ---- Tables ---- */
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9rem;
+}
+.markdown-content th, .markdown-content td {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.markdown-content th {
+  background: var(--accent-light);
+  color: var(--accent);
+  font-weight: 600;
+}
+.markdown-content tr:nth-child(even) { background: #faf8f5; }
+.markdown-content tr:hover { background: #f5f0ea; }
+
+/* ---- Code ---- */
+.markdown-content code {
+  font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  background: #f0ebe4;
+  border-radius: 4px;
+  color: #8b4513;
+}
+.markdown-content pre {
+  margin: 1em 0;
+  padding: 16px 20px;
+  background: #2c2c2c;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+.markdown-content pre code {
+  background: transparent;
+  color: #e8e4dd;
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+/* ---- Horizontal Rules ---- */
+.markdown-content hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--border), transparent);
+  margin: 2em 0;
+}
+
+/* ---- Images ---- */
+.markdown-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+/* ---- Checkbox Lists ---- */
+.markdown-content ul.task-list { list-style: none; padding-left: 0; }
+
+/* ---- Small text adjustments ---- */
+.markdown-content .emoji { font-style: normal; }
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  .markdown-content { padding: 20px 18px; font-size: 0.92rem; }
+  .markdown-content table { font-size: 0.82rem; }
+  .markdown-content th, .markdown-content td { padding: 6px 8px; }
+}
