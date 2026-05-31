@@ -120,9 +120,11 @@ const COMPARISONS = [
 
 /* ---- State ---- */
 let currentComparison = null;
+let flipped = false;
 
 /* ---- Render ---- */
 function renderComparison(idx) {
+  flipped = false;
   const pair = COMPARISONS[idx];
   const container = document.getElementById('comparisonContainer');
   container.innerHTML = '';
@@ -145,10 +147,16 @@ function buildPairCard(pair) {
   const body = document.createElement('div');
   body.className = 'pair-body';
 
-  // Left (进取)
-  body.appendChild(buildSide(pair.jin, 'jin', '⚔️ 进取面·兵家'));
-  // Right (避世)
-  body.appendChild(buildSide(pair.bi, 'bi', '☯️ 避世面·道家'));
+  // Left side
+  if (flipped) {
+    body.appendChild(buildSide(pair.bi, 'bi', '☯️ 避世面·道家'));
+    // Right side
+    body.appendChild(buildSide(pair.jin, 'jin', '⚔️ 进取面·兵家'));
+  } else {
+    body.appendChild(buildSide(pair.jin, 'jin', '⚔️ 进取面·兵家'));
+    // Right side
+    body.appendChild(buildSide(pair.bi, 'bi', '☯️ 避世面·道家'));
+  }
 
   card.appendChild(body);
 
@@ -199,6 +207,7 @@ function buildSide(data, faceClass, labelText) {
 
 /* ---- Random Comparison ---- */
 function randomComparison() {
+  flipped = false;
   const idx = Math.floor(Math.random() * COMPARISONS.length);
   renderComparison(idx);
 }
@@ -206,11 +215,11 @@ function randomComparison() {
 /* ---- Flip (swap left/right) ---- */
 function flipComparison() {
   if (!currentComparison) return;
-  // Swap jin and bi in the current pair
+  flipped = !flipped;
   const pair = currentComparison;
-  [pair.jin, pair.bi] = [pair.bi, pair.jin];
-  // Swap the title indicators
-  pair.title = pair.title.includes('翻转') ? pair.title.replace(' 🔄 翻转', '') : pair.title + ' 🔄 翻转';
+  // Reset title each time — the visual swap speaks for itself
+  pair.title = pair.title.replace(' 🔄 翻转', '');
+  if (flipped) pair.title = pair.title + ' 🔄 翻转';
   const container = document.getElementById('comparisonContainer');
   container.innerHTML = '';
   container.appendChild(buildPairCard(pair));
@@ -218,6 +227,7 @@ function flipComparison() {
 
 /* ---- Auto-generate random pair from quotes.json ---- */
 async function autoCompare() {
+  flipped = false;
   try {
     const res = await fetch('quotes/quotes.json');
     const data = await res.json();
