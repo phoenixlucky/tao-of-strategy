@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 全与破
 description: 全国为上破国次之—兵家全胜理想与道家保全之道的对照
 ---

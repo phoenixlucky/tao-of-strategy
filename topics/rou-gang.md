@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 柔与刚
 description: 常胜之道曰柔—道家守柔 vs 兵家柔中藏刚的主题对照
 ---

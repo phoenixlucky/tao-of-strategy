@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 关于
 description: 项目哲学与核心特色：一体两面标签体系
 ---

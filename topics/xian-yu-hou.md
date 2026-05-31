@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 先与后
 description: 先发制人 vs 后发先至—兵道两家对时机的选择
 ---

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 有为与无为
 description: 道常无为而无不为—道家无为与兵家有为之辨
 ---
