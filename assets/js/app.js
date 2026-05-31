@@ -1,14 +1,11 @@
-/* ========================================
-   韬略之道 · Tao of Strategy — App Logic
-   ======================================== */
+/* 🌟 韬略之道 · App Logic — 重构版 */
 
 let allQuotes = [];
 let faceFilter = 'all';
 let personFilter = 'all';
 let tagFilter = 'all';
-let currentView = 'all'; // 'all' | 'random' | 'daily'
 
-/* ---- Fetch & Init ---- */
+/* ---- 初始化 ---- */
 async function init() {
   try {
     const res = await fetch('quotes/quotes.json');
@@ -16,213 +13,169 @@ async function init() {
     allQuotes = data.quotes;
     populatePersonOptions();
     populateTagOptions();
-    renderDailyQuote();
+    showDailyQuote();
     renderQuotes(allQuotes);
     updateCount(allQuotes.length);
     document.getElementById('loading').style.display = 'none';
   } catch (err) {
-    document.getElementById('loading').textContent = '⚠️ 格言数据加载失败，请确认 quotes.json 已部署';
+    document.getElementById('loading').textContent = '⚠️ 加载失败，请确认网络';
     console.error(err);
   }
 }
 
-/* ---- Populate Dropdowns ---- */
+/* ---- 下拉菜单 ---- */
 function populatePersonOptions() {
   const people = [...new Set(allQuotes.map(q => q.personId))].sort();
   const sel = document.getElementById('personSelect');
-  sel.innerHTML = '<option value="all">全部人物</option>';
+  sel.innerHTML = '<option value="all">🧑 全部人物</option>';
   people.forEach(p => {
     const opt = document.createElement('option');
-    opt.value = p;
-    opt.textContent = personDisplayName(p);
+    opt.value = p; opt.textContent = personDisplayName(p);
     sel.appendChild(opt);
   });
 }
 
 function populateTagOptions() {
-  const tagSet = new Set();
-  allQuotes.forEach(q => (q.tags || []).forEach(t => tagSet.add(t)));
-  const tags = [...tagSet].sort();
+  const tags = [...new Set(allQuotes.flatMap(q => q.tags || []))].sort();
   const sel = document.getElementById('tagSelect');
-  sel.innerHTML = '<option value="all">全部标签</option>';
+  sel.innerHTML = '<option value="all">🏷 全部标签</option>';
   tags.forEach(t => {
     const opt = document.createElement('option');
-    opt.value = t;
-    opt.textContent = `#${t}`;
+    opt.value = t; opt.textContent = `#${t}`;
     sel.appendChild(opt);
   });
 }
 
 function personDisplayName(id) {
-  const map = {
-    'sunzi': '孙子', 'wuzi': '吴起', 'sunbin': '孙膑', 'weiliao': '尉缭',
-    'caocao': '曹操', 'lijing': '李靖', 'hanxin': '韩信', 'simarangju': '司马穰苴',
-    'laozi': '老子', 'zhuangzi': '庄子', 'liezi': '列子', 'wenzi': '文子',
-    'heshanggong': '河上公',
-    'fanli': '范蠡', 'zhangliang': '张良', 'zhugeliang': '诸葛亮',
-    'liubowen': '刘伯温', 'wangyangming': '王阳明'
-  };
-  return map[id] || id;
+  const m = {
+    sunzi:'孙子', wuzi:'吴起', sunbin:'孙膑', weiliao:'尉缭',
+    caocao:'曹操', lijing:'李靖', hanxin:'韩信', simarangju:'司马穰苴',
+    laozi:'老子', zhuangzi:'庄子', liezi:'列子', wenzi:'文子',
+    heshanggong:'河上公', fanli:'范蠡', zhangliang:'张良',
+    zhugeliang:'诸葛亮', liubowen:'刘伯温', wangyangming:'王阳明'
+  }; return m[id] || id;
 }
 
-function faceDisplayName(id) {
-  const map = { 'jin': '进取', 'bi': '避世', 'zhuan': '转化' };
-  return map[id] || id;
-}
-
-/* ---- Filter ---- */
-function getFilteredQuotes() {
-  let result = [...allQuotes];
-
-  if (faceFilter !== 'all') {
-    result = result.filter(q => q.face === faceFilter);
-  }
-  if (personFilter !== 'all') {
-    result = result.filter(q => q.personId === personFilter);
-  }
-  if (tagFilter !== 'all') {
-    result = result.filter(q => (q.tags || []).includes(tagFilter));
-  }
-
-  return result;
-}
-
-/* ---- Random Quote ---- */
-function getRandomQuote() {
-  const filtered = getFilteredQuotes();
-  if (filtered.length === 0) return null;
-  return filtered[Math.floor(Math.random() * filtered.length)];
-}
-
-/* ---- Daily Quote (deterministic) ---- */
+/* ---- 每日一面（修复版）---- */
 function getDailyQuote() {
+  if (!allQuotes.length) return null;
   const today = new Date();
   const dateStr = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()}`;
-  // Simple hash from date string
   let hash = 0;
-  for (let i = 0; i < dateStr.length; i++) {
-    hash = ((hash << 5) - hash) + dateStr.charCodeAt(i);
-    hash |= 0;
-  }
-  const idx = Math.abs(hash) % allQuotes.length;
-  return allQuotes[idx];
+  for (let i = 0; i < dateStr.length; i++) { hash = ((hash << 5) - hash) + dateStr.charCodeAt(i); hash |= 0; }
+  return allQuotes[Math.abs(hash) % allQuotes.length];
 }
 
-/* ---- Render ---- */
-function renderQuotes(quotes) {
-  const list = document.getElementById('quoteList');
-  if (quotes.length === 0) {
-    list.innerHTML = '<div class="quote-card" style="text-align:center;color:var(--text-muted);">没有匹配的格言</div>';
-    return;
-  }
-  list.innerHTML = quotes.map(q => renderCard(q)).join('');
-  updateCount(quotes.length);
+function showDailyQuote() {
+  const q = getDailyQuote();
+  if (!q) return;
+  const el = document.getElementById('dailyQuote');
+  if (!el) return;
+  el.innerHTML = buildCard(q, true);
 }
 
-function renderCard(q) {
-  const faceZh = faceDisplayName(q.face);
-  const faceClass = `face-jin`; // We'll set proper class below
-  let faceClassActual = 'face-jin';
-  if (q.face === 'bi') faceClassActual = 'face-bi';
-  else if (q.face === 'zhuan') faceClassActual = 'face-zhuan';
+/* ---- 筛选 ---- */
+function getFiltered() {
+  let r = [...allQuotes];
+  if (faceFilter !== 'all') r = r.filter(q => q.face === faceFilter);
+  if (personFilter !== 'all') r = r.filter(q => q.personId === personFilter);
+  if (tagFilter !== 'all') r = r.filter(q => (q.tags || []).includes(tagFilter));
+  return r;
+}
 
-  const personLink = `people/${q.face === 'jin' ? 'bingjia' : q.face === 'bi' ? 'daojia' : 'crossover'}/${q.personId}.html`;
+/* ---- 卡片构建 ---- */
+function buildCard(q, isDaily) {
+  const fc = q.face === 'jin' ? 'jin' : q.face === 'bi' ? 'bi' : 'zhuan';
+  const fl = { jin:'进取·兵家', bi:'避世·道家', zhuan:'转化·融合' }[fc] || '';
+  const personName = personDisplayName(q.personId);
+  const personLink = `people/${fc === 'jin' ? 'bingjia' : fc === 'bi' ? 'daojia' : 'crossover'}/${q.personId}.html`;
+
+  const interp = q.interp || '';
 
   return `
-    <div class="quote-card">
+    <div class="quote-card ${isDaily ? 'daily-card' : ''}">
+      <div class="card-top">
+        <span class="face-badge badge-${fc}">${fl}</span>
+        ${isDaily ? '<span class="daily-badge">📅 今日</span>' : ''}
+      </div>
       <div class="quote-text">${q.text}</div>
       <div class="quote-meta">
-        <span><span class="face-badge ${faceClassActual}">${faceZh}</span></span>
+        <span>👤 <a href="${personLink}">${personName}</a></span>
         <span>📖 ${q.source}</span>
-        <span>👤 <a href="${personLink}">${personDisplayName(q.personId)}</a></span>
-        ${q.titleEn ? `<span>🏷 ${q.titleEn}</span>` : ''}
       </div>
-      ${q.interp ? `<div class="quote-interp">${q.interp}</div>` : ''}
-      <div class="quote-tags">
-        ${(q.tags || []).map(t => `<span>#${t}</span>`).join('')}
-      </div>
+      ${interp ? `<div class="quote-interp">💡 ${interp}</div>` : ''}
+      <div class="quote-tags">${(q.tags || []).map(t => `<span>#${t}</span>`).join('')}</div>
     </div>
   `;
 }
 
-function renderDailyQuote() {
-  const q = getDailyQuote();
-  if (!q) return;
-  const container = document.getElementById('dailyQuote');
-  container.innerHTML = renderCard(q);
-}
-
-function renderRandomQuote() {
-  const q = getRandomQuote();
-  if (!q) {
-    document.getElementById('quoteList').innerHTML =
-      '<div class="quote-card" style="text-align:center;color:var(--text-muted);">当前筛选条件下没有格言</div>';
+/* ---- 渲染 ---- */
+function renderQuotes(quotes) {
+  const list = document.getElementById('quoteList');
+  if (!list) return;
+  if (!quotes.length) {
+    list.innerHTML = '<div class="quote-card" style="text-align:center;color:var(--text-muted);padding:40px;">📭 没有匹配的格言</div>';
     return;
   }
-  document.getElementById('quoteList').innerHTML = renderCard(q);
+  list.innerHTML = quotes.map(q => buildCard(q, false)).join('');
+  updateCount(quotes.length);
 }
 
+/* ---- 随机 ---- */
+function showRandom() {
+  const filtered = getFiltered();
+  if (!filtered.length) return;
+  const q = filtered[Math.floor(Math.random() * filtered.length)];
+  const list = document.getElementById('quoteList');
+  if (list) list.innerHTML = buildCard(q, false) + `<div style="text-align:center;font-size:0.82rem;color:var(--text-muted);margin-top:8px;">🎲 随机一句（从当前筛选中抽取）</div>`;
+}
+
+/* ---- 统计 ---- */
 function updateCount(n) {
-  document.getElementById('countInfo').textContent = `共 ${n} 条格言`;
+  const el = document.getElementById('countInfo');
+  if (el) el.textContent = `📚 共 ${n} 条格言`;
 }
 
-/* ---- UI Event Handlers ---- */
-
-// Face buttons
-document.querySelectorAll('.face-btn').forEach(btn => {
-  btn.addEventListener('click', function() {
-    document.querySelectorAll('.face-btn').forEach(b => {
-      b.className = 'face-btn';
-    });
-    faceFilter = this.dataset.face;
-    this.classList.add(`active-${faceFilter}`);
-    applyFilters();
-  });
-});
-
-// Person select
-document.getElementById('personSelect').addEventListener('change', function() {
-  personFilter = this.value;
-  applyFilters();
-});
-
-// Tag select
-document.getElementById('tagSelect').addEventListener('change', function() {
-  tagFilter = this.value;
-  applyFilters();
-});
-
-// Random button
-document.getElementById('randomBtn').addEventListener('click', function() {
-  if (allQuotes.length === 0) return;
-  renderRandomQuote();
-});
-
-// Daily quote toggle
-document.getElementById('dailyBtn').addEventListener('click', function() {
-  renderDailyQuote();
-  document.getElementById('quoteList').innerHTML = '';
-  document.getElementById('dailySection').scrollIntoView({ behavior: 'smooth' });
-});
-
-// Reset filters
-document.getElementById('resetBtn').addEventListener('click', function() {
-  faceFilter = 'all';
-  personFilter = 'all';
-  tagFilter = 'all';
+/* ---- 重置 ---- */
+function resetFilters() {
+  faceFilter = 'all'; personFilter = 'all'; tagFilter = 'all';
   document.querySelectorAll('.face-btn').forEach(b => {
     b.className = 'face-btn';
     if (b.dataset.face === 'all') b.classList.add('active-all');
   });
   document.getElementById('personSelect').value = 'all';
   document.getElementById('tagSelect').value = 'all';
-  applyFilters();
-});
-
-function applyFilters() {
-  const filtered = getFilteredQuotes();
-  renderQuotes(filtered);
+  renderQuotes(getFiltered());
 }
 
-/* ---- Init on Load ---- */
-document.addEventListener('DOMContentLoaded', init);
+/* ---- 事件绑定 ---- */
+document.addEventListener('DOMContentLoaded', () => {
+  init();
+
+  document.querySelectorAll('.face-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.face-btn').forEach(b => b.className = 'face-btn');
+      faceFilter = this.dataset.face;
+      this.classList.add(`active-${faceFilter}`);
+      renderQuotes(getFiltered());
+    });
+  });
+
+  const ps = document.getElementById('personSelect');
+  if (ps) ps.addEventListener('change', function() { personFilter = this.value; renderQuotes(getFiltered()); });
+
+  const ts = document.getElementById('tagSelect');
+  if (ts) ts.addEventListener('change', function() { tagFilter = this.value; renderQuotes(getFiltered()); });
+
+  const rb = document.getElementById('randomBtn');
+  if (rb) rb.addEventListener('click', showRandom);
+
+  const db = document.getElementById('dailyBtn');
+  if (db) db.addEventListener('click', () => {
+    showDailyQuote();
+    document.getElementById('dailySection')?.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  const rset = document.getElementById('resetBtn');
+  if (rset) rset.addEventListener('click', resetFilters);
+});
