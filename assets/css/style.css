@@ -1,0 +1,258 @@
+/* ========================================
+   韬略之道 · Tao of Strategy — Static Site
+   ======================================== */
+
+:root {
+  --bg: #faf8f5;
+  --card-bg: #ffffff;
+  --text: #2c2c2c;
+  --text-muted: #6b6b6b;
+  --border: #e8e4dd;
+  --accent: #8b4513;
+  --accent-light: #f0e6d8;
+  --tag-bg: #f0ebe4;
+  --tag-color: #6b4f3a;
+  --face-jin: #c0392b;
+  --face-bi: #2980b9;
+  --face-zhuan: #27ae60;
+  --shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  min-height: 100vh;
+}
+
+/* ---- Layout ---- */
+.container { max-width: 800px; margin: 0 auto; padding: 24px 20px; }
+
+/* ---- Header ---- */
+header {
+  text-align: center;
+  padding: 48px 20px 32px;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 28px;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: var(--accent);
+}
+header .subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+header .subtitle em { font-style: italic; }
+
+/* ---- Navigation ---- */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+nav a {
+  padding: 6px 16px;
+  border-radius: 20px;
+  background: var(--accent-light);
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: all 0.2s;
+}
+nav a:hover { background: var(--accent); color: #fff; }
+
+/* ---- Filter Bar ---- */
+.filter-bar {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+.filter-row:last-child { margin-bottom: 0; }
+.filter-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  min-width: 48px;
+}
+
+/* ---- Face Buttons ---- */
+.face-btn {
+  padding: 6px 18px;
+  border-radius: 16px;
+  border: 1.5px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+.face-btn:hover { border-color: var(--accent); }
+.face-btn.active-jin { background: var(--face-jin); color: #fff; border-color: var(--face-jin); }
+.face-btn.active-bi { background: var(--face-bi); color: #fff; border-color: var(--face-bi); }
+.face-btn.active-zhuan { background: var(--face-zhuan); color: #fff; border-color: var(--face-zhuan); }
+.face-btn.active-all { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ---- Selects ---- */
+.filter-select {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--text);
+  cursor: pointer;
+}
+
+/* ---- Action Buttons ---- */
+.action-btn {
+  padding: 6px 20px;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-family: inherit;
+  transition: all 0.25s;
+}
+.btn-random { background: #f1c40f; color: #5a3e00; }
+.btn-random:hover { background: #f39c12; transform: scale(1.03); }
+.btn-daily { background: var(--accent-light); color: var(--accent); }
+.btn-daily:hover { background: var(--accent); color: #fff; }
+
+/* ---- Quote Cards ---- */
+.quote-list { display: flex; flex-direction: column; gap: 20px; }
+
+.quote-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 32px;
+  box-shadow: var(--shadow);
+  transition: opacity 0.3s, transform 0.2s;
+}
+.quote-card:hover { transform: translateY(-1px); }
+
+.quote-text {
+  font-size: 1.35rem;
+  line-height: 1.9;
+  margin-bottom: 12px;
+  color: var(--text);
+  quotes: "「" "」";
+}
+.quote-text::before { content: "「"; color: var(--accent); }
+.quote-text::after { content: "」"; color: var(--accent); }
+
+.quote-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.quote-meta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.quote-meta a:hover { text-decoration: underline; }
+
+.quote-interp {
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.8;
+  padding: 14px 16px;
+  background: #faf8f5;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  margin-bottom: 12px;
+}
+
+.quote-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.quote-tags span {
+  padding: 2px 10px;
+  border-radius: 12px;
+  background: var(--tag-bg);
+  color: var(--tag-color);
+  font-size: 0.78rem;
+}
+
+/* ---- Face Badge ---- */
+.face-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+}
+.face-jin { background: var(--face-jin); }
+.face-bi { background: var(--face-bi); }
+.face-zhuan { background: var(--face-zhuan); }
+
+/* ---- Daily Quote ---- */
+.daily-section { margin-bottom: 32px; }
+.daily-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.daily-header h2 {
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+.daily-header .date-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* ---- Footer ---- */
+footer {
+  text-align: center;
+  padding: 32px 20px;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  border-top: 1px solid var(--border);
+  margin-top: 40px;
+}
+footer a { color: var(--accent); text-decoration: none; }
+
+/* ---- Count Info ---- */
+.count-info {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.5rem; }
+  .quote-card { padding: 20px 18px; }
+  .quote-text { font-size: 1.15rem; }
+  .filter-row { flex-direction: column; align-items: flex-start; }
+  nav { gap: 4px; }
+  nav a { font-size: 0.8rem; padding: 4px 12px; }
+}

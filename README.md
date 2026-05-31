@@ -50,7 +50,27 @@
 | [有为与无为](topics/youwei-wuwei.md) | 道常无为而无不为 |
 | [全与破](topics/quan-yu-po.md) | 全国为上，破国次之 |
 
-### 📊 更多资源
+### 🌐 静态网站
+
+| 页面 | 说明 |
+|------|------|
+| [🏠 韬略之道主页](index.html) | 格言浏览、按面/人物/标签筛选、🎲 随机卡片、📅 每日一面 |
+| [📈 项目总览](总览.md) | 人物统计、格言数、Roadmap |
+| [📖 关于本项目](关于.md) | 哲学、核心特色、标签体系 |
+| [📦 结构化数据](quotes/quotes.json) | 180 条格言 JSON 数据 |
+| [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
+
+### 💻 部署为 GitHub Pages
+
+```bash
+# 如果尚未推送
+git remote add origin https://github.com/你的用户名/tao-of-strategy.git
+git push -u origin main
+
+# 然后在 GitHub 仓库页面：
+# Settings → Pages → Source: main branch / root → Save
+# 几分钟后即可访问 https://你的用户名.github.io/tao-of-strategy
+```
 
 | 文件 | 说明 |
 |------|------|
