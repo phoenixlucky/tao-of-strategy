@@ -1,0 +1,185 @@
+/* ========================================
+   韬略之道 · 对比页专属样式
+   ======================================== */
+
+/* ---- Comparison Section ---- */
+.comparison-intro {
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.comparison-intro h2 {
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.comparison-intro p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.comparison-intro .coin-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* ---- Pair Card ---- */
+.pair-card {
+  background: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  margin-bottom: 28px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s;
+}
+.pair-card:hover { border-color: var(--accent); }
+
+.pair-header {
+  text-align: center;
+  padding: 14px 20px;
+  background: #faf8f5;
+  border-bottom: 1px solid var(--border);
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+.pair-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.pair-side {
+  padding: 28px 24px;
+  position: relative;
+}
+.pair-side:first-child {
+  border-right: 1px dashed var(--border);
+}
+
+.pair-side-label {
+  display: inline-block;
+  padding: 3px 14px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.label-jin { background: var(--face-jin); }
+.label-bi { background: var(--face-bi); }
+
+.pair-quote-text {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.pair-quote-text::before { content: "「"; color: var(--accent); }
+.pair-quote-text::after { content: "」"; color: var(--accent); }
+
+.pair-quote-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.pair-quote-meta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.pair-interp {
+  font-size: 0.88rem;
+  color: var(--text);
+  padding: 10px 14px;
+  background: #faf8f5;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  line-height: 1.7;
+}
+
+.pair-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+.pair-tags span {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--tag-bg);
+  color: var(--tag-color);
+  font-size: 0.75rem;
+}
+
+/* ---- Center Coin Icon ---- */
+.pair-coin-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.pair-coin-center::before {
+  content: "🪙";
+  font-size: 2rem;
+  position: absolute;
+  left: -14px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+
+/* ---- Controls ---- */
+.controls-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 24px 0 32px;
+}
+.controls-row button {
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+.controls-row button:hover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
+/* ---- Auto-comparison section ---- */
+.auto-section {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 2px solid var(--border);
+}
+.auto-section h3 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 700px) {
+  .pair-body {
+    grid-template-columns: 1fr;
+  }
+  .pair-side:first-child {
+    border-right: none;
+    border-bottom: 1px dashed var(--border);
+  }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>反者道之动 · 对比 — 韬略之道</title>
+  <meta name="description" content="兵家进取与道家避世格言并列展示——一枚硬币的两面">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/comparison.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>🪙 反者道之动</h1>
+    <p class="subtitle">兵家进取 ⚔️ ↔ ☯️ 道家避世 — <em>一枚硬币的两面</em></p>
+  </header>
+
+  <div class="container">
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">🏠 首页</a>
+      <a href="comparison.html">🪙 对比</a>
+      <a href="总览.md">📊 总览</a>
+      <a href="关于.md">📖 关于</a>
+    </nav>
+
+    <!-- Intro -->
+    <div class="comparison-intro">
+      <span class="coin-icon">🪙</span>
+      <h2>兵家进取 · 道家避世 —— 同台对话</h2>
+      <p>
+        老子说"将欲歙之，必固张之"——在道家是洞察循环的<strong>微明</strong>，在兵家是欲擒故纵的<strong>诡道</strong>。<br>
+        孙子说"不战而屈人之兵"——进取面是<strong>全胜战略</strong>，避世面是<strong>不争而善胜</strong>。<br><br>
+        <strong>同一句话、同一套逻辑，放在不同的"面"前，解读截然不同却又各自成立。</strong><br>
+        以下是我们精选的 8 组对比——同一枚硬币的两面。
+      </p>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls-row">
+      <button onclick="randomComparison()">🎲 随机对比</button>
+      <button onclick="flipComparison()">🔄 翻转左右</button>
+      <button onclick="autoCompare()">✨ 系统随机配对</button>
+      <button onclick="renderComparison(0)" style="background:var(--accent-light);color:var(--accent);">↺ 从头开始</button>
+    </div>
+
+    <div style="text-align:center;font-size:0.85rem;color:var(--text-muted);margin-bottom:20px;" id="pairCount">第 1/8 组</div>
+
+    <!-- Comparison Container -->
+    <div id="comparisonContainer"></div>
+
+    <!-- Reflection -->
+    <div class="comparison-intro" style="margin-top:32px;">
+      <p style="font-size:0.95rem;">
+        <strong>"天下同归而殊途，一致而百虑。"</strong><br>
+        ——《周易·系辞》
+      </p>
+      <p style="font-size:0.85rem;color:var(--text-muted);margin-top:8px;">
+        兵家与道家看似殊途，实则同归。区别不是对错的区别——是同一枚硬币两面的区别。
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>韬略之道 · Tao of Strategy — 反者道之动</p>
+    <p><a href="index.html">🏠 首页</a> · <a href="关于.md">📖 关于</a></p>
+  </footer>
+
+  <script src="assets/js/comparison.js"></script>
+</body>
+</html>
