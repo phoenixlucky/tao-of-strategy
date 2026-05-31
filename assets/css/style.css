@@ -301,27 +301,48 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin: 24px 0 8px;
+  gap: 12px;
+  margin: 28px 0 12px;
 }
 .page-btn {
-  padding: 6px 16px;
-  border-radius: 16px;
-  border: 1px solid var(--border);
+  padding: 10px 24px;
+  border-radius: 24px;
+  border: 1.5px solid var(--border);
   background: var(--card-bg);
   cursor: pointer;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-family: inherit;
-  color: var(--text-muted);
-  transition: all 0.2s;
+  color: var(--text);
+  transition: all 0.25s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  min-width: 48px;
+  font-weight: 500;
 }
-.page-btn:hover { border-color: var(--accent); color: var(--accent); }
-.page-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-.page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.page-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(139,69,19,0.15);
+}
+.page-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.page-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
 .page-info {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: var(--text-muted);
-  padding: 0 8px;
+  padding: 0 12px;
+  font-weight: 500;
+  min-width: 70px;
+  text-align: center;
 }
 
 /* ---- Quote Meta ---- */
