@@ -21,7 +21,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: -apple-system, "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  font-family: "Microsoft YaHei", "微软雅黑", -apple-system, "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.8;
@@ -245,6 +245,147 @@ footer a { color: var(--accent); text-decoration: none; }
   color: var(--text-muted);
   font-size: 0.85rem;
   margin-bottom: 16px;
+}
+
+/* ========================================
+   兵道装饰：宝剑盾牌 & 阴阳八卦
+   ======================================== */
+
+/* ---- 兵家：宝剑盾牌装饰 ---- */
+.deco-jin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.deco-jin::before {
+  content: "⚔️";
+  font-size: 1.1em;
+}
+.deco-jin::after {
+  content: "🛡️";
+  font-size: 1.1em;
+}
+
+/* 兵家分隔线 */
+hr.jin-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--face-jin), transparent);
+  margin: 28px 0;
+  position: relative;
+}
+hr.jin-divider::before {
+  content: "⚔️🛡️";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg);
+  padding: 0 16px;
+  font-size: 1rem;
+}
+
+/* 兵家标题装饰 */
+h2.jin-heading {
+  text-align: center;
+  color: var(--face-jin);
+}
+h2.jin-heading::before { content: "⚔️ "; }
+h2.jin-heading::after { content: " 🛡️"; }
+
+/* ---- 道家：阴阳八卦装饰 ---- */
+.deco-bi {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.deco-bi::before {
+  content: "☯️";
+  font-size: 1.2em;
+}
+
+/* 道家分隔线 */
+hr.bi-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--face-bi), transparent);
+  margin: 28px 0;
+  position: relative;
+}
+hr.bi-divider::before {
+  content: "☯️";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg);
+  padding: 0 16px;
+  font-size: 1.1rem;
+}
+
+/* 道家标题装饰 */
+h2.bi-heading {
+  text-align: center;
+  color: var(--face-bi);
+}
+h2.bi-heading::before { content: "☯️ "; }
+h2.bi-heading::after { content: " ☯️"; }
+
+/* ---- 融合：转化面装饰 ---- */
+.deco-zhuan {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.deco-zhuan::before { content: "🔄"; font-size: 1.1em; }
+
+h2.zhuan-heading {
+  text-align: center;
+  color: var(--face-zhuan);
+}
+h2.zhuan-heading::before { content: "🔄 "; }
+h2.zhuan-heading::after { content: " 🔄"; }
+
+/* ---- 页面背景装饰（仅主页） ---- */
+body.home-page::before {
+  content: "";
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  font-size: 8rem;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: -1;
+}
+body.home-page::after {
+  content: "";
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  font-size: 10rem;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* ---- 对比页大标题 ---- */
+.page-title-jinbi {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 20px 0;
+  letter-spacing: 3px;
+}
+.page-title-jinbi .jin-char {
+  color: var(--face-jin);
+}
+.page-title-jinbi .bi-char {
+  color: var(--face-bi);
+}
+.page-title-jinbi .vs-symbol {
+  color: var(--accent);
+  font-size: 1.8rem;
+  margin: 0 12px;
 }
 
 /* ---- Responsive ---- */

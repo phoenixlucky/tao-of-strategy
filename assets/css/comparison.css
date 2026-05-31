@@ -152,7 +152,7 @@
   background: var(--card-bg);
   cursor: pointer;
   font-size: 0.9rem;
-  font-family: inherit;
+  font-family: "Microsoft YaHei", "微软雅黑", -apple-system, "Noto Serif SC", serif;
   transition: all 0.2s;
 }
 .controls-row button:hover {
