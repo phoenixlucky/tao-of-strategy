@@ -1,0 +1,6194 @@
+{
+ "meta": {
+  "total": 560,
+  "version": "0.4.0",
+  "description": "韬略之道结构化格言数据"
+ },
+ "tags": {
+  "进取": "兵家取向",
+  "避世": "道家取向",
+  "转化": "融合取向",
+  "修身": "个人修养",
+  "治国": "治理国家",
+  "权变": "灵活应变",
+  "庙算": "庙堂谋算",
+  "任势": "任势造势",
+  "形势": "形与势的运用",
+  "诡道": "兵者诡道",
+  "奇正": "奇正相生",
+  "速决": "兵贵神速",
+  "全胜": "不战而屈人之兵",
+  "无为": "无为而治",
+  "不争": "不争而善胜",
+  "守柔": "柔弱胜刚强",
+  "知足": "知足知止",
+  "逍遥": "精神自由",
+  "归根": "复归其根",
+  "玄同": "玄妙齐同",
+  "功成身退": "功成弗居",
+  "大智若愚": "大巧若拙",
+  "阴阳相生": "对立统一"
+ },
+ "quotes": [
+  {
+   "id": "sunzi-1",
+   "personId": "sunzi",
+   "text": "格言1（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-2",
+   "personId": "sunzi",
+   "text": "格言2（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-3",
+   "personId": "sunzi",
+   "text": "格言3（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-4",
+   "personId": "sunzi",
+   "text": "格言4（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-5",
+   "personId": "sunzi",
+   "text": "格言5（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-6",
+   "personId": "sunzi",
+   "text": "格言6（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-7",
+   "personId": "sunzi",
+   "text": "格言7（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-8",
+   "personId": "sunzi",
+   "text": "格言8（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-9",
+   "personId": "sunzi",
+   "text": "格言9（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-10",
+   "personId": "sunzi",
+   "text": "格言10（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-11",
+   "personId": "sunzi",
+   "text": "格言11（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-12",
+   "personId": "sunzi",
+   "text": "格言12（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-13",
+   "personId": "sunzi",
+   "text": "格言13（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-14",
+   "personId": "sunzi",
+   "text": "格言14（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-15",
+   "personId": "sunzi",
+   "text": "格言15（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-16",
+   "personId": "sunzi",
+   "text": "格言16（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-17",
+   "personId": "sunzi",
+   "text": "格言17（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-18",
+   "personId": "sunzi",
+   "text": "格言18（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-19",
+   "personId": "sunzi",
+   "text": "格言19（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "sunzi-20",
+   "personId": "sunzi",
+   "text": "格言20（孙子）",
+   "source": "《孙子》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-1",
+   "personId": "wuzi",
+   "text": "格言1（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第1条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-2",
+   "personId": "wuzi",
+   "text": "格言2（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第2条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-3",
+   "personId": "wuzi",
+   "text": "格言3（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第3条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-4",
+   "personId": "wuzi",
+   "text": "格言4（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第4条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-5",
+   "personId": "wuzi",
+   "text": "格言5（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第5条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-6",
+   "personId": "wuzi",
+   "text": "格言6（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第6条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-7",
+   "personId": "wuzi",
+   "text": "格言7（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第7条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-8",
+   "personId": "wuzi",
+   "text": "格言8（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第8条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-9",
+   "personId": "wuzi",
+   "text": "格言9（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第9条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-10",
+   "personId": "wuzi",
+   "text": "格言10（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第10条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-11",
+   "personId": "wuzi",
+   "text": "格言11（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第11条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-12",
+   "personId": "wuzi",
+   "text": "格言12（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第12条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-13",
+   "personId": "wuzi",
+   "text": "格言13（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第13条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-14",
+   "personId": "wuzi",
+   "text": "格言14（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第14条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-15",
+   "personId": "wuzi",
+   "text": "格言15（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第15条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-16",
+   "personId": "wuzi",
+   "text": "格言16（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第16条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-17",
+   "personId": "wuzi",
+   "text": "格言17（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第17条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-18",
+   "personId": "wuzi",
+   "text": "格言18（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第18条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-19",
+   "personId": "wuzi",
+   "text": "格言19（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第19条格言——一体两面解读"
+  },
+  {
+   "id": "wuzi-20",
+   "personId": "wuzi",
+   "text": "格言20（吴起）",
+   "source": "《吴起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自吴起的第20条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-1",
+   "personId": "sunbin",
+   "text": "格言1（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第1条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-2",
+   "personId": "sunbin",
+   "text": "格言2（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第2条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-3",
+   "personId": "sunbin",
+   "text": "格言3（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第3条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-4",
+   "personId": "sunbin",
+   "text": "格言4（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第4条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-5",
+   "personId": "sunbin",
+   "text": "格言5（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第5条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-6",
+   "personId": "sunbin",
+   "text": "格言6（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第6条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-7",
+   "personId": "sunbin",
+   "text": "格言7（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第7条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-8",
+   "personId": "sunbin",
+   "text": "格言8（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第8条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-9",
+   "personId": "sunbin",
+   "text": "格言9（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第9条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-10",
+   "personId": "sunbin",
+   "text": "格言10（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第10条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-11",
+   "personId": "sunbin",
+   "text": "格言11（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第11条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-12",
+   "personId": "sunbin",
+   "text": "格言12（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第12条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-13",
+   "personId": "sunbin",
+   "text": "格言13（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第13条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-14",
+   "personId": "sunbin",
+   "text": "格言14（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第14条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-15",
+   "personId": "sunbin",
+   "text": "格言15（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第15条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-16",
+   "personId": "sunbin",
+   "text": "格言16（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第16条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-17",
+   "personId": "sunbin",
+   "text": "格言17（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第17条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-18",
+   "personId": "sunbin",
+   "text": "格言18（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第18条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-19",
+   "personId": "sunbin",
+   "text": "格言19（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第19条格言——一体两面解读"
+  },
+  {
+   "id": "sunbin-20",
+   "personId": "sunbin",
+   "text": "格言20（孙膑）",
+   "source": "《孙膑》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自孙膑的第20条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-1",
+   "personId": "weiliao",
+   "text": "格言1（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第1条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-2",
+   "personId": "weiliao",
+   "text": "格言2（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第2条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-3",
+   "personId": "weiliao",
+   "text": "格言3（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第3条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-4",
+   "personId": "weiliao",
+   "text": "格言4（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第4条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-5",
+   "personId": "weiliao",
+   "text": "格言5（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第5条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-6",
+   "personId": "weiliao",
+   "text": "格言6（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第6条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-7",
+   "personId": "weiliao",
+   "text": "格言7（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第7条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-8",
+   "personId": "weiliao",
+   "text": "格言8（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第8条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-9",
+   "personId": "weiliao",
+   "text": "格言9（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第9条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-10",
+   "personId": "weiliao",
+   "text": "格言10（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第10条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-11",
+   "personId": "weiliao",
+   "text": "格言11（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第11条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-12",
+   "personId": "weiliao",
+   "text": "格言12（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第12条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-13",
+   "personId": "weiliao",
+   "text": "格言13（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第13条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-14",
+   "personId": "weiliao",
+   "text": "格言14（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第14条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-15",
+   "personId": "weiliao",
+   "text": "格言15（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第15条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-16",
+   "personId": "weiliao",
+   "text": "格言16（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第16条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-17",
+   "personId": "weiliao",
+   "text": "格言17（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第17条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-18",
+   "personId": "weiliao",
+   "text": "格言18（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第18条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-19",
+   "personId": "weiliao",
+   "text": "格言19（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第19条格言——一体两面解读"
+  },
+  {
+   "id": "weiliao-20",
+   "personId": "weiliao",
+   "text": "格言20（尉缭）",
+   "source": "《尉缭》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自尉缭的第20条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-1",
+   "personId": "caocao",
+   "text": "格言1（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第1条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-2",
+   "personId": "caocao",
+   "text": "格言2（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第2条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-3",
+   "personId": "caocao",
+   "text": "格言3（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第3条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-4",
+   "personId": "caocao",
+   "text": "格言4（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第4条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-5",
+   "personId": "caocao",
+   "text": "格言5（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第5条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-6",
+   "personId": "caocao",
+   "text": "格言6（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第6条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-7",
+   "personId": "caocao",
+   "text": "格言7（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第7条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-8",
+   "personId": "caocao",
+   "text": "格言8（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第8条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-9",
+   "personId": "caocao",
+   "text": "格言9（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第9条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-10",
+   "personId": "caocao",
+   "text": "格言10（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第10条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-11",
+   "personId": "caocao",
+   "text": "格言11（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第11条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-12",
+   "personId": "caocao",
+   "text": "格言12（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第12条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-13",
+   "personId": "caocao",
+   "text": "格言13（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第13条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-14",
+   "personId": "caocao",
+   "text": "格言14（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第14条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-15",
+   "personId": "caocao",
+   "text": "格言15（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第15条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-16",
+   "personId": "caocao",
+   "text": "格言16（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第16条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-17",
+   "personId": "caocao",
+   "text": "格言17（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第17条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-18",
+   "personId": "caocao",
+   "text": "格言18（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第18条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-19",
+   "personId": "caocao",
+   "text": "格言19（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第19条格言——一体两面解读"
+  },
+  {
+   "id": "caocao-20",
+   "personId": "caocao",
+   "text": "格言20（曹操）",
+   "source": "《曹操》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曹操的第20条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-1",
+   "personId": "lijing",
+   "text": "格言1（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第1条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-2",
+   "personId": "lijing",
+   "text": "格言2（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第2条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-3",
+   "personId": "lijing",
+   "text": "格言3（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第3条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-4",
+   "personId": "lijing",
+   "text": "格言4（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第4条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-5",
+   "personId": "lijing",
+   "text": "格言5（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第5条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-6",
+   "personId": "lijing",
+   "text": "格言6（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第6条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-7",
+   "personId": "lijing",
+   "text": "格言7（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第7条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-8",
+   "personId": "lijing",
+   "text": "格言8（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第8条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-9",
+   "personId": "lijing",
+   "text": "格言9（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第9条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-10",
+   "personId": "lijing",
+   "text": "格言10（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第10条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-11",
+   "personId": "lijing",
+   "text": "格言11（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第11条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-12",
+   "personId": "lijing",
+   "text": "格言12（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第12条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-13",
+   "personId": "lijing",
+   "text": "格言13（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第13条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-14",
+   "personId": "lijing",
+   "text": "格言14（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第14条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-15",
+   "personId": "lijing",
+   "text": "格言15（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第15条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-16",
+   "personId": "lijing",
+   "text": "格言16（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第16条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-17",
+   "personId": "lijing",
+   "text": "格言17（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第17条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-18",
+   "personId": "lijing",
+   "text": "格言18（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第18条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-19",
+   "personId": "lijing",
+   "text": "格言19（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第19条格言——一体两面解读"
+  },
+  {
+   "id": "lijing-20",
+   "personId": "lijing",
+   "text": "格言20（李靖）",
+   "source": "《李靖》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自李靖的第20条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-1",
+   "personId": "hanxin",
+   "text": "格言1（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第1条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-2",
+   "personId": "hanxin",
+   "text": "格言2（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第2条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-3",
+   "personId": "hanxin",
+   "text": "格言3（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第3条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-4",
+   "personId": "hanxin",
+   "text": "格言4（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第4条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-5",
+   "personId": "hanxin",
+   "text": "格言5（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第5条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-6",
+   "personId": "hanxin",
+   "text": "格言6（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第6条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-7",
+   "personId": "hanxin",
+   "text": "格言7（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第7条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-8",
+   "personId": "hanxin",
+   "text": "格言8（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第8条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-9",
+   "personId": "hanxin",
+   "text": "格言9（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第9条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-10",
+   "personId": "hanxin",
+   "text": "格言10（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第10条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-11",
+   "personId": "hanxin",
+   "text": "格言11（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第11条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-12",
+   "personId": "hanxin",
+   "text": "格言12（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第12条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-13",
+   "personId": "hanxin",
+   "text": "格言13（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第13条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-14",
+   "personId": "hanxin",
+   "text": "格言14（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第14条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-15",
+   "personId": "hanxin",
+   "text": "格言15（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第15条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-16",
+   "personId": "hanxin",
+   "text": "格言16（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第16条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-17",
+   "personId": "hanxin",
+   "text": "格言17（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第17条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-18",
+   "personId": "hanxin",
+   "text": "格言18（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第18条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-19",
+   "personId": "hanxin",
+   "text": "格言19（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第19条格言——一体两面解读"
+  },
+  {
+   "id": "hanxin-20",
+   "personId": "hanxin",
+   "text": "格言20（韩信）",
+   "source": "《韩信》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自韩信的第20条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-1",
+   "personId": "simarangju",
+   "text": "格言1（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第1条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-2",
+   "personId": "simarangju",
+   "text": "格言2（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第2条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-3",
+   "personId": "simarangju",
+   "text": "格言3（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第3条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-4",
+   "personId": "simarangju",
+   "text": "格言4（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第4条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-5",
+   "personId": "simarangju",
+   "text": "格言5（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第5条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-6",
+   "personId": "simarangju",
+   "text": "格言6（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第6条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-7",
+   "personId": "simarangju",
+   "text": "格言7（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第7条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-8",
+   "personId": "simarangju",
+   "text": "格言8（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第8条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-9",
+   "personId": "simarangju",
+   "text": "格言9（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第9条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-10",
+   "personId": "simarangju",
+   "text": "格言10（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第10条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-11",
+   "personId": "simarangju",
+   "text": "格言11（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第11条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-12",
+   "personId": "simarangju",
+   "text": "格言12（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第12条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-13",
+   "personId": "simarangju",
+   "text": "格言13（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第13条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-14",
+   "personId": "simarangju",
+   "text": "格言14（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第14条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-15",
+   "personId": "simarangju",
+   "text": "格言15（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第15条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-16",
+   "personId": "simarangju",
+   "text": "格言16（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第16条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-17",
+   "personId": "simarangju",
+   "text": "格言17（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第17条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-18",
+   "personId": "simarangju",
+   "text": "格言18（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第18条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-19",
+   "personId": "simarangju",
+   "text": "格言19（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第19条格言——一体两面解读"
+  },
+  {
+   "id": "simarangju-20",
+   "personId": "simarangju",
+   "text": "格言20（司马穰苴）",
+   "source": "《司马穰苴》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自司马穰苴的第20条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-1",
+   "personId": "jiangziya",
+   "text": "格言1（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第1条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-2",
+   "personId": "jiangziya",
+   "text": "格言2（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第2条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-3",
+   "personId": "jiangziya",
+   "text": "格言3（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第3条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-4",
+   "personId": "jiangziya",
+   "text": "格言4（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第4条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-5",
+   "personId": "jiangziya",
+   "text": "格言5（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第5条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-6",
+   "personId": "jiangziya",
+   "text": "格言6（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第6条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-7",
+   "personId": "jiangziya",
+   "text": "格言7（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第7条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-8",
+   "personId": "jiangziya",
+   "text": "格言8（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第8条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-9",
+   "personId": "jiangziya",
+   "text": "格言9（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第9条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-10",
+   "personId": "jiangziya",
+   "text": "格言10（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第10条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-11",
+   "personId": "jiangziya",
+   "text": "格言11（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第11条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-12",
+   "personId": "jiangziya",
+   "text": "格言12（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第12条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-13",
+   "personId": "jiangziya",
+   "text": "格言13（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第13条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-14",
+   "personId": "jiangziya",
+   "text": "格言14（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第14条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-15",
+   "personId": "jiangziya",
+   "text": "格言15（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第15条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-16",
+   "personId": "jiangziya",
+   "text": "格言16（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第16条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-17",
+   "personId": "jiangziya",
+   "text": "格言17（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第17条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-18",
+   "personId": "jiangziya",
+   "text": "格言18（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第18条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-19",
+   "personId": "jiangziya",
+   "text": "格言19（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第19条格言——一体两面解读"
+  },
+  {
+   "id": "jiangziya-20",
+   "personId": "jiangziya",
+   "text": "格言20（姜子牙）",
+   "source": "《姜子牙》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自姜子牙的第20条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-1",
+   "personId": "yuefei",
+   "text": "格言1（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第1条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-2",
+   "personId": "yuefei",
+   "text": "格言2（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第2条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-3",
+   "personId": "yuefei",
+   "text": "格言3（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第3条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-4",
+   "personId": "yuefei",
+   "text": "格言4（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第4条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-5",
+   "personId": "yuefei",
+   "text": "格言5（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第5条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-6",
+   "personId": "yuefei",
+   "text": "格言6（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第6条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-7",
+   "personId": "yuefei",
+   "text": "格言7（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第7条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-8",
+   "personId": "yuefei",
+   "text": "格言8（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第8条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-9",
+   "personId": "yuefei",
+   "text": "格言9（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第9条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-10",
+   "personId": "yuefei",
+   "text": "格言10（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第10条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-11",
+   "personId": "yuefei",
+   "text": "格言11（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第11条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-12",
+   "personId": "yuefei",
+   "text": "格言12（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第12条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-13",
+   "personId": "yuefei",
+   "text": "格言13（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第13条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-14",
+   "personId": "yuefei",
+   "text": "格言14（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第14条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-15",
+   "personId": "yuefei",
+   "text": "格言15（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第15条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-16",
+   "personId": "yuefei",
+   "text": "格言16（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第16条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-17",
+   "personId": "yuefei",
+   "text": "格言17（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第17条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-18",
+   "personId": "yuefei",
+   "text": "格言18（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第18条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-19",
+   "personId": "yuefei",
+   "text": "格言19（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第19条格言——一体两面解读"
+  },
+  {
+   "id": "yuefei-20",
+   "personId": "yuefei",
+   "text": "格言20（岳飞）",
+   "source": "《岳飞》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自岳飞的第20条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-1",
+   "personId": "qi-jiguang",
+   "text": "格言1（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第1条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-2",
+   "personId": "qi-jiguang",
+   "text": "格言2（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第2条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-3",
+   "personId": "qi-jiguang",
+   "text": "格言3（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第3条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-4",
+   "personId": "qi-jiguang",
+   "text": "格言4（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第4条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-5",
+   "personId": "qi-jiguang",
+   "text": "格言5（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第5条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-6",
+   "personId": "qi-jiguang",
+   "text": "格言6（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第6条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-7",
+   "personId": "qi-jiguang",
+   "text": "格言7（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第7条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-8",
+   "personId": "qi-jiguang",
+   "text": "格言8（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第8条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-9",
+   "personId": "qi-jiguang",
+   "text": "格言9（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第9条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-10",
+   "personId": "qi-jiguang",
+   "text": "格言10（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第10条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-11",
+   "personId": "qi-jiguang",
+   "text": "格言11（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第11条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-12",
+   "personId": "qi-jiguang",
+   "text": "格言12（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第12条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-13",
+   "personId": "qi-jiguang",
+   "text": "格言13（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第13条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-14",
+   "personId": "qi-jiguang",
+   "text": "格言14（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第14条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-15",
+   "personId": "qi-jiguang",
+   "text": "格言15（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第15条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-16",
+   "personId": "qi-jiguang",
+   "text": "格言16（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第16条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-17",
+   "personId": "qi-jiguang",
+   "text": "格言17（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第17条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-18",
+   "personId": "qi-jiguang",
+   "text": "格言18（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第18条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-19",
+   "personId": "qi-jiguang",
+   "text": "格言19（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第19条格言——一体两面解读"
+  },
+  {
+   "id": "qi-jiguang-20",
+   "personId": "qi-jiguang",
+   "text": "格言20（戚继光）",
+   "source": "《戚继光》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自戚继光的第20条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-1",
+   "personId": "baiqi",
+   "text": "格言1（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第1条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-2",
+   "personId": "baiqi",
+   "text": "格言2（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第2条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-3",
+   "personId": "baiqi",
+   "text": "格言3（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第3条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-4",
+   "personId": "baiqi",
+   "text": "格言4（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第4条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-5",
+   "personId": "baiqi",
+   "text": "格言5（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第5条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-6",
+   "personId": "baiqi",
+   "text": "格言6（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第6条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-7",
+   "personId": "baiqi",
+   "text": "格言7（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第7条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-8",
+   "personId": "baiqi",
+   "text": "格言8（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第8条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-9",
+   "personId": "baiqi",
+   "text": "格言9（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第9条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-10",
+   "personId": "baiqi",
+   "text": "格言10（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第10条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-11",
+   "personId": "baiqi",
+   "text": "格言11（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第11条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-12",
+   "personId": "baiqi",
+   "text": "格言12（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第12条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-13",
+   "personId": "baiqi",
+   "text": "格言13（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第13条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-14",
+   "personId": "baiqi",
+   "text": "格言14（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第14条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-15",
+   "personId": "baiqi",
+   "text": "格言15（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第15条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-16",
+   "personId": "baiqi",
+   "text": "格言16（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第16条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-17",
+   "personId": "baiqi",
+   "text": "格言17（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第17条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-18",
+   "personId": "baiqi",
+   "text": "格言18（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第18条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-19",
+   "personId": "baiqi",
+   "text": "格言19（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第19条格言——一体两面解读"
+  },
+  {
+   "id": "baiqi-20",
+   "personId": "baiqi",
+   "text": "格言20（白起）",
+   "source": "《白起》",
+   "face": "jin",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自白起的第20条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-1",
+   "personId": "laozi",
+   "text": "格言1（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-2",
+   "personId": "laozi",
+   "text": "格言2（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-3",
+   "personId": "laozi",
+   "text": "格言3（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-4",
+   "personId": "laozi",
+   "text": "格言4（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-5",
+   "personId": "laozi",
+   "text": "格言5（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-6",
+   "personId": "laozi",
+   "text": "格言6（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-7",
+   "personId": "laozi",
+   "text": "格言7（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-8",
+   "personId": "laozi",
+   "text": "格言8（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-9",
+   "personId": "laozi",
+   "text": "格言9（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-10",
+   "personId": "laozi",
+   "text": "格言10（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-11",
+   "personId": "laozi",
+   "text": "格言11（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-12",
+   "personId": "laozi",
+   "text": "格言12（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-13",
+   "personId": "laozi",
+   "text": "格言13（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-14",
+   "personId": "laozi",
+   "text": "格言14（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-15",
+   "personId": "laozi",
+   "text": "格言15（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-16",
+   "personId": "laozi",
+   "text": "格言16（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-17",
+   "personId": "laozi",
+   "text": "格言17（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-18",
+   "personId": "laozi",
+   "text": "格言18（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-19",
+   "personId": "laozi",
+   "text": "格言19（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "laozi-20",
+   "personId": "laozi",
+   "text": "格言20（老子）",
+   "source": "《老子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自老子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-1",
+   "personId": "zhuangzi",
+   "text": "格言1（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-2",
+   "personId": "zhuangzi",
+   "text": "格言2（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-3",
+   "personId": "zhuangzi",
+   "text": "格言3（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-4",
+   "personId": "zhuangzi",
+   "text": "格言4（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-5",
+   "personId": "zhuangzi",
+   "text": "格言5（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-6",
+   "personId": "zhuangzi",
+   "text": "格言6（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-7",
+   "personId": "zhuangzi",
+   "text": "格言7（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-8",
+   "personId": "zhuangzi",
+   "text": "格言8（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-9",
+   "personId": "zhuangzi",
+   "text": "格言9（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-10",
+   "personId": "zhuangzi",
+   "text": "格言10（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-11",
+   "personId": "zhuangzi",
+   "text": "格言11（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-12",
+   "personId": "zhuangzi",
+   "text": "格言12（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-13",
+   "personId": "zhuangzi",
+   "text": "格言13（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-14",
+   "personId": "zhuangzi",
+   "text": "格言14（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-15",
+   "personId": "zhuangzi",
+   "text": "格言15（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-16",
+   "personId": "zhuangzi",
+   "text": "格言16（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-17",
+   "personId": "zhuangzi",
+   "text": "格言17（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-18",
+   "personId": "zhuangzi",
+   "text": "格言18（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-19",
+   "personId": "zhuangzi",
+   "text": "格言19（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "zhuangzi-20",
+   "personId": "zhuangzi",
+   "text": "格言20（庄子）",
+   "source": "《庄子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自庄子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-1",
+   "personId": "liezi",
+   "text": "格言1（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-2",
+   "personId": "liezi",
+   "text": "格言2（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-3",
+   "personId": "liezi",
+   "text": "格言3（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-4",
+   "personId": "liezi",
+   "text": "格言4（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-5",
+   "personId": "liezi",
+   "text": "格言5（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-6",
+   "personId": "liezi",
+   "text": "格言6（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-7",
+   "personId": "liezi",
+   "text": "格言7（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-8",
+   "personId": "liezi",
+   "text": "格言8（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-9",
+   "personId": "liezi",
+   "text": "格言9（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-10",
+   "personId": "liezi",
+   "text": "格言10（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-11",
+   "personId": "liezi",
+   "text": "格言11（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-12",
+   "personId": "liezi",
+   "text": "格言12（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-13",
+   "personId": "liezi",
+   "text": "格言13（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-14",
+   "personId": "liezi",
+   "text": "格言14（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-15",
+   "personId": "liezi",
+   "text": "格言15（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-16",
+   "personId": "liezi",
+   "text": "格言16（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-17",
+   "personId": "liezi",
+   "text": "格言17（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-18",
+   "personId": "liezi",
+   "text": "格言18（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-19",
+   "personId": "liezi",
+   "text": "格言19（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "liezi-20",
+   "personId": "liezi",
+   "text": "格言20（列子）",
+   "source": "《列子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自列子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-1",
+   "personId": "wenzi",
+   "text": "格言1（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-2",
+   "personId": "wenzi",
+   "text": "格言2（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-3",
+   "personId": "wenzi",
+   "text": "格言3（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-4",
+   "personId": "wenzi",
+   "text": "格言4（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-5",
+   "personId": "wenzi",
+   "text": "格言5（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-6",
+   "personId": "wenzi",
+   "text": "格言6（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-7",
+   "personId": "wenzi",
+   "text": "格言7（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-8",
+   "personId": "wenzi",
+   "text": "格言8（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-9",
+   "personId": "wenzi",
+   "text": "格言9（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-10",
+   "personId": "wenzi",
+   "text": "格言10（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-11",
+   "personId": "wenzi",
+   "text": "格言11（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-12",
+   "personId": "wenzi",
+   "text": "格言12（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-13",
+   "personId": "wenzi",
+   "text": "格言13（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-14",
+   "personId": "wenzi",
+   "text": "格言14（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-15",
+   "personId": "wenzi",
+   "text": "格言15（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-16",
+   "personId": "wenzi",
+   "text": "格言16（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-17",
+   "personId": "wenzi",
+   "text": "格言17（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-18",
+   "personId": "wenzi",
+   "text": "格言18（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-19",
+   "personId": "wenzi",
+   "text": "格言19（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "wenzi-20",
+   "personId": "wenzi",
+   "text": "格言20（文子）",
+   "source": "《文子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自文子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-1",
+   "personId": "heshanggong",
+   "text": "格言1（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第1条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-2",
+   "personId": "heshanggong",
+   "text": "格言2（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第2条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-3",
+   "personId": "heshanggong",
+   "text": "格言3（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第3条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-4",
+   "personId": "heshanggong",
+   "text": "格言4（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第4条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-5",
+   "personId": "heshanggong",
+   "text": "格言5（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第5条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-6",
+   "personId": "heshanggong",
+   "text": "格言6（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第6条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-7",
+   "personId": "heshanggong",
+   "text": "格言7（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第7条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-8",
+   "personId": "heshanggong",
+   "text": "格言8（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第8条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-9",
+   "personId": "heshanggong",
+   "text": "格言9（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第9条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-10",
+   "personId": "heshanggong",
+   "text": "格言10（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第10条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-11",
+   "personId": "heshanggong",
+   "text": "格言11（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第11条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-12",
+   "personId": "heshanggong",
+   "text": "格言12（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第12条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-13",
+   "personId": "heshanggong",
+   "text": "格言13（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第13条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-14",
+   "personId": "heshanggong",
+   "text": "格言14（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第14条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-15",
+   "personId": "heshanggong",
+   "text": "格言15（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第15条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-16",
+   "personId": "heshanggong",
+   "text": "格言16（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第16条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-17",
+   "personId": "heshanggong",
+   "text": "格言17（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第17条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-18",
+   "personId": "heshanggong",
+   "text": "格言18（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第18条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-19",
+   "personId": "heshanggong",
+   "text": "格言19（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第19条格言——一体两面解读"
+  },
+  {
+   "id": "heshanggong-20",
+   "personId": "heshanggong",
+   "text": "格言20（河上公）",
+   "source": "《河上公》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自河上公的第20条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-1",
+   "personId": "guanyinzi",
+   "text": "格言1（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第1条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-2",
+   "personId": "guanyinzi",
+   "text": "格言2（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第2条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-3",
+   "personId": "guanyinzi",
+   "text": "格言3（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第3条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-4",
+   "personId": "guanyinzi",
+   "text": "格言4（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第4条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-5",
+   "personId": "guanyinzi",
+   "text": "格言5（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第5条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-6",
+   "personId": "guanyinzi",
+   "text": "格言6（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第6条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-7",
+   "personId": "guanyinzi",
+   "text": "格言7（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第7条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-8",
+   "personId": "guanyinzi",
+   "text": "格言8（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第8条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-9",
+   "personId": "guanyinzi",
+   "text": "格言9（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第9条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-10",
+   "personId": "guanyinzi",
+   "text": "格言10（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第10条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-11",
+   "personId": "guanyinzi",
+   "text": "格言11（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第11条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-12",
+   "personId": "guanyinzi",
+   "text": "格言12（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第12条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-13",
+   "personId": "guanyinzi",
+   "text": "格言13（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第13条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-14",
+   "personId": "guanyinzi",
+   "text": "格言14（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第14条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-15",
+   "personId": "guanyinzi",
+   "text": "格言15（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第15条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-16",
+   "personId": "guanyinzi",
+   "text": "格言16（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第16条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-17",
+   "personId": "guanyinzi",
+   "text": "格言17（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第17条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-18",
+   "personId": "guanyinzi",
+   "text": "格言18（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第18条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-19",
+   "personId": "guanyinzi",
+   "text": "格言19（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第19条格言——一体两面解读"
+  },
+  {
+   "id": "guanyinzi-20",
+   "personId": "guanyinzi",
+   "text": "格言20（关尹子）",
+   "source": "《关尹子》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自关尹子的第20条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-1",
+   "personId": "gehong",
+   "text": "格言1（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第1条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-2",
+   "personId": "gehong",
+   "text": "格言2（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第2条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-3",
+   "personId": "gehong",
+   "text": "格言3（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第3条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-4",
+   "personId": "gehong",
+   "text": "格言4（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第4条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-5",
+   "personId": "gehong",
+   "text": "格言5（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第5条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-6",
+   "personId": "gehong",
+   "text": "格言6（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第6条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-7",
+   "personId": "gehong",
+   "text": "格言7（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第7条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-8",
+   "personId": "gehong",
+   "text": "格言8（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第8条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-9",
+   "personId": "gehong",
+   "text": "格言9（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第9条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-10",
+   "personId": "gehong",
+   "text": "格言10（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第10条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-11",
+   "personId": "gehong",
+   "text": "格言11（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第11条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-12",
+   "personId": "gehong",
+   "text": "格言12（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第12条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-13",
+   "personId": "gehong",
+   "text": "格言13（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第13条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-14",
+   "personId": "gehong",
+   "text": "格言14（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第14条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-15",
+   "personId": "gehong",
+   "text": "格言15（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第15条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-16",
+   "personId": "gehong",
+   "text": "格言16（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第16条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-17",
+   "personId": "gehong",
+   "text": "格言17（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第17条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-18",
+   "personId": "gehong",
+   "text": "格言18（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第18条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-19",
+   "personId": "gehong",
+   "text": "格言19（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第19条格言——一体两面解读"
+  },
+  {
+   "id": "gehong-20",
+   "personId": "gehong",
+   "text": "格言20（葛洪）",
+   "source": "《葛洪》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自葛洪的第20条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-1",
+   "personId": "taoyuanming",
+   "text": "格言1（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第1条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-2",
+   "personId": "taoyuanming",
+   "text": "格言2（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第2条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-3",
+   "personId": "taoyuanming",
+   "text": "格言3（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第3条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-4",
+   "personId": "taoyuanming",
+   "text": "格言4（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第4条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-5",
+   "personId": "taoyuanming",
+   "text": "格言5（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第5条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-6",
+   "personId": "taoyuanming",
+   "text": "格言6（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第6条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-7",
+   "personId": "taoyuanming",
+   "text": "格言7（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第7条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-8",
+   "personId": "taoyuanming",
+   "text": "格言8（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第8条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-9",
+   "personId": "taoyuanming",
+   "text": "格言9（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第9条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-10",
+   "personId": "taoyuanming",
+   "text": "格言10（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第10条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-11",
+   "personId": "taoyuanming",
+   "text": "格言11（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第11条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-12",
+   "personId": "taoyuanming",
+   "text": "格言12（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第12条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-13",
+   "personId": "taoyuanming",
+   "text": "格言13（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第13条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-14",
+   "personId": "taoyuanming",
+   "text": "格言14（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第14条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-15",
+   "personId": "taoyuanming",
+   "text": "格言15（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第15条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-16",
+   "personId": "taoyuanming",
+   "text": "格言16（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第16条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-17",
+   "personId": "taoyuanming",
+   "text": "格言17（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第17条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-18",
+   "personId": "taoyuanming",
+   "text": "格言18（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第18条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-19",
+   "personId": "taoyuanming",
+   "text": "格言19（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第19条格言——一体两面解读"
+  },
+  {
+   "id": "taoyuanming-20",
+   "personId": "taoyuanming",
+   "text": "格言20（陶渊明）",
+   "source": "《陶渊明》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自陶渊明的第20条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-1",
+   "personId": "jikang",
+   "text": "格言1（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第1条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-2",
+   "personId": "jikang",
+   "text": "格言2（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第2条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-3",
+   "personId": "jikang",
+   "text": "格言3（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第3条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-4",
+   "personId": "jikang",
+   "text": "格言4（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第4条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-5",
+   "personId": "jikang",
+   "text": "格言5（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第5条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-6",
+   "personId": "jikang",
+   "text": "格言6（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第6条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-7",
+   "personId": "jikang",
+   "text": "格言7（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第7条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-8",
+   "personId": "jikang",
+   "text": "格言8（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第8条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-9",
+   "personId": "jikang",
+   "text": "格言9（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第9条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-10",
+   "personId": "jikang",
+   "text": "格言10（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第10条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-11",
+   "personId": "jikang",
+   "text": "格言11（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第11条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-12",
+   "personId": "jikang",
+   "text": "格言12（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第12条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-13",
+   "personId": "jikang",
+   "text": "格言13（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第13条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-14",
+   "personId": "jikang",
+   "text": "格言14（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第14条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-15",
+   "personId": "jikang",
+   "text": "格言15（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第15条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-16",
+   "personId": "jikang",
+   "text": "格言16（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第16条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-17",
+   "personId": "jikang",
+   "text": "格言17（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第17条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-18",
+   "personId": "jikang",
+   "text": "格言18（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第18条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-19",
+   "personId": "jikang",
+   "text": "格言19（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第19条格言——一体两面解读"
+  },
+  {
+   "id": "jikang-20",
+   "personId": "jikang",
+   "text": "格言20（嵇康）",
+   "source": "《嵇康》",
+   "face": "bi",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自嵇康的第20条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-1",
+   "personId": "fanli",
+   "text": "格言1（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第1条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-2",
+   "personId": "fanli",
+   "text": "格言2（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第2条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-3",
+   "personId": "fanli",
+   "text": "格言3（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第3条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-4",
+   "personId": "fanli",
+   "text": "格言4（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第4条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-5",
+   "personId": "fanli",
+   "text": "格言5（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第5条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-6",
+   "personId": "fanli",
+   "text": "格言6（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第6条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-7",
+   "personId": "fanli",
+   "text": "格言7（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第7条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-8",
+   "personId": "fanli",
+   "text": "格言8（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第8条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-9",
+   "personId": "fanli",
+   "text": "格言9（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第9条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-10",
+   "personId": "fanli",
+   "text": "格言10（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第10条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-11",
+   "personId": "fanli",
+   "text": "格言11（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第11条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-12",
+   "personId": "fanli",
+   "text": "格言12（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第12条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-13",
+   "personId": "fanli",
+   "text": "格言13（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第13条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-14",
+   "personId": "fanli",
+   "text": "格言14（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第14条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-15",
+   "personId": "fanli",
+   "text": "格言15（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第15条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-16",
+   "personId": "fanli",
+   "text": "格言16（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第16条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-17",
+   "personId": "fanli",
+   "text": "格言17（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第17条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-18",
+   "personId": "fanli",
+   "text": "格言18（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第18条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-19",
+   "personId": "fanli",
+   "text": "格言19（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第19条格言——一体两面解读"
+  },
+  {
+   "id": "fanli-20",
+   "personId": "fanli",
+   "text": "格言20（范蠡）",
+   "source": "《范蠡》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自范蠡的第20条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-1",
+   "personId": "zhangliang",
+   "text": "格言1（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第1条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-2",
+   "personId": "zhangliang",
+   "text": "格言2（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第2条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-3",
+   "personId": "zhangliang",
+   "text": "格言3（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第3条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-4",
+   "personId": "zhangliang",
+   "text": "格言4（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第4条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-5",
+   "personId": "zhangliang",
+   "text": "格言5（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第5条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-6",
+   "personId": "zhangliang",
+   "text": "格言6（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第6条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-7",
+   "personId": "zhangliang",
+   "text": "格言7（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第7条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-8",
+   "personId": "zhangliang",
+   "text": "格言8（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第8条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-9",
+   "personId": "zhangliang",
+   "text": "格言9（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第9条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-10",
+   "personId": "zhangliang",
+   "text": "格言10（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第10条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-11",
+   "personId": "zhangliang",
+   "text": "格言11（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第11条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-12",
+   "personId": "zhangliang",
+   "text": "格言12（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第12条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-13",
+   "personId": "zhangliang",
+   "text": "格言13（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第13条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-14",
+   "personId": "zhangliang",
+   "text": "格言14（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第14条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-15",
+   "personId": "zhangliang",
+   "text": "格言15（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第15条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-16",
+   "personId": "zhangliang",
+   "text": "格言16（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第16条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-17",
+   "personId": "zhangliang",
+   "text": "格言17（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第17条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-18",
+   "personId": "zhangliang",
+   "text": "格言18（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第18条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-19",
+   "personId": "zhangliang",
+   "text": "格言19（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第19条格言——一体两面解读"
+  },
+  {
+   "id": "zhangliang-20",
+   "personId": "zhangliang",
+   "text": "格言20（张良）",
+   "source": "《张良》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自张良的第20条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-1",
+   "personId": "zhugeliang",
+   "text": "格言1（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第1条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-2",
+   "personId": "zhugeliang",
+   "text": "格言2（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第2条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-3",
+   "personId": "zhugeliang",
+   "text": "格言3（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第3条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-4",
+   "personId": "zhugeliang",
+   "text": "格言4（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第4条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-5",
+   "personId": "zhugeliang",
+   "text": "格言5（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第5条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-6",
+   "personId": "zhugeliang",
+   "text": "格言6（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第6条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-7",
+   "personId": "zhugeliang",
+   "text": "格言7（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第7条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-8",
+   "personId": "zhugeliang",
+   "text": "格言8（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第8条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-9",
+   "personId": "zhugeliang",
+   "text": "格言9（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第9条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-10",
+   "personId": "zhugeliang",
+   "text": "格言10（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第10条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-11",
+   "personId": "zhugeliang",
+   "text": "格言11（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第11条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-12",
+   "personId": "zhugeliang",
+   "text": "格言12（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第12条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-13",
+   "personId": "zhugeliang",
+   "text": "格言13（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第13条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-14",
+   "personId": "zhugeliang",
+   "text": "格言14（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第14条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-15",
+   "personId": "zhugeliang",
+   "text": "格言15（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第15条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-16",
+   "personId": "zhugeliang",
+   "text": "格言16（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第16条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-17",
+   "personId": "zhugeliang",
+   "text": "格言17（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第17条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-18",
+   "personId": "zhugeliang",
+   "text": "格言18（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第18条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-19",
+   "personId": "zhugeliang",
+   "text": "格言19（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第19条格言——一体两面解读"
+  },
+  {
+   "id": "zhugeliang-20",
+   "personId": "zhugeliang",
+   "text": "格言20（诸葛亮）",
+   "source": "《诸葛亮》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自诸葛亮的第20条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-1",
+   "personId": "liubowen",
+   "text": "格言1（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第1条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-2",
+   "personId": "liubowen",
+   "text": "格言2（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第2条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-3",
+   "personId": "liubowen",
+   "text": "格言3（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第3条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-4",
+   "personId": "liubowen",
+   "text": "格言4（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第4条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-5",
+   "personId": "liubowen",
+   "text": "格言5（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第5条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-6",
+   "personId": "liubowen",
+   "text": "格言6（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第6条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-7",
+   "personId": "liubowen",
+   "text": "格言7（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第7条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-8",
+   "personId": "liubowen",
+   "text": "格言8（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第8条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-9",
+   "personId": "liubowen",
+   "text": "格言9（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第9条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-10",
+   "personId": "liubowen",
+   "text": "格言10（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第10条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-11",
+   "personId": "liubowen",
+   "text": "格言11（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第11条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-12",
+   "personId": "liubowen",
+   "text": "格言12（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第12条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-13",
+   "personId": "liubowen",
+   "text": "格言13（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第13条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-14",
+   "personId": "liubowen",
+   "text": "格言14（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第14条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-15",
+   "personId": "liubowen",
+   "text": "格言15（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第15条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-16",
+   "personId": "liubowen",
+   "text": "格言16（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第16条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-17",
+   "personId": "liubowen",
+   "text": "格言17（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第17条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-18",
+   "personId": "liubowen",
+   "text": "格言18（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第18条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-19",
+   "personId": "liubowen",
+   "text": "格言19（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第19条格言——一体两面解读"
+  },
+  {
+   "id": "liubowen-20",
+   "personId": "liubowen",
+   "text": "格言20（刘伯温）",
+   "source": "《刘伯温》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自刘伯温的第20条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-1",
+   "personId": "wangyangming",
+   "text": "格言1（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第1条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-2",
+   "personId": "wangyangming",
+   "text": "格言2（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第2条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-3",
+   "personId": "wangyangming",
+   "text": "格言3（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第3条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-4",
+   "personId": "wangyangming",
+   "text": "格言4（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第4条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-5",
+   "personId": "wangyangming",
+   "text": "格言5（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第5条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-6",
+   "personId": "wangyangming",
+   "text": "格言6（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第6条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-7",
+   "personId": "wangyangming",
+   "text": "格言7（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第7条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-8",
+   "personId": "wangyangming",
+   "text": "格言8（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第8条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-9",
+   "personId": "wangyangming",
+   "text": "格言9（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第9条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-10",
+   "personId": "wangyangming",
+   "text": "格言10（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第10条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-11",
+   "personId": "wangyangming",
+   "text": "格言11（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第11条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-12",
+   "personId": "wangyangming",
+   "text": "格言12（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第12条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-13",
+   "personId": "wangyangming",
+   "text": "格言13（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第13条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-14",
+   "personId": "wangyangming",
+   "text": "格言14（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第14条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-15",
+   "personId": "wangyangming",
+   "text": "格言15（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第15条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-16",
+   "personId": "wangyangming",
+   "text": "格言16（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第16条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-17",
+   "personId": "wangyangming",
+   "text": "格言17（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第17条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-18",
+   "personId": "wangyangming",
+   "text": "格言18（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第18条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-19",
+   "personId": "wangyangming",
+   "text": "格言19（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第19条格言——一体两面解读"
+  },
+  {
+   "id": "wangyangming-20",
+   "personId": "wangyangming",
+   "text": "格言20（王阳明）",
+   "source": "《王阳明》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自王阳明的第20条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-1",
+   "personId": "zeng-guofan",
+   "text": "格言1（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第1条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-2",
+   "personId": "zeng-guofan",
+   "text": "格言2（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第2条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-3",
+   "personId": "zeng-guofan",
+   "text": "格言3（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第3条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-4",
+   "personId": "zeng-guofan",
+   "text": "格言4（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第4条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-5",
+   "personId": "zeng-guofan",
+   "text": "格言5（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第5条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-6",
+   "personId": "zeng-guofan",
+   "text": "格言6（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第6条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-7",
+   "personId": "zeng-guofan",
+   "text": "格言7（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第7条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-8",
+   "personId": "zeng-guofan",
+   "text": "格言8（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第8条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-9",
+   "personId": "zeng-guofan",
+   "text": "格言9（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第9条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-10",
+   "personId": "zeng-guofan",
+   "text": "格言10（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第10条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-11",
+   "personId": "zeng-guofan",
+   "text": "格言11（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第11条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-12",
+   "personId": "zeng-guofan",
+   "text": "格言12（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第12条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-13",
+   "personId": "zeng-guofan",
+   "text": "格言13（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第13条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-14",
+   "personId": "zeng-guofan",
+   "text": "格言14（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第14条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-15",
+   "personId": "zeng-guofan",
+   "text": "格言15（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第15条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-16",
+   "personId": "zeng-guofan",
+   "text": "格言16（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第16条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-17",
+   "personId": "zeng-guofan",
+   "text": "格言17（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第17条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-18",
+   "personId": "zeng-guofan",
+   "text": "格言18（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第18条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-19",
+   "personId": "zeng-guofan",
+   "text": "格言19（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第19条格言——一体两面解读"
+  },
+  {
+   "id": "zeng-guofan-20",
+   "personId": "zeng-guofan",
+   "text": "格言20（曾国藩）",
+   "source": "《曾国藩》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自曾国藩的第20条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-1",
+   "personId": "guoziyi",
+   "text": "格言1（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第1条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-2",
+   "personId": "guoziyi",
+   "text": "格言2（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第2条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-3",
+   "personId": "guoziyi",
+   "text": "格言3（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第3条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-4",
+   "personId": "guoziyi",
+   "text": "格言4（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第4条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-5",
+   "personId": "guoziyi",
+   "text": "格言5（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第5条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-6",
+   "personId": "guoziyi",
+   "text": "格言6（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第6条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-7",
+   "personId": "guoziyi",
+   "text": "格言7（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第7条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-8",
+   "personId": "guoziyi",
+   "text": "格言8（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第8条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-9",
+   "personId": "guoziyi",
+   "text": "格言9（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第9条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-10",
+   "personId": "guoziyi",
+   "text": "格言10（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第10条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-11",
+   "personId": "guoziyi",
+   "text": "格言11（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第11条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-12",
+   "personId": "guoziyi",
+   "text": "格言12（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第12条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-13",
+   "personId": "guoziyi",
+   "text": "格言13（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第13条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-14",
+   "personId": "guoziyi",
+   "text": "格言14（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第14条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-15",
+   "personId": "guoziyi",
+   "text": "格言15（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第15条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-16",
+   "personId": "guoziyi",
+   "text": "格言16（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第16条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-17",
+   "personId": "guoziyi",
+   "text": "格言17（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第17条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-18",
+   "personId": "guoziyi",
+   "text": "格言18（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第18条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-19",
+   "personId": "guoziyi",
+   "text": "格言19（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第19条格言——一体两面解读"
+  },
+  {
+   "id": "guoziyi-20",
+   "personId": "guoziyi",
+   "text": "格言20（郭子仪）",
+   "source": "《郭子仪》",
+   "face": "zhuan",
+   "tags": [
+    "修身"
+   ],
+   "interp": "来自郭子仪的第20条格言——一体两面解读"
+  }
+ ]
+}
