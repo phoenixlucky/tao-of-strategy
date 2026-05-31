@@ -50,9 +50,13 @@ function personDisplayName(id) {
   const m = {
     sunzi:'孙子', wuzi:'吴起', sunbin:'孙膑', weiliao:'尉缭',
     caocao:'曹操', lijing:'李靖', hanxin:'韩信', simarangju:'司马穰苴',
+    jiangziya:'姜子牙', yuefei:'岳飞', 'qi-jiguang':'戚继光', baiqi:'白起',
     laozi:'老子', zhuangzi:'庄子', liezi:'列子', wenzi:'文子',
-    heshanggong:'河上公', fanli:'范蠡', zhangliang:'张良',
-    zhugeliang:'诸葛亮', liubowen:'刘伯温', wangyangming:'王阳明'
+    heshanggong:'河上公', guanyinzi:'关尹子', gehong:'葛洪',
+    taoyuanming:'陶渊明', jikang:'嵇康',
+    fanli:'范蠡', zhangliang:'张良', zhugeliang:'诸葛亮',
+    liubowen:'刘伯温', wangyangming:'王阳明',
+    'zeng-guofan':'曾国藩', guoziyi:'郭子仪'
   }; return m[id] || id;
 }
 
