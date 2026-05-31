@@ -21,7 +21,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: "Microsoft YaHei", "微软雅黑", -apple-system, "Noto Serif SC", "Source Han Serif SC", "SimSun", serif;
+  font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.8;
