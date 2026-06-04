@@ -119,9 +119,11 @@ function buildCard(q, isDaily) {
   const pn = personDisplayName(q.personId);
   const pl = `people/${fc==='jin'?'bingjia':fc==='bi'?'daojia':'crossover'}/${q.personId}.html`;
   const interp = q.interp || '';
+  const trans = q.translation || '';
   return `<div class="quote-card ${isDaily?'daily-card':''}">
     <div class="card-top"><span class="face-badge badge-${fc}">${fl}</span>${isDaily?'<span class="daily-badge">📅 今日</span>':''}</div>
     <div class="quote-text">${q.text}</div>
+    ${trans ? `<div class="quote-trans">📝 ${trans}</div>` : ''}
     <div class="quote-meta"><span>👤 <a href="${pl}">${pn}</a></span><span>📖 ${q.source}</span></div>
     ${interp ? `<div class="quote-interp">💡 ${interp}</div>` : ''}
     <div class="quote-tags">${(q.tags||[]).map(t => `<span>#${t}</span>`).join('')}</div>
