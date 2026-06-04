@@ -13,6 +13,11 @@ async function init() {
     const res = await fetch('quotes/quotes.json');
     const data = await res.json();
     allQuotes = data.quotes;
+    // shuffle for random display order
+    for (let i = allQuotes.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allQuotes[i], allQuotes[j]] = [allQuotes[j], allQuotes[i]];
+    }
     populatePersonOptions();
     populateTagOptions();
     showDailyQuote();
