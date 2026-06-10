@@ -11,3 +11,7 @@ Thumbs.db
 # Project
 node_modules/
 .env
+
+# Agent / IDE artifacts
+.codegraph/
+.reasonix/

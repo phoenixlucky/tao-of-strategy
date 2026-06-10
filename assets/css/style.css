@@ -85,6 +85,14 @@ header .subtitle {
   position: relative;
   z-index: 1;
 }
+header .slogan {
+  font-size: 1.15rem;
+  color: #f0e6d0;
+  margin-top: 8px;
+  letter-spacing: 0.08em;
+  position: relative;
+  z-index: 1;
+}
 header .hero-icon {
   font-size: 3rem;
   display: block;
