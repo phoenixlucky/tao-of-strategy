@@ -1,11 +1,11 @@
 /* ========================================
-   韬略之道 — Markdown 渲染排版
+   韬略之道 — Markdown 渲染排版 · 水墨风格
    ======================================== */
 
 .markdown-content {
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  border: 1px solid var(--ink-5);
+  border-radius: var(--radius);
   padding: 32px 36px;
   box-shadow: var(--shadow);
   margin-bottom: 28px;
@@ -15,20 +15,20 @@
 }
 
 /* ---- Headings ---- */
-.markdown-content h1 { font-size: 1.6rem; margin: 1.2em 0 0.6em; color: var(--accent); border-bottom: 2px solid var(--border); padding-bottom: 0.3em; }
-.markdown-content h2 { font-size: 1.25rem; margin: 1.2em 0 0.5em; color: var(--accent); }
+.markdown-content h1 { font-size: 1.6rem; margin: 1.2em 0 0.6em; color: var(--seal); border-bottom: 2px solid var(--ink-5); padding-bottom: 0.3em; letter-spacing: 2px; }
+.markdown-content h2 { font-size: 1.25rem; margin: 1.2em 0 0.5em; color: var(--seal); letter-spacing: 1px; }
 .markdown-content h3 { font-size: 1.08rem; margin: 1em 0 0.4em; color: var(--text); }
 
 /* ---- Paragraphs & Text ---- */
 .markdown-content p { margin: 0.6em 0; }
-.markdown-content strong { color: var(--accent); }
-.markdown-content em { color: var(--text-muted); }
+.markdown-content strong { color: var(--seal); }
+.markdown-content em { color: var(--ink-3); }
 .markdown-content blockquote {
   margin: 1em 0;
   padding: 12px 18px;
-  border-left: 4px solid var(--accent);
-  background: var(--accent-light);
-  border-radius: 0 8px 8px 0;
+  border-left: 4px solid var(--seal);
+  background: var(--seal-light);
+  border-radius: 0 6px 6px 0;
   color: var(--text);
   font-style: italic;
 }
@@ -36,10 +36,12 @@
 
 /* ---- Links ---- */
 .markdown-content a {
-  color: var(--accent);
+  color: var(--seal);
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
 }
-.markdown-content a:hover { text-decoration: underline; }
+.markdown-content a:hover { border-bottom-color: var(--seal); }
 
 /* ---- Lists ---- */
 .markdown-content ul, .markdown-content ol { margin: 0.6em 0; padding-left: 1.8em; }
@@ -56,25 +58,26 @@
 }
 .markdown-content th, .markdown-content td {
   padding: 10px 14px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--ink-5);
   text-align: left;
 }
 .markdown-content th {
-  background: var(--accent-light);
-  color: var(--accent);
+  background: var(--seal-light);
+  color: var(--seal);
   font-weight: 600;
+  letter-spacing: 1px;
 }
-.markdown-content tr:nth-child(even) { background: #faf8f5; }
-.markdown-content tr:hover { background: #f5f0ea; }
+.markdown-content tr:nth-child(even) { background: var(--paper-light); }
+.markdown-content tr:hover { background: var(--tag-bg); }
 
 /* ---- Code ---- */
 .markdown-content code {
   font-family: "Cascadia Code", "JetBrains Mono", "Fira Code", Consolas, monospace;
   font-size: 0.85em;
   padding: 2px 6px;
-  background: #f0ebe4;
-  border-radius: 4px;
-  color: #8b4513;
+  background: var(--tag-bg);
+  border-radius: 3px;
+  color: var(--seal);
 }
 .markdown-content pre {
   margin: 1em 0;
@@ -93,8 +96,8 @@
 /* ---- Horizontal Rules ---- */
 .markdown-content hr {
   border: none;
-  height: 2px;
-  background: linear-gradient(to right, transparent, var(--border), transparent);
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--ink-5), transparent);
   margin: 2em 0;
 }
 
