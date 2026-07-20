@@ -7,17 +7,27 @@
   padding: 20px 0;
 }
 
+/* ---- 谱系图页面：容器更宽 ---- */
+.lineage-wrapper {
+  margin: 0 -10px;
+}
+
+@media (min-width: 1100px) {
+  .lineage-wrapper {
+    margin: 0 -60px;
+  }
+}
+
 .lineage-chart {
   position: relative;
-  min-width: 800px;
-  padding: 30px 20px;
+  padding: 20px 10px;
 }
 
 /* ---- 三栏布局 ---- */
 .lineage-lanes {
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
-  gap: 12px;
+  gap: 8px;
   position: relative;
   z-index: 2;
 }
@@ -304,22 +314,53 @@
 }
 
 /* ---- 响应式 ---- */
-@media (max-width: 768px) {
+/* 平板：三栏压缩 */
+@media (max-width: 960px) {
+  .lineage-lanes {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .person-node {
+    padding: 4px 8px;
+    min-height: 36px;
+  }
+  .person-node .node-era {
+    display: none;
+  }
+  .lane-header {
+    font-size: 0.95rem;
+    padding: 8px 6px;
+  }
+  .lineage-wrapper {
+    padding: 10px 0;
+  }
+}
+
+/* 手机：单栏堆叠 */
+@media (max-width: 640px) {
   .lineage-lanes {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
   .lineage-chart {
-    min-width: unset;
-    padding: 10px;
+    padding: 10px 4px;
   }
 
-  .person-node .node-era {
+  .lineage-svg {
     display: none;
+  }
+
+  .person-node .node-name {
+    font-size: 0.85rem;
   }
 
   .lane-header {
     font-size: 1rem;
+  }
+
+  .lineage-controls .era-filter-btn {
+    padding: 3px 10px;
+    font-size: 0.72rem;
   }
 }

@@ -224,15 +224,12 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 6px;
   padding: 14px 8px 0;
   margin: 0 auto 28px;
   max-width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
+  flex-wrap: wrap;
 }
-nav::-webkit-scrollbar { display: none; }
 nav a {
   flex-shrink: 0;
   padding: 6px 16px;
