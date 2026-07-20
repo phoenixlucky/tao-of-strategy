@@ -55,6 +55,11 @@ const RELATIONS = [
   ['sunzi',    'wuzi',        'influence'],  // 孙子对吴起的影响
   ['sunzi',    'lijing',      'teach'],      // 李靖承孙子
   ['sunzi',    'weiliao',     'influence'],  // 孙子影响尉缭
+  ['jiangziya','weiliao',     'influence'],  // 太公兵法影响尉缭
+  ['huangdi',  'weiliao',     'influence'],  // 黄帝兵法传统影响尉缭
+  ['wuzi',     'weiliao',     'influence'],  // 吴起与尉缭同为战国兵家
+  ['weiliao',  'zhangliang',  'influence'],  // 尉缭思想影响张良
+  ['weiliao',  'hanxin',      'influence'],  // 尉缭影响韩信
   ['fanli',    'zhangliang',  'echo'],       // 功成身退传承
   ['fanli',    'zhugeliang',  'echo'],       // 智慧谋臣同脉
   ['zhangliang','zhugeliang', 'echo'],       // 运筹帷幄传承
