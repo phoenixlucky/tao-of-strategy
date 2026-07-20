@@ -6,7 +6,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：全面扩充后 | **28 位人物 × 20 条 = 560 条格言**
+> 数据更新日期：全部补齐至20条 | **30 位人物，共 599 条格言**
 
 ## 人物统计
 
@@ -41,7 +41,7 @@ description: 人物统计、格言数、Roadmap 进度
 | [陶渊明](people/daojia/taoyuanming.html) | 《桃花源记》 | 20 |
 | [嵇康](people/daojia/jikang.html) | 《声无哀乐论》 | 20 |
 
-### 🔄 跨界者（共 7 人，140 条格言）
+### 🔄 跨界者（共 9 人，180 条格言）
 
 | 人物 | 核心著作 | 格言 | 跨界特色 |
 |------|---------|------|---------|
@@ -52,6 +52,8 @@ description: 人物统计、格言数、Roadmap 进度
 | [王阳明](people/crossover/wangyangming.html) | 《传习录》 | 20 | 心学宗师 + 平定宁王 |
 | [曾国藩](people/crossover/zeng-guofan.html) | 《曾国藩家书》 | 20 | 湘军统帅 + 内圣外王 |
 | [郭子仪](people/crossover/guoziyi.html) | —（以功业闻名） | 20 | 功盖一代而主不疑 |
+| [荀子](people/crossover/xunzi.html) | 《荀子》 | 20 | 性恶论者亦论兵亦修道 |
+| [轩辕黄帝](people/crossover/huangdi.html) | 《黄帝阴符经》《内经》 | 20 | 征战与修道合一的始祖 |
 
 ## 主题聚合（共 6 个主题）
 
@@ -66,7 +68,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 格言总数
 
-**当前总计：560 条**（28 位人物 × 20 条，6 个主题页，完整 quotes.json）
+**当前总计：599 条**（30 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -74,11 +76,11 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 待扩充至 560 条 |
+| [📦 结构化数据](quotes/quotes.json) | 当前 599 条（全员20条已完成）|
 
 ## Roadmap
 
-- ✅ 28 位人物全部 20 条格言
+- ✅ 30 位人物，全部 20 条
 - ✅ 6 个主题聚合
-- 🚧 quotes.json 扩充至 560 条
+- ✅ quotes.json 已至 599 条
 - 🚧 更多主题持续扩展

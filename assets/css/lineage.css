@@ -1,0 +1,325 @@
+/* 🌟 韬略之道 · 人物谱系图样式 */
+
+/* ---- 谱系图容器 ---- */
+.lineage-wrapper {
+  position: relative;
+  overflow-x: auto;
+  padding: 20px 0;
+}
+
+.lineage-chart {
+  position: relative;
+  min-width: 800px;
+  padding: 30px 20px;
+}
+
+/* ---- 三栏布局 ---- */
+.lineage-lanes {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.lane {
+  position: relative;
+}
+
+.lane-header {
+  text-align: center;
+  padding: 12px 8px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-bottom: 2px solid;
+  margin-bottom: 16px;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.lane-header.bingjia {
+  color: var(--face-jin);
+  border-color: var(--face-jin);
+  background: linear-gradient(180deg, var(--face-jin-light) 0%, transparent 100%);
+}
+
+.lane-header.daoren {
+  color: var(--face-bi);
+  border-color: var(--face-bi);
+  background: linear-gradient(180deg, var(--face-bi-light) 0%, transparent 100%);
+}
+
+.lane-header.crossover {
+  color: var(--face-zhuan);
+  border-color: var(--face-zhuan);
+  background: linear-gradient(180deg, var(--face-zhuan-light) 0%, transparent 100%);
+}
+
+/* ---- 时代行 ---- */
+.era-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.era-label {
+  font-size: 0.7rem;
+  color: var(--ink-4);
+  text-align: center;
+  padding: 2px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-top: 1px dashed var(--ink-5);
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.era-label:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* ---- 人物节点 ---- */
+.person-node {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  margin: 2px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: var(--card-bg);
+  border: 1px solid var(--ink-5);
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+  color: var(--text);
+  min-height: 42px;
+}
+
+.person-node:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.person-node:active {
+  transform: translateX(2px);
+}
+
+/* 学校色标 */
+.person-node.bingjia {
+  border-left: 3px solid var(--face-jin);
+}
+.person-node.bingjia:hover {
+  background: var(--face-jin-light);
+}
+
+.person-node.daoren {
+  border-left: 3px solid var(--face-bi);
+}
+.person-node.daoren:hover {
+  background: var(--face-bi-light);
+}
+
+.person-node.crossover {
+  border-left: 3px solid var(--face-zhuan);
+}
+.person-node.crossover:hover {
+  background: var(--face-zhuan-light);
+}
+
+/* 高亮态 */
+.person-node.highlighted {
+  transform: translateX(4px);
+  box-shadow: 0 0 0 2px var(--accent), var(--shadow-hover);
+  z-index: 10;
+}
+.person-node.bingjia.highlighted {
+  box-shadow: 0 0 0 2px var(--face-jin), var(--shadow-hover);
+}
+.person-node.daoren.highlighted {
+  box-shadow: 0 0 0 2px var(--face-bi), var(--shadow-hover);
+}
+.person-node.crossover.highlighted {
+  box-shadow: 0 0 0 2px var(--face-zhuan), var(--shadow-hover);
+}
+
+/* 暗淡态（非关联节点） */
+.person-node.dimmed {
+  opacity: 0.25;
+  filter: grayscale(0.7);
+}
+
+.person-node .node-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.person-node .node-era {
+  font-size: 0.6rem;
+  color: var(--ink-4);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.person-node .node-icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+/* ---- SVG 连线层 ---- */
+.lineage-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.lineage-svg path.relation-line {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: 0.3;
+  transition: opacity 0.3s ease, stroke-width 0.3s ease;
+  stroke-linecap: round;
+}
+
+.lineage-svg path.relation-line.active {
+  opacity: 0.7;
+  stroke-width: 2.5;
+}
+
+.lineage-svg path.relation-line.bingjia-daoren {
+  stroke: var(--ink-3);
+  stroke-dasharray: 5 3;
+}
+
+.lineage-svg path.relation-line.in-school {
+  stroke: var(--ink-2);
+}
+
+.lineage-svg path.relation-line.cross-school {
+  stroke: var(--ink-4);
+  stroke-dasharray: 4 4;
+}
+
+/* ---- 图例 ---- */
+.lineage-legend {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--ink-2);
+}
+
+.legend-line {
+  width: 28px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.legend-line.solid { background: var(--ink-2); }
+.legend-line.dashed { background: transparent; border-top: 2px dashed var(--ink-3); }
+.legend-line.dotted { background: transparent; border-top: 2px dotted var(--ink-4); }
+
+/* ---- 时代筛选 ---- */
+.lineage-controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 0;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.lineage-controls .era-filter-btn {
+  padding: 4px 14px;
+  border: 1px solid var(--ink-4);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.lineage-controls .era-filter-btn:hover {
+  background: var(--tag-bg);
+  border-color: var(--ink-3);
+}
+
+.lineage-controls .era-filter-btn.active {
+  background: var(--ink-2);
+  color: var(--paper);
+  border-color: var(--ink-2);
+}
+
+/* ---- 简介区 ---- */
+.lineage-intro {
+  text-align: center;
+  padding: 10px 0 0;
+  color: var(--ink-3);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.lineage-intro strong {
+  color: var(--ink-1);
+}
+
+/* ---- 交互提示 ---- */
+.interact-hint {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--ink-4);
+  padding: 6px 0 2px;
+  margin-top: -8px;
+}
+
+/* ---- 空列占位 ---- */
+.lane-empty {
+  color: var(--ink-5);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 20px 0;
+  font-style: italic;
+}
+
+/* ---- 响应式 ---- */
+@media (max-width: 768px) {
+  .lineage-lanes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lineage-chart {
+    min-width: unset;
+    padding: 10px;
+  }
+
+  .person-node .node-era {
+    display: none;
+  }
+
+  .lane-header {
+    font-size: 1rem;
+  }
+}

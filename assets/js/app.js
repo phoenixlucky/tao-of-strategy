@@ -68,7 +68,7 @@ function personDisplayName(id) {
     taoyuanming:'陶渊明', jikang:'嵇康',
     fanli:'范蠡', zhangliang:'张良', zhugeliang:'诸葛亮',
     liubowen:'刘伯温', wangyangming:'王阳明',
-    'zeng-guofan':'曾国藩', guoziyi:'郭子仪'
+    'zeng-guofan':'曾国藩', guoziyi:'郭子仪', xunzi:'荀子', huangdi:'轩辕黄帝'
   }; return m[id] || id;
 }
 
