@@ -64,6 +64,9 @@ LIB = {
     "liushao":     ["子藏/诸子/人物志.txt"],
     "kangcangzi":  ["子藏/诸子/亢仓子.txt"],
     "shijiao":     ["子藏/诸子/尸子.txt"],
+    "shenzi":      ["子藏/诸子/慎子.txt"],
+    "wangyuyou":   ["子藏/兵家/乾坤大略.txt"],
+    "zihuazi":     ["子藏/诸子/子华子.txt"],
 }
 
 # 反查用大语料（在首选未命中时用整句对齐找真正的出处）

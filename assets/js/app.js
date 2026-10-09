@@ -78,7 +78,9 @@ function personDisplayName(id) {
 
     wunengzi:'无能子', heguanzi:'鹖冠子', liuan:'刘安',
 
-    jiexuan:'揭暄', liushao:'刘邵', kangcangzi:'亢仓子', shijiao:'尸佼'
+    jiexuan:'揭暄', liushao:'刘邵', kangcangzi:'亢仓子', shijiao:'尸佼',
+
+    shenzi:'慎到', wangyuyou:'王余佑', zihuazi:'子华子'
   }; return m[id] || id;
 }
 

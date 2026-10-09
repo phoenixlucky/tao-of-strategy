@@ -8,6 +8,25 @@
 
 ---
 
+## 🌐 在线网站
+
+**🔗 [https://phoenixlucky.github.io/tao-of-strategy/](https://phoenixlucky.github.io/tao-of-strategy/)**
+
+「韬略之道」是一个纯静态、零依赖的古典格言网站，以**一体两面**为核心理念——同一句智慧，既可作**兵家**的进取之用，亦可通道家的避世之理。网站汇集 **48 位**兵家、道家与跨界人物，共 **959 条**格言，每条均含原文、出处、译文与「一面解读」（进退双面），并取自《殆知阁》古籍原文校验。
+
+| 页面 | 内容 |
+|------|------|
+| 🏠 [首页](https://phoenixlucky.github.io/tao-of-strategy/index.html) | 格言浏览、按面/人物/标签筛选、🎲 随机一句、📅 每日一面 |
+| 🏯 兵家 / ☯️ 道家 / 🔄 跨界 | 三大人物阵营的格言汇编 |
+| 🪙 [对比](https://phoenixlucky.github.io/tao-of-strategy/comparison.html) | 兵家进取 vs 道家避世，格言并列对比 |
+| 🕸 [谱系](https://phoenixlucky.github.io/tao-of-strategy/lineage.html) | 人物师承与源流图谱 |
+| 🔍 [检索](https://phoenixlucky.github.io/tao-of-strategy/search.html) | 兵家 / 诸子 / 道家古籍原文全文检索 |
+| 📚 [总览](https://phoenixlucky.github.io/tao-of-strategy/overview.html) | 人物统计、格言数、Roadmap |
+
+技术栈：纯前端静态站点（HTML/CSS/原生 JS，零框架、零依赖），GitHub Pages 部署，数据源为 [`quotes/quotes.json`](quotes/quotes.json)。
+
+---
+
 ## 道家与兵家的对立统一：从避世与进取看中国人的生存智慧
 
 春秋战国时期，诸侯并起，天下纷争。在这样的时代背景下，**道家**与**兵家**分别提出了两种看似截然相反的人生态度。**道家**主张"无为""不争"，强调顺应自然；**兵家**主张"争胜""取势"，强调主动进取。长期以来，许多人将二者视为对立思想，认为道家避世消极，兵家积极进取。然而，如果从辩证的角度深入分析，就会发现二者并非简单对立，而是在更高层次上相互依存、相互转化，共同构成了中国传统智慧的重要组成部分。
@@ -96,6 +115,7 @@
 | [许洞](people/bingjia/xudong.md) | 《虎钤经》 |
 | [何去非](people/bingjia/hequfei.md) | 《何博士备论》 |
 | [揭暄](people/bingjia/jiexuan.md) | 《兵经百言》 |
+| [王余佑](people/bingjia/wangyuyou.md) | 《乾坤大略》 |
 
 ### ☯️ 道家人物（避世面）
 
@@ -111,6 +131,7 @@
 | [鹖冠子](people/daojia/heguanzi.md) | 《鹖冠子》 |
 | [刘安](people/daojia/liuan.md) | 《淮南子》 |
 | [亢仓子](people/daojia/kangcangzi.md) | 《亢仓子》 |
+| [子华子](people/daojia/zihuazi.md) | 《子华子》 |
 
 ### 🔄 跨界人物（一体两面）
 
@@ -124,6 +145,7 @@
 | [赵蕤](people/crossover/zhaorui.md) | 王霸并用 + 长短权变 |
 | [刘邵](people/crossover/liushao.md) | 知人善任 + 中和养德 |
 | [尸佼](people/crossover/shijiao.md) | 杂采诸家 + 立身治道 |
+| [慎到](people/crossover/shenzi.md) | 尚法重势 + 道法转关 |
 
 ### 📚 主题聚合
 
@@ -142,19 +164,21 @@
 | [🪙 反者道之动 · 对比](comparison.html) | 兵家进取 vs 道家避世，8 组精选对比 + 随机配对 |
 | [📈 项目总览](overview.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](about.md) | 哲学、核心特色、标签体系 |
-| [📦 结构化数据](quotes/quotes.json) | 899 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 959 条格言 JSON 数据 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
 
 ### 💻 部署为 GitHub Pages
 
+在线地址：**https://phoenixlucky.github.io/tao-of-strategy/**
+
 ```bash
 # 如果尚未推送
-git remote add origin https://github.com/你的用户名/tao-of-strategy.git
+git remote add origin https://github.com/phoenixlucky/tao-of-strategy.git
 git push -u origin main
 
 # 然后在 GitHub 仓库页面：
 # Settings → Pages → Source: main branch / root → Save
-# 几分钟后即可访问 https://你的用户名.github.io/tao-of-strategy
+# 几分钟后即可访问 https://phoenixlucky.github.io/tao-of-strategy/
 ```
 
 | 文件 | 说明 |
@@ -162,7 +186,7 @@ git push -u origin main
 | [📈 项目总览](总览.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](关于.md) | 哲学、核心特色、标签体系 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
-| [📦 结构化数据](quotes/quotes.json) | 899 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 959 条格言 JSON 数据 |
 
 ---
 

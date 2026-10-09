@@ -5,14 +5,12 @@ sys.path.insert(0, os.path.dirname(__file__))
 import proofread as P
 
 BOOKS = {
-    "bingjing":   "子藏/兵家/兵经百言.txt",
-    "hanfei":     "子藏/法家/韩非子.txt",
-    "renwuzhi":   "子藏/诸子/人物志.txt",
-    "kangcangzi": "子藏/诸子/亢仓子.txt",
-    "wenzhongzi": "子藏/诸子/文中子中说.txt",
+    "qiankun":    "子藏/兵家/乾坤大略.txt",
     "shenzi":     "子藏/诸子/慎子.txt",
     "zihuazi":    "子藏/诸子/子华子.txt",
-    "shizi":      "子藏/诸子/尸子.txt",
+    "wenzhongzi": "子藏/诸子/文中子中说.txt",
+    "lvbuwei":    "子藏/诸子/吕氏春秋.txt",
+    "caolujinglue": "子藏/兵家/草庐经略.txt",
 }
 BAD = re.compile(r"钦定|四库|提要|卷第|臣等谨案|一作|音释|篇第|目录")
 
@@ -48,7 +46,7 @@ def main():
                 continue
             seen.add(c)
             keep.append(c)
-        open(os.path.join(P.OUT, "_cand", key + ".txt"), "w", encoding="utf-8").write("\n".join(keep[:70]))
+        open(os.path.join(P.OUT, "_cand", key + ".txt"), "w", encoding="utf-8").write("\n".join(keep[:130]))
         print(key, len(keep))
 
 
