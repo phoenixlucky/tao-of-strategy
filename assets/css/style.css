@@ -817,3 +817,29 @@ footer a:hover {
   nav a { padding: 4px 10px; font-size: 0.78rem; }
   .ink-particle { display: none; }
 }
+
+/* ============================================
+   🔍 古籍全文检索
+   ============================================ */
+.search-section { padding: 8px 0 24px; }
+.search-hint { color: var(--ink-3); font-size: 0.88rem; margin: 6px 0 16px; }
+.search-groups { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.search-groups small { opacity: 0.7; font-size: 0.72rem; }
+.search-row { display: flex; gap: 10px; }
+.search-row input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fffdf9;
+  color: var(--ink-1);
+}
+.search-row input:focus { outline: none; border-color: var(--seal); }
+.search-meta { color: var(--ink-3); font-size: 0.84rem; margin: 12px 0; }
+.search-hit .quote-text { font-size: 1.02rem; line-height: 1.9; }
+.search-hit .src { color: var(--ink-3); font-size: 0.78rem; }
+.search-hit mark { background: rgba(200, 60, 50, 0.18); color: inherit; padding: 0 2px; border-radius: 2px; }
+nav a.active { border-bottom-color: var(--seal); color: var(--seal); }
+

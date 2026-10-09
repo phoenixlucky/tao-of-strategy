@@ -89,6 +89,8 @@
 | [李靖](people/bingjia/lijing.md) | 《唐太宗李卫公问对》 |
 | [韩信](people/bingjia/hanxin.md) | 《韩信兵法》（已佚） |
 | [司马穰苴](people/bingjia/simarangju.md) | 《司马法》 |
+| [黄石公](people/bingjia/huangshigong.md) | 《三略》《素书》 |
+| [鬼谷子](people/bingjia/guiguzi.md) | 《鬼谷子》 |
 
 ### ☯️ 道家人物（避世面）
 
@@ -127,7 +129,7 @@
 | [🪙 反者道之动 · 对比](comparison.html) | 兵家进取 vs 道家避世，8 组精选对比 + 随机配对 |
 | [📈 项目总览](overview.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](about.md) | 哲学、核心特色、标签体系 |
-| [📦 结构化数据](quotes/quotes.json) | 180 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 639 条格言 JSON 数据 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
 
 ### 💻 部署为 GitHub Pages
@@ -147,7 +149,7 @@ git push -u origin main
 | [📈 项目总览](总览.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](关于.md) | 哲学、核心特色、标签体系 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
-| [📦 结构化数据](quotes/quotes.json) | 180 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 639 条格言 JSON 数据 |
 
 ---
 

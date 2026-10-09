@@ -6,11 +6,11 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：全部补齐至20条 | **30 位人物，共 599 条格言**
+> 数据更新日期：新增黄石公、鬼谷子 | **32 位人物，共 639 条格言**
 
 ## 人物统计
 
-### ⚔️🛡️ 兵家（共 12 人，240 条格言）
+### ⚔️🛡️ 兵家（共 14 人，280 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -26,6 +26,8 @@ description: 人物统计、格言数、Roadmap 进度
 | [岳飞](people/bingjia/yuefei.html) | 《岳武穆遗文》 | 20 |
 | [戚继光](people/bingjia/qi-jiguang.html) | 《纪效新书》 | 20 |
 | [白起](people/bingjia/baiqi.html) | —（无专著） | 20 |
+| [黄石公](people/bingjia/huangshigong.html) | 《三略》《素书》 | 20 |
+| [鬼谷子](people/bingjia/guiguzi.html) | 《鬼谷子》 | 20 |
 
 ### ☯️ 道家（共 9 人，180 条格言）
 
@@ -41,7 +43,7 @@ description: 人物统计、格言数、Roadmap 进度
 | [陶渊明](people/daojia/taoyuanming.html) | 《桃花源记》 | 20 |
 | [嵇康](people/daojia/jikang.html) | 《声无哀乐论》 | 20 |
 
-### 🔄 跨界者（共 9 人，180 条格言）
+### 🔄 跨界者（共 9 人，179 条格言）
 
 | 人物 | 核心著作 | 格言 | 跨界特色 |
 |------|---------|------|---------|
@@ -68,7 +70,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 格言总数
 
-**当前总计：599 条**（30 位人物，完整 quotes.json）
+**当前总计：639 条**（32 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -76,11 +78,14 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 当前 599 条（全员20条已完成）|
+| [📦 结构化数据](quotes/quotes.json) | 当前 639 条（32 位人物）|
+| [🔍 古籍全文检索](search.html) | 兵家 / 诸子 / 道家原文检索 |
 
 ## Roadmap
 
 - ✅ 30 位人物，全部 20 条
 - ✅ 6 个主题聚合
-- ✅ quotes.json 已至 599 条
+- ✅ quotes.json 已至 639 条（新增黄石公、鬼谷子）
+- ✅ 古籍全文检索（兵家/诸子/道家）
+- ✅ 全量校对报告（tools/audit-report.md）
 - 🚧 更多主题持续扩展

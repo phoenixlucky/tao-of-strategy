@@ -15,3 +15,9 @@ node_modules/
 # Agent / IDE artifacts
 .codegraph/
 .reasonix/
+
+# 校对/索引脚本缓存与临时文件
+tools/*.pkl
+tools/_*
+__pycache__/
+
