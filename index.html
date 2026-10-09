@@ -6,7 +6,8 @@
   <title>韬略之道 · Tao of Strategy</title>
   <meta name="description" content="一枚硬币的两面：无为与战争 — 兵家进取与道家避世格言对比">
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- 字体使用微软雅黑（CSS中设置），不依赖 Google Fonts -->
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <!-- 使用本地犬神志-犬仓丘丸字体子集，统一由 style.css 加载 -->
 </head>
 <body class="home-page">
 
@@ -15,15 +16,11 @@
     <div class="ink-landscape"></div>
 
     <!-- 浮墨粒子 -->
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
 
     <!-- 印章 -->
-    <div class="seal-stamp">道</div>
+    <span class="seal-stamp icon icon--seal-stamp" aria-hidden="true"></span>
 
-    <h1><span class="jin">⚔</span> 韬略之道 <span class="bi">☯</span></h1>
+    <h1><span class="icon icon--strategist" aria-hidden="true"></span> 韬略之道 <span class="icon icon--dao" aria-hidden="true"></span></h1>
     <p class="subtitle">Tao of Strategy — <em>The one coin with two sides: Wuwei &amp; War</em></p>
     <p class="slogan"><strong>以道观势，以兵成事。</strong></p>
   </header>
@@ -31,25 +28,23 @@
   <div class="container">
 
     <!-- Navigation -->
-    <nav>
-      <a href="index.html">🏠 首页</a>
-      <a href="people/bingjia/index.html">🏯 兵家</a>
-      <a href="people/daojia/index.html">☯️ 道家</a>
-      <a href="people/crossover/index.html">🔄 跨界</a>
-      <a href="comparison.html">🪙 对比</a>
-      <a href="lineage.html">🕸 谱系</a>
-      <a href="search.html">🔍 检索</a>
-      <a href="overview.html">📚 主题</a>
-      <a href="about.html">📖 关于</a>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-item is-active" href="index.html" aria-current="page"><span class="icon icon--home" aria-hidden="true"></span><span>首页</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/bingjia/index.html"><span class="icon icon--strategist" aria-hidden="true"></span><span>兵家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/daojia/index.html"><span class="icon icon--dao" aria-hidden="true"></span><span>道家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/crossover/index.html"><span class="icon icon--crossover" aria-hidden="true"></span><span>跨界</span></a>
+      <a class="nav-item" href="/tao-of-strategy/comparison.html"><span class="icon icon--comparison" aria-hidden="true"></span><span>对比</span></a>
+      <a class="nav-item" href="/tao-of-strategy/overview.html"><span class="icon icon--topics" aria-hidden="true"></span><span>主题</span></a>
+      <a class="nav-item" href="/tao-of-strategy/about.html"><span class="icon icon--about" aria-hidden="true"></span><span>关于</span></a>
     </nav>
 
     <!-- Loading -->
-    <div id="loading" style="text-align:center;padding:40px;color:var(--text-muted);">⏳ 加载格言中……</div>
+    <div id="loading" style="text-align:center;padding:40px;color:var(--text-muted);">格言正在展开……</div>
 
     <!-- Daily Quote -->
     <section class="daily-section" id="dailySection">
       <div class="daily-header">
-        <h2>📅 每日一面</h2>
+        <h2><span class="icon icon--calendar" aria-hidden="true"></span> 每日一面</h2>
         <span class="date-label" id="dateLabel"></span>
       </div>
       <div id="dailyQuote"></div>
@@ -60,9 +55,9 @@
       <div class="filter-row">
         <span class="filter-label">面</span>
         <button class="face-btn active-all" data-face="all">全部</button>
-        <button class="face-btn" data-face="jin">⚔️🛡️ 进取</button>
-        <button class="face-btn" data-face="bi">☯️ 避世</button>
-        <button class="face-btn" data-face="zhuan">🔄 转化</button>
+        <button class="face-btn" data-face="jin"><span class="icon icon--strategist" aria-hidden="true"></span> 进取</button>
+        <button class="face-btn" data-face="bi"><span class="icon icon--dao" aria-hidden="true"></span> 避世</button>
+        <button class="face-btn" data-face="zhuan"><span class="icon icon--crossover" aria-hidden="true"></span> 转化</button>
       </div>
       <div class="filter-row">
         <span class="filter-label">筛选</span>
@@ -71,43 +66,43 @@
       </div>
       <div class="filter-row">
         <span class="filter-label">操作</span>
-        <button class="action-btn btn-random" id="randomBtn">🎲 随机一句</button>
-        <button class="action-btn btn-daily" id="dailyBtn">📅 今日格言</button>
-        <button class="action-btn" id="resetBtn" style="background:var(--border);color:var(--text-muted);font-size:0.82rem;">↺ 重置</button>
+        <button class="action-btn btn-random" id="randomBtn"><span class="icon icon--crossover" aria-hidden="true"></span> 随机一句</button>
+        <button class="action-btn btn-daily" id="dailyBtn"><span class="icon icon--calendar" aria-hidden="true"></span> 今日格言</button>
+        <button class="action-btn btn-reset" id="resetBtn"><span class="icon icon--seal" aria-hidden="true"></span> 重置</button>
       </div>
     </div>
 
     <!-- Topics -->
     <div class="topics-grid">
-      <h2 class="section-title">📚 主题聚合</h2>
+      <h2 class="section-title"><span class="icon icon--topics" aria-hidden="true"></span> 主题聚合</h2>
       <div class="topic-cards">
         <a href="topics/rou-gang.html" class="topic-card">
-          <span class="topic-icon">☯</span>
+          <span class="topic-icon icon icon--dao" aria-hidden="true"></span>
           <span class="topic-name">柔与刚</span>
           <span class="topic-desc">常胜之道曰柔</span>
         </a>
         <a href="topics/xian-yu-hou.html" class="topic-card">
-          <span class="topic-icon">⚔</span>
+          <span class="topic-icon icon icon--strategist" aria-hidden="true"></span>
           <span class="topic-name">先与后</span>
           <span class="topic-desc">先唱者穷后动者达</span>
         </a>
         <a href="topics/youwei-wuwei.html" class="topic-card">
-          <span class="topic-icon">🔄</span>
+          <span class="topic-icon icon icon--crossover" aria-hidden="true"></span>
           <span class="topic-name">有为与无为</span>
           <span class="topic-desc">道常无为而无不为</span>
         </a>
         <a href="topics/quan-yu-po.html" class="topic-card">
-          <span class="topic-icon">🛡</span>
+          <span class="topic-icon icon icon--comparison" aria-hidden="true"></span>
           <span class="topic-name">全与破</span>
           <span class="topic-desc">全国为上破国次之</span>
         </a>
         <a href="topics/xu-yu-shi.html" class="topic-card">
-          <span class="topic-icon">🌀</span>
+          <span class="topic-icon icon icon--crossover" aria-hidden="true"></span>
           <span class="topic-name">虚与实</span>
           <span class="topic-desc">避实击虚</span>
         </a>
         <a href="topics/qi-yu-zheng.html" class="topic-card">
-          <span class="topic-icon">🎯</span>
+          <span class="topic-icon icon icon--strategist" aria-hidden="true"></span>
           <span class="topic-name">奇与正</span>
           <span class="topic-desc">以正合以奇胜</span>
         </a>

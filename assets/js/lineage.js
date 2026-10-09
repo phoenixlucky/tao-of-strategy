@@ -1,42 +1,42 @@
-/* 🌟 韬略之道 · 人物谱系图逻辑 */
+/* 韬略之道 · 人物谱系图逻辑 */
 
 /* ---- 人物数据 ---- */
 const PEOPLE = [
   // 兵家（12人）— 按时代排序
-  { id:'jiangziya',   name:'姜子牙', era:'商周',   school:'bingjia', icon:'🎣', link:'people/bingjia/jiangziya.html' },
-  { id:'simarangju',  name:'司马穰苴', era:'春秋', school:'bingjia', icon:'📜', link:'people/bingjia/simarangju.html' },
-  { id:'sunzi',       name:'孙子',  era:'春秋', school:'bingjia', icon:'⚔', link:'people/bingjia/sunzi.html' },
-  { id:'wuzi',        name:'吴起',  era:'战国', school:'bingjia', icon:'🔱', link:'people/bingjia/wuzi.html' },
-  { id:'sunbin',      name:'孙膑',  era:'战国', school:'bingjia', icon:'🦵', link:'people/bingjia/sunbin.html' },
-  { id:'weiliao',     name:'尉缭',  era:'战国', school:'bingjia', icon:'📐', link:'people/bingjia/weiliao.html' },
-  { id:'baiqi',       name:'白起',  era:'战国', school:'bingjia', icon:'💀', link:'people/bingjia/baiqi.html' },
-  { id:'hanxin',      name:'韩信',  era:'秦末汉初', school:'bingjia', icon:'🐍', link:'people/bingjia/hanxin.html' },
-  { id:'caocao',      name:'曹操',  era:'东汉末', school:'bingjia', icon:'🏴', link:'people/bingjia/caocao.html' },
-  { id:'lijing',      name:'李靖',  era:'唐',   school:'bingjia', icon:'🏔', link:'people/bingjia/lijing.html' },
-  { id:'yuefei',      name:'岳飞',  era:'南宋', school:'bingjia', icon:'🛡', link:'people/bingjia/yuefei.html' },
-  { id:'qi-jiguang',  name:'戚继光', era:'明',   school:'bingjia', icon:'⛵', link:'people/bingjia/qi-jiguang.html' },
+  { id:'jiangziya',   name:'姜子牙', era:'商周',   school:'bingjia', icon:'strategist', link:'people/bingjia/jiangziya.html' },
+  { id:'simarangju',  name:'司马穰苴', era:'春秋', school:'bingjia', icon:'strategist', link:'people/bingjia/simarangju.html' },
+  { id:'sunzi',       name:'孙子',  era:'春秋', school:'bingjia', icon:'strategist', link:'people/bingjia/sunzi.html' },
+  { id:'wuzi',        name:'吴起',  era:'战国', school:'bingjia', icon:'strategist', link:'people/bingjia/wuzi.html' },
+  { id:'sunbin',      name:'孙膑',  era:'战国', school:'bingjia', icon:'strategist', link:'people/bingjia/sunbin.html' },
+  { id:'weiliao',     name:'尉缭',  era:'战国', school:'bingjia', icon:'strategist', link:'people/bingjia/weiliao.html' },
+  { id:'baiqi',       name:'白起',  era:'战国', school:'bingjia', icon:'strategist', link:'people/bingjia/baiqi.html' },
+  { id:'hanxin',      name:'韩信',  era:'秦末汉初', school:'bingjia', icon:'strategist', link:'people/bingjia/hanxin.html' },
+  { id:'caocao',      name:'曹操',  era:'东汉末', school:'bingjia', icon:'strategist', link:'people/bingjia/caocao.html' },
+  { id:'lijing',      name:'李靖',  era:'唐',   school:'bingjia', icon:'strategist', link:'people/bingjia/lijing.html' },
+  { id:'yuefei',      name:'岳飞',  era:'南宋', school:'bingjia', icon:'strategist', link:'people/bingjia/yuefei.html' },
+  { id:'qi-jiguang',  name:'戚继光', era:'明',   school:'bingjia', icon:'strategist', link:'people/bingjia/qi-jiguang.html' },
 
   // 道家（9人）
-  { id:'laozi',       name:'老子',  era:'春秋', school:'daoren', icon:'☯', link:'people/daojia/laozi.html' },
-  { id:'guanyinzi',   name:'关尹子', era:'春秋', school:'daoren', icon:'🚪', link:'people/daojia/guanyinzi.html' },
-  { id:'wenzi',       name:'文子',  era:'春秋', school:'daoren', icon:'📖', link:'people/daojia/wenzi.html' },
-  { id:'liezi',       name:'列子',  era:'战国', school:'daoren', icon:'🪁', link:'people/daojia/liezi.html' },
-  { id:'zhuangzi',    name:'庄子',  era:'战国', school:'daoren', icon:'🦋', link:'people/daojia/zhuangzi.html' },
-  { id:'heshanggong', name:'河上公', era:'西汉', school:'daoren', icon:'🏞', link:'people/daojia/heshanggong.html' },
-  { id:'jikang',      name:'嵇康',  era:'三国魏', school:'daoren', icon:'🎶', link:'people/daojia/jikang.html' },
-  { id:'gehong',      name:'葛洪',  era:'东晋', school:'daoren', icon:'🧪', link:'people/daojia/gehong.html' },
-  { id:'taoyuanming', name:'陶渊明', era:'东晋', school:'daoren', icon:'🌼', link:'people/daojia/taoyuanming.html' },
+  { id:'laozi',       name:'老子',  era:'春秋', school:'daoren', icon:'dao', link:'people/daojia/laozi.html' },
+  { id:'guanyinzi',   name:'关尹子', era:'春秋', school:'daoren', icon:'dao', link:'people/daojia/guanyinzi.html' },
+  { id:'wenzi',       name:'文子',  era:'春秋', school:'daoren', icon:'dao', link:'people/daojia/wenzi.html' },
+  { id:'liezi',       name:'列子',  era:'战国', school:'daoren', icon:'dao', link:'people/daojia/liezi.html' },
+  { id:'zhuangzi',    name:'庄子',  era:'战国', school:'daoren', icon:'dao', link:'people/daojia/zhuangzi.html' },
+  { id:'heshanggong', name:'河上公', era:'西汉', school:'daoren', icon:'dao', link:'people/daojia/heshanggong.html' },
+  { id:'jikang',      name:'嵇康',  era:'三国魏', school:'daoren', icon:'dao', link:'people/daojia/jikang.html' },
+  { id:'gehong',      name:'葛洪',  era:'东晋', school:'daoren', icon:'dao', link:'people/daojia/gehong.html' },
+  { id:'taoyuanming', name:'陶渊明', era:'东晋', school:'daoren', icon:'dao', link:'people/daojia/taoyuanming.html' },
 
   // 跨界（9人）
-  { id:'huangdi',     name:'轩辕黄帝', era:'上古', school:'crossover', icon:'🐉', link:'people/crossover/huangdi.html' },
-  { id:'fanli',       name:'范蠡',  era:'春秋', school:'crossover', icon:'💰', link:'people/crossover/fanli.html' },
-  { id:'xunzi',       name:'荀子',  era:'战国', school:'crossover', icon:'🎓', link:'people/crossover/xunzi.html' },
-  { id:'zhangliang',  name:'张良',  era:'秦末汉初', school:'crossover', icon:'♟', link:'people/crossover/zhangliang.html' },
-  { id:'zhugeliang',  name:'诸葛亮', era:'三国', school:'crossover', icon:'🪶', link:'people/crossover/zhugeliang.html' },
-  { id:'guoziyi',     name:'郭子仪', era:'唐',   school:'crossover', icon:'🏅', link:'people/crossover/guoziyi.html' },
-  { id:'liubowen',    name:'刘伯温', era:'元末明初', school:'crossover', icon:'🔮', link:'people/crossover/liubowen.html' },
-  { id:'wangyangming',name:'王阳明', era:'明',   school:'crossover', icon:'🧠', link:'people/crossover/wangyangming.html' },
-  { id:'zeng-guofan', name:'曾国藩', era:'清',   school:'crossover', icon:'📝', link:'people/crossover/zeng-guofan.html' },
+  { id:'huangdi',     name:'轩辕黄帝', era:'上古', school:'crossover', icon:'crossover', link:'people/crossover/huangdi.html' },
+  { id:'fanli',       name:'范蠡',  era:'春秋', school:'crossover', icon:'crossover', link:'people/crossover/fanli.html' },
+  { id:'xunzi',       name:'荀子',  era:'战国', school:'crossover', icon:'crossover', link:'people/crossover/xunzi.html' },
+  { id:'zhangliang',  name:'张良',  era:'秦末汉初', school:'crossover', icon:'crossover', link:'people/crossover/zhangliang.html' },
+  { id:'zhugeliang',  name:'诸葛亮', era:'三国', school:'crossover', icon:'crossover', link:'people/crossover/zhugeliang.html' },
+  { id:'guoziyi',     name:'郭子仪', era:'唐',   school:'crossover', icon:'crossover', link:'people/crossover/guoziyi.html' },
+  { id:'liubowen',    name:'刘伯温', era:'元末明初', school:'crossover', icon:'crossover', link:'people/crossover/liubowen.html' },
+  { id:'wangyangming',name:'王阳明', era:'明',   school:'crossover', icon:'crossover', link:'people/crossover/wangyangming.html' },
+  { id:'zeng-guofan', name:'曾国藩', era:'清',   school:'crossover', icon:'crossover', link:'people/crossover/zeng-guofan.html' },
 ];
 
 /* ---- 关联关系 ---- */
@@ -137,7 +137,7 @@ function renderLineage() {
         node.dataset.era = era;
         node.dataset.school = p.school;
         node.innerHTML = `
-          <span class="node-icon">${p.icon}</span>
+          <span class="node-icon icon icon--${p.icon}" aria-hidden="true"></span>
           <span class="node-name">${p.name}</span>
           <span class="node-era">${p.era}</span>
         `;

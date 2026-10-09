@@ -6,6 +6,7 @@
   <title>反者道之动 · 对比 — 韬略之道</title>
   <meta name="description" content="兵家进取与道家避世格言并列展示——一枚硬币的两面">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
   <link rel="stylesheet" href="assets/css/comparison.css">
   <!-- 字体使用微软雅黑（CSS中设置） -->
 </head>
@@ -16,15 +17,11 @@
     <div class="ink-landscape"></div>
 
     <!-- 浮墨粒子 -->
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
 
     <!-- 印章 -->
-    <div class="seal-stamp">道</div>
+    <span class="seal-stamp icon icon--seal-stamp" aria-hidden="true"></span>
 
-    <h1><span class="jin">⚔</span> 反者道之动 <span class="bi">☯</span></h1>
+    <h1><span class="icon icon--strategist" aria-hidden="true"></span> 反者道之动 <span class="icon icon--dao" aria-hidden="true"></span></h1>
     <p class="subtitle">兵家进取 · 道家避世 — <em>The one coin with two sides: Wuwei &amp; War</em></p>
     <p class="slogan"><strong>以道观势，以兵成事。</strong></p>
   </header>
@@ -34,18 +31,19 @@
   <div class="container">
 
     <!-- Navigation -->
-    <nav>
-      <a href="index.html">🏠 首页</a>
-      <a href="comparison.html">🪙 对比</a>
-      <a href="lineage.html">🕸 谱系</a>
-      <a href="search.html">🔍 检索</a>
-      <a href="overview.html">📊 总览</a>
-      <a href="about.html">📖 关于</a>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-item" href="/tao-of-strategy/"><span class="icon icon--home" aria-hidden="true"></span><span>首页</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/bingjia/index.html"><span class="icon icon--strategist" aria-hidden="true"></span><span>兵家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/daojia/index.html"><span class="icon icon--dao" aria-hidden="true"></span><span>道家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/crossover/index.html"><span class="icon icon--crossover" aria-hidden="true"></span><span>跨界</span></a>
+      <a class="nav-item is-active" href="/tao-of-strategy/comparison.html" aria-current="page"><span class="icon icon--comparison" aria-hidden="true"></span><span>对比</span></a>
+      <a class="nav-item" href="/tao-of-strategy/overview.html"><span class="icon icon--topics" aria-hidden="true"></span><span>主题</span></a>
+      <a class="nav-item" href="/tao-of-strategy/about.html"><span class="icon icon--about" aria-hidden="true"></span><span>关于</span></a>
     </nav>
 
     <!-- Intro -->
     <div class="comparison-intro">
-      <span class="coin-icon">🪙</span>
+      <span class="icon icon--comparison coin-icon" aria-hidden="true"></span>
       <h2 class="jin-heading">兵家进取 · 道家避世 —— 同台对话</h2>
       <p>
         老子说"将欲歙之，必固张之"——在道家是洞察循环的<strong>微明</strong>，在兵家是欲擒故纵的<strong>诡道</strong>。<br>
@@ -57,10 +55,10 @@
 
     <!-- Controls -->
     <div class="controls-row">
-      <button onclick="randomComparison()">🎲 随机对比</button>
-      <button onclick="flipComparison()">🔄 翻转左右</button>
-      <button onclick="autoCompare()">✨ 系统随机配对</button>
-      <button onclick="renderComparison(0)" style="background:var(--accent-light);color:var(--accent);">↺ 从头开始</button>
+      <button onclick="randomComparison()"><span class="icon icon--crossover" aria-hidden="true"></span> 随机对比</button>
+      <button onclick="flipComparison()"><span class="icon icon--crossover" aria-hidden="true"></span> 翻转左右</button>
+      <button onclick="autoCompare()"><span class="icon icon--dao" aria-hidden="true"></span> 系统随机配对</button>
+      <button onclick="renderComparison(0)" style="background:var(--accent-light);color:var(--accent);">从头开始</button>
     </div>
 
     <div style="text-align:center;font-size:0.85rem;color:var(--text-muted);margin-bottom:20px;" id="pairCount">第 1/8 组</div>
@@ -85,7 +83,7 @@
 
   <footer>
     <p>韬略之道 · Tao of Strategy — 反者道之动</p>
-    <p><a href="index.html">🏠 首页</a> · <a href="about.html">📖 关于</a></p>
+    <p><a href="/tao-of-strategy/">首页</a> · <a href="/tao-of-strategy/about.html">关于</a></p>
   </footer>
 
   <script src="assets/js/comparison.js"></script>

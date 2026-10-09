@@ -6,6 +6,7 @@
   <title>人物谱系 · 韬略之道</title>
   <meta name="description" content="兵家、道家、跨界者 —— 三脉人物谱系全图">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
   <link rel="stylesheet" href="assets/css/lineage.css">
   <!-- 字体使用微软雅黑（CSS中设置） -->
 </head>
@@ -16,15 +17,11 @@
     <div class="ink-landscape"></div>
 
     <!-- 浮墨粒子 -->
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
 
     <!-- 印章 -->
-    <div class="seal-stamp">脉</div>
+    <span class="seal-stamp icon icon--seal-stamp" aria-hidden="true"></span>
 
-    <h1><span class="jin">🏯</span> 人物谱系 <span class="bi">🧘</span></h1>
+    <h1><span class="icon icon--strategist" aria-hidden="true"></span> 人物谱系 <span class="icon icon--dao" aria-hidden="true"></span></h1>
     <p class="subtitle">Tao of Strategy — <em>The one coin with two sides: Wuwei &amp; War</em></p>
     <p class="slogan"><strong>三脉同源，一体两面。</strong></p>
   </header>
@@ -34,25 +31,23 @@
   <div class="container">
 
     <!-- Navigation -->
-    <nav>
-      <a href="index.html">🏠 首页</a>
-      <a href="people/bingjia/index.html">🏯 兵家</a>
-      <a href="people/daojia/index.html">☯️ 道家</a>
-      <a href="people/crossover/index.html">🔄 跨界</a>
-      <a href="comparison.html">🪙 对比</a>
-      <a href="lineage.html">🕸 谱系</a>
-      <a href="search.html">🔍 检索</a>
-      <a href="overview.html">📚 主题</a>
-      <a href="about.html">📖 关于</a>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-item" href="/tao-of-strategy/"><span class="icon icon--home" aria-hidden="true"></span><span>首页</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/bingjia/index.html"><span class="icon icon--strategist" aria-hidden="true"></span><span>兵家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/daojia/index.html"><span class="icon icon--dao" aria-hidden="true"></span><span>道家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/crossover/index.html"><span class="icon icon--crossover" aria-hidden="true"></span><span>跨界</span></a>
+      <a class="nav-item" href="/tao-of-strategy/comparison.html"><span class="icon icon--comparison" aria-hidden="true"></span><span>对比</span></a>
+      <a class="nav-item" href="/tao-of-strategy/overview.html"><span class="icon icon--topics" aria-hidden="true"></span><span>主题</span></a>
+      <a class="nav-item" href="/tao-of-strategy/about.html"><span class="icon icon--about" aria-hidden="true"></span><span>关于</span></a>
     </nav>
 
     <!-- 简介 -->
     <div class="lineage-intro">
       <p>
         <strong>30 位人物</strong>，跨越三千年时空，分列三脉：
-        <span style="color:var(--face-jin);font-weight:600;">⚔ 兵家</span> ·
-        <span style="color:var(--face-zhuan);font-weight:600;">🔄 跨界</span> ·
-        <span style="color:var(--face-bi);font-weight:600;">☯ 道家</span>
+        <span style="color:var(--face-jin);font-weight:600;"><span class="icon icon--strategist" aria-hidden="true"></span> 兵家</span> ·
+        <span style="color:var(--face-zhuan);font-weight:600;"><span class="icon icon--crossover" aria-hidden="true"></span> 跨界</span> ·
+        <span style="color:var(--face-bi);font-weight:600;"><span class="icon icon--dao" aria-hidden="true"></span> 道家</span>
       </p>
     </div>
 
@@ -65,10 +60,10 @@
 
     <!-- 时代筛选 -->
     <div class="lineage-controls" id="eraFilters">
-      <button class="era-filter-btn active" data-era="all">📜 全部</button>
+      <button class="era-filter-btn active" data-era="all"><span class="icon icon--about" aria-hidden="true"></span> 全部</button>
     </div>
 
-    <p class="interact-hint">💡 悬停或点击人物节点查看关联</p>
+    <p class="interact-hint"><span class="icon icon--search" aria-hidden="true"></span> 悬停或点击人物节点查看关联</p>
 
     <!-- 谱系图 -->
     <div class="lineage-wrapper">
@@ -76,15 +71,15 @@
         <svg class="lineage-svg" id="lineageSvg"></svg>
         <div class="lineage-lanes" id="lineageLanes">
           <div class="lane" data-lane="bingjia">
-            <div class="lane-header bingjia">⚔️ 兵家 · 进取</div>
+            <div class="lane-header bingjia"><span class="icon icon--strategist" aria-hidden="true"></span> 兵家 · 进取</div>
             <div class="lane-content" id="laneBingjia"></div>
           </div>
           <div class="lane" data-lane="crossover">
-            <div class="lane-header crossover">🔄 跨界 · 融合</div>
+            <div class="lane-header crossover"><span class="icon icon--crossover" aria-hidden="true"></span> 跨界 · 融合</div>
             <div class="lane-content" id="laneCrossover"></div>
           </div>
           <div class="lane" data-lane="daoren">
-            <div class="lane-header daoren">☯️ 道家 · 避世</div>
+            <div class="lane-header daoren"><span class="icon icon--dao" aria-hidden="true"></span> 道家 · 避世</div>
             <div class="lane-content" id="laneDaoren"></div>
           </div>
         </div>
@@ -95,7 +90,7 @@
 
   <footer>
     <p>韬略之道 · Tao of Strategy — 反者道之动</p>
-    <p><a href="index.html">🏠 首页</a> · <a href="about.html">📖 关于</a></p>
+    <p><a href="/tao-of-strategy/">首页</a> · <a href="/tao-of-strategy/about.html">关于</a></p>
   </footer>
 
   <script src="assets/js/lineage.js"></script>

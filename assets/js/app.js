@@ -1,4 +1,4 @@
-/* 🌟 韬略之道 · App Logic — 分页重构版 */
+/* 韬略之道 · App Logic — 分页重构版 */
 
 let allQuotes = [];
 let dailyQuote = null;    // 每日一面（从原始顺序选取，不受洗牌影响）
@@ -31,7 +31,7 @@ async function init() {
     applyFilters();
     document.getElementById('loading').style.display = 'none';
   } catch (err) {
-    document.getElementById('loading').textContent = '⚠️ 加载失败，请确认网络';
+    document.getElementById('loading').textContent = '加载失败，请确认网络后重试。';
   }
 }
 
@@ -39,7 +39,7 @@ async function init() {
 function populatePersonOptions() {
   const people = [...new Set(allQuotes.map(q => q.personId))].sort();
   const sel = document.getElementById('personSelect');
-  sel.innerHTML = '<option value="all">🧑 全部人物</option>';
+  sel.innerHTML = '<option value="all">全部人物</option>';
   people.forEach(p => {
     const opt = document.createElement('option');
     opt.value = p; opt.textContent = personDisplayName(p);
@@ -50,7 +50,7 @@ function populatePersonOptions() {
 function populateTagOptions() {
   const tags = [...new Set(allQuotes.flatMap(q => q.tags || []))].sort();
   const sel = document.getElementById('tagSelect');
-  sel.innerHTML = '<option value="all">🏷 全部标签</option>';
+  sel.innerHTML = '<option value="all">全部标签</option>';
   tags.forEach(t => {
     const opt = document.createElement('option');
     opt.value = t; opt.textContent = `#${t}`;
@@ -72,7 +72,13 @@ function personDisplayName(id) {
 
     huangshigong:'黄石公', guiguzi:'鬼谷子',
 
-    tanqiao:'谭峭', sanshiliuji:'三十六计'
+    tanqiao:'谭峭', sanshiliuji:'三十六计',
+
+    liquan:'李筌', xudong:'许洞', hequfei:'何去非', zhaorui:'赵蕤',
+
+    wunengzi:'无能子', heguanzi:'鹖冠子', liuan:'刘安',
+
+    jiexuan:'揭暄', liushao:'刘邵', kangcangzi:'亢仓子', shijiao:'尸佼'
   }; return m[id] || id;
 }
 
@@ -119,29 +125,29 @@ function goPage(page) {
 }
 
 /* ---- 卡片构建 ---- */
-function buildCard(q, isDaily) {
-  const fc = q.face === 'jin' ? 'jin' : q.face === 'bi' ? 'bi' : 'zhuan';
-  const fl = { jin:'进取·兵家', bi:'避世·道家', zhuan:'转化·融合' }[fc] || '';
-  const pn = personDisplayName(q.personId);
-  const pl = `people/${fc==='jin'?'bingjia':fc==='bi'?'daojia':'crossover'}/${q.personId}.html`;
-  const interp = q.interp || '';
-  const trans = q.translation || '';
-  return `<div class="quote-card ${isDaily?'daily-card':''}">
-    <div class="card-top"><span class="face-badge badge-${fc}">${fl}</span>${isDaily?'<span class="daily-badge">📅 今日</span>':''}</div>
-    <div class="quote-text">${q.text}</div>
-    ${trans ? `<div class="quote-trans">📝 ${trans}</div>` : ''}
-    <div class="quote-meta"><span>👤 <a href="${pl}">${pn}</a></span><span>📖 ${q.source}</span></div>
-    ${interp ? `<div class="quote-interp">💡 ${interp}</div>` : ''}
-    <div class="quote-tags">${(q.tags||[]).map(t => `<span>#${t}</span>`).join('')}</div>
-  </div>`;
-}
-
+function buildCard(q, isDaily) {
+  const fc = q.face === 'jin' ? 'jin' : q.face === 'bi' ? 'bi' : 'zhuan';
+  const fl = { jin:'进取·兵家', bi:'避世·道家', zhuan:'转化·融合' }[fc] || '';
+  const pn = personDisplayName(q.personId);
+  const pl = `people/${fc==='jin'?'bingjia':fc==='bi'?'daojia':'crossover'}/${q.personId}.html`;
+  const interp = q.interp || '';
+  const trans = q.translation || '';
+  return `<div class="quote-card ${isDaily?'daily-card':''}">
+    <div class="card-top"><span class="face-badge badge-${fc}">${fl}</span>${isDaily?'<span class="daily-badge"><span class="icon icon--calendar" aria-hidden="true"></span> 今日</span>':''}</div>
+    <div class="quote-text">${q.text}</div>
+    ${trans ? `<div class="quote-trans"><span class="icon icon--about" aria-hidden="true"></span> ${trans}</div>` : ''}
+    <div class="quote-meta"><span><span class="icon icon--scholar" aria-hidden="true"></span> <a href="${pl}">${pn}</a></span><span><span class="icon icon--about" aria-hidden="true"></span> ${q.source}</span></div>
+    ${interp ? `<div class="quote-interp"><span class="icon icon--light" aria-hidden="true"></span> ${interp}</div>` : ''}
+    <div class="quote-tags">${(q.tags||[]).map(t => `<span class="quote-tag"><span class="tag-hash">#</span><span>${t}</span></span>`).join('')}</div>
+  </div>`;
+}
+
 /* ---- 渲染 ---- */
 function renderQuotes(quotes) {
   const list = document.getElementById('quoteList');
   if (!list) return;
   if (!quotes.length) {
-    list.innerHTML = '<div class="quote-card" style="text-align:center;color:var(--text-muted);padding:40px;">📭 没有匹配的格言</div>';
+    list.innerHTML = '<div class="quote-card" style="text-align:center;color:var(--text-muted);padding:40px;">没有匹配的格言</div>';
     return;
   }
   list.innerHTML = quotes.map(q => buildCard(q, false)).join('');
@@ -153,7 +159,7 @@ function applyFilters() {
   renderQuotes(items);
   renderPagination(total, totalPages);
   const el = document.getElementById('countInfo');
-  if (el) el.textContent = `📚 共 ${total} 条格言（第 ${currentPage}/${totalPages} 页）`;
+  if (el) el.textContent = `共 ${total} 条格言（第 ${currentPage}/${totalPages} 页）`;
 }
 
 /* ---- 随机 ---- */
@@ -164,7 +170,7 @@ function showRandom() {
   const list = document.getElementById('quoteList');
   const pagination = document.getElementById('pagination');
   if (pagination) pagination.innerHTML = '';
-  if (list) list.innerHTML = buildCard(q, false) + '<div style="text-align:center;font-size:0.82rem;color:var(--text-muted);margin-top:8px;">🎲 随机一句（从当前筛选中抽取）</div>';
+  if (list) list.innerHTML = buildCard(q, false) + '<div style="text-align:center;font-size:0.82rem;color:var(--text-muted);margin-top:8px;">随机一句（从当前筛选中抽取）</div>';
 }
 
 /* ---- 重置 ---- */

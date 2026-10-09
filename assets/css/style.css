@@ -3,8 +3,17 @@
    水墨风格 Ink-Wash Theme
    ============================================ */
 
+@font-face {
+  font-family: "QiuWanBrush";
+  src: url("../../public/assets/fonts/qiu-wan.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 /* ---- 水墨色调板 ---- */
 :root {
+  --font-site: "QiuWanBrush", "KaiTi", "STKaiti", "楷体", "Microsoft YaHei", sans-serif;
   --paper: #f2ece2;
   --paper-light: #faf6ef;
   --ink-1: #1a1816;    /* 浓墨 */
@@ -47,15 +56,21 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: "KaiTi", "STKaiti", "楷体", "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  font-family: var(--font-site);
   background: var(--bg);
   color: var(--text);
   line-height: 1.8;
   min-height: 100vh;
-  background-image: url('../paper-texture.webp');
+  background-image: url("../../public/assets/images/paper-texture.webp");
   background-repeat: repeat;
   background-size: 400px 400px;
   background-blend-mode: multiply;
+}
+
+/* Apply the supplied typeface to every UI element, including form controls
+   whose browser defaults do not consistently inherit the body font. */
+body, body * {
+  font-family: var(--font-site);
 }
 
 .container { max-width: 800px; margin: 0 auto; padding: 24px 20px; }
@@ -85,7 +100,7 @@ header {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  background: url('../ink-mountain.webp') no-repeat bottom center / cover;
+  background: url("../../public/assets/images/hero-landscape.webp") no-repeat bottom center / cover;
   opacity: 0.45;
   mask-image: linear-gradient(to bottom, transparent 0%, #000 15%, #000 100%);
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 15%, #000 100%);
@@ -126,7 +141,7 @@ header::after {
   height: 56px;
   border: 3px solid var(--seal);
   color: var(--seal);
-  font-family: "KaiTi", "STKaiti", "楷体", serif;
+  font-family: var(--font-site);
   font-size: 1.8rem;
   font-weight: 700;
   transform: rotate(-5deg);
@@ -152,7 +167,7 @@ header h1 {
   text-shadow: 0 2px 20px rgba(0,0,0,0.5), 0 0 60px rgba(0,0,0,0.2);
   position: relative;
   z-index: 2;
-  font-family: "KaiTi", "STKaiti", "楷体", "Microsoft YaHei", serif;
+  font-family: var(--font-site);
 }
 header h1 .jin { color: #e8a07a; }
 header h1 .bi { color: #7ab8d0; }
@@ -173,7 +188,7 @@ header .slogan {
   letter-spacing: 0.15em;
   position: relative;
   z-index: 2;
-  font-family: "KaiTi", "STKaiti", "楷体", serif;
+  font-family: var(--font-site);
 }
 
 /* 浮墨粒子 */
@@ -391,7 +406,7 @@ nav a:hover::after {
   position: relative;
 }
 .daily-section::after {
-  content: '☯';
+  content: none;
   position: absolute;
   bottom: -12px;
   right: 20px;
@@ -411,6 +426,8 @@ nav a:hover::after {
   font-weight: 700;
   letter-spacing: 2px;
 }
+.daily-header::after { z-index: 0; pointer-events: none; }
+.daily-header h2, .daily-header .date-label { position: relative; z-index: 1; }
 .daily-header .date-label {
   font-size: 0.82rem;
   color: var(--ink-3);
@@ -487,7 +504,7 @@ nav a:hover::after {
   position: relative;
 }
 .daily-card::after {
-  content: '🪙';
+  content: none;
   position: absolute;
   top: 12px;
   right: 16px;
@@ -594,13 +611,32 @@ nav a:hover::after {
   position: relative;
   z-index: 1;
 }
-.quote-tags span {
-  padding: 2px 10px;
-  border-radius: 3px;
-  background: var(--tag-bg);
-  color: var(--tag-color);
-  font-size: 0.78rem;
+.quote-tags > span,
+.pair-tags > span,
+.markdown-content strong ~ code {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 30px;
+  margin: 2px 4px 2px 0;
+  padding: 5px 12px;
+  border: 1px solid #e5d7c3;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #f7f0e5 0%, #eee4d4 100%);
+  color: #5c5145;
+  font-family: var(--font-site);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.35;
+  box-shadow: 0 2px 5px rgba(67, 51, 32, .05);
+  transition: background .2s ease, border-color .2s ease, transform .2s ease;
 }
+.quote-tags .tag-hash, .pair-tags .tag-hash,
+.markdown-content strong ~ code::before { color: var(--seal); font-weight: 700; }
+.markdown-content strong ~ code::before { content: "#"; }
+.quote-tags .quote-tag:hover,
+.pair-tags > span:hover { background: #f4ead9; border-color: #d7bd98; transform: translateY(-1px); }
 
 /* ============================================
    Face Badge — 印章风格
@@ -819,7 +855,7 @@ footer a:hover {
 }
 
 /* ============================================
-   🔍 古籍全文检索
+   古籍全文检索
    ============================================ */
 .search-section { padding: 8px 0 24px; }
 .search-hint { color: var(--ink-3); font-size: 0.88rem; margin: 6px 0 16px; }
@@ -843,3 +879,284 @@ footer a:hover {
 .search-hit mark { background: rgba(200, 60, 50, 0.18); color: inherit; padding: 0 2px; border-radius: 2px; }
 nav a.active { border-bottom-color: var(--seal); color: var(--seal); }
 
+
+
+/* ============================================
+   Reference-inspired paper, ink and seal treatment
+   ============================================ */
+:root {
+  --paper: #f4efe6;
+  --paper-light: #fbf7ef;
+  --ink-1: #171a19;
+  --ink-2: #353b39;
+  --ink-3: #77766f;
+  --ink-4: #c4b49a;
+  --ink-5: #ddd2c0;
+  --seal: #9e241b;
+  --seal-light: #f1e1d5;
+  --seal-dark: #741c16;
+  --card-bg: #fbf7ef;
+  --tag-bg: #eee8dd;
+  --tag-color: #514b42;
+  --shadow: 0 8px 28px rgba(61, 46, 28, .09);
+  --shadow-hover: 0 14px 34px rgba(61, 46, 28, .14);
+  --radius: 14px;
+}
+
+body {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(246, 241, 232, .68), rgba(246, 241, 232, .68)),
+    url("../../public/assets/images/mountain-paper.webp"),
+    url("../../public/assets/images/paper-texture.webp");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: center top, center 26%, 0 0;
+  background-size: cover, cover, 420px 420px;
+  background-attachment: fixed, fixed, scroll;
+  background-blend-mode: normal, multiply, multiply;
+}
+
+.container { max-width: 1080px; padding: 22px 28px; }
+
+header {
+  min-height: 382px;
+  padding: 46px 20px 82px;
+  background-color: #202522;
+  background-image:
+    linear-gradient(180deg, rgba(16, 20, 19, .47) 0%, rgba(16, 20, 19, .28) 48%, rgba(16, 20, 19, .02) 100%),
+    url("../../public/assets/images/hero-landscape.webp");
+  background-size: cover;
+  background-position: center 31%;
+  border-bottom: 3px solid rgba(169, 133, 84, .65);
+}
+
+.ink-landscape { inset: 0; background: none; opacity: 0; }
+header::before, header::after { content: none; }
+.seal-stamp {
+  width: 54px;
+  height: 54px;
+  border: 0;
+  background: none;
+  transform: rotate(-4deg);
+  margin-bottom: 12px;
+}
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: clamp(2.1rem, 4vw, 3.1rem);
+  letter-spacing: .24em;
+  text-shadow: 0 3px 18px rgba(0, 0, 0, .56);
+  font-family: var(--font-site);
+}
+header .slogan strong, .daily-header h2, .section-title, .daily-card .quote-text {
+  font-family: var(--font-site);
+}
+header h1 .icon { width: 36px; height: 36px; }
+header h1 .icon--strategist { filter: sepia(.4) saturate(1.2); }
+header h1 .icon--dao { filter: sepia(.15) saturate(.65) brightness(1.5); }
+header .subtitle { color: rgba(255, 250, 241, .82); }
+header .slogan { color: #fff8ed; text-shadow: 0 2px 12px rgba(0, 0, 0, .5); }
+
+nav.site-nav {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 0;
+  width: min(100%, 1000px);
+  margin: -57px auto 34px;
+  padding: 9px 12px;
+  border: 1px solid #d6c3a4;
+  border-radius: 15px;
+  background: rgba(251, 247, 239, .97);
+  box-shadow: 0 8px 26px rgba(46, 36, 24, .16);
+  backdrop-filter: blur(8px);
+}
+nav.site-nav .nav-item {
+  display: flex;
+  min-width: 0;
+  min-height: 64px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 6px 8px;
+  border: 0;
+  border-right: 1px solid #e4d8c5;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink-2);
+  font-size: .88rem;
+  transition: background-color .2s ease, color .2s ease, transform .2s ease;
+}
+nav.site-nav .nav-item:last-child { border-right: 0; }
+nav.site-nav .nav-item::after { display: none; }
+nav.site-nav .nav-item .icon { width: 27px; height: 27px; }
+nav.site-nav .nav-item:hover {
+  transform: translateY(-1px);
+  border-color: #e4d8c5;
+  background: #f3eadc;
+  color: var(--seal);
+  box-shadow: none;
+}
+nav.site-nav .nav-item.is-active {
+  margin: 0 6px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--seal);
+  color: #fff8ed;
+  box-shadow: 0 4px 12px rgba(112, 28, 22, .2);
+}
+nav.site-nav .nav-item.is-active .icon { filter: grayscale(1) brightness(0) invert(1); }
+
+.home-page > .container { max-width: 1080px; padding-top: 0; }
+.daily-section {
+  margin: 0 auto 30px;
+  padding: 24px 32px 28px;
+  border: 1px solid #c9ad83;
+  border-radius: 15px;
+  background: rgba(251, 247, 239, .92);
+  box-shadow: var(--shadow);
+}
+.daily-section::after { content: none; }
+.daily-header {
+  position: relative;
+  min-height: 40px;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.daily-header::after {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  left: 0;
+  height: 14px;
+  background: url("../../public/assets/images/cloud-divider.webp") center / 100% 100% no-repeat;
+  content: "";
+  opacity: .82;
+}
+.daily-header h2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--seal);
+  font-size: 1.25rem;
+  letter-spacing: .12em;
+}
+.daily-header h2 .icon { width: 26px; height: 26px; }
+.daily-header .date-label { padding-left: 14px; border-left: 1px solid #cbb99e; }
+.daily-card {
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.daily-card::before, .daily-card::after { content: none; }
+.daily-card:hover { border-color: transparent; box-shadow: none; transform: none; }
+.daily-card .card-top { margin-bottom: 0; }
+.daily-card .face-badge { padding: 3px 10px; font-size: .72rem; }
+.daily-card .daily-badge { margin-left: auto; padding: 3px 10px; border-radius: 99px; letter-spacing: .06em; }
+.daily-card .quote-text {
+  display: flex;
+  min-height: 138px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0 18px;
+  padding: 24px clamp(24px, 6vw, 72px);
+  border: 0;
+  border-radius: 0;
+  background-image:
+    linear-gradient(rgba(251, 247, 239, .65), rgba(251, 247, 239, .65)),
+    url("../../public/assets/images/quote-landscape.webp");
+  background-position: center, center;
+  background-size: 100% 100%, 100% 100%;
+  filter: drop-shadow(0 3px 5px rgba(68, 48, 27, .08));
+  color: #171a19;
+  text-align: center;
+  font-size: clamp(1.35rem, 2.7vw, 2rem);
+  line-height: 1.65;
+  letter-spacing: .08em;
+}
+.daily-card .quote-meta { margin: 0 0 10px; }
+.daily-card .quote-interp, .daily-card .quote-trans {
+  margin: 0 0 12px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(224, 215, 199, .42);
+}
+.daily-card .quote-interp { border-left: 0; }
+.daily-card .quote-tags > span { min-height: 30px; padding: 5px 12px; }
+
+.filter-bar {
+  margin-bottom: 30px;
+  padding: 18px 22px;
+  border: 1px solid #dfd3c1;
+  border-radius: 12px;
+  background: rgba(251, 247, 239, .88);
+  box-shadow: 0 4px 18px rgba(61, 46, 28, .06);
+}
+.filter-label { color: var(--seal); font-weight: 600; }
+.face-btn, .filter-select, .action-btn { border-radius: 8px; }
+.face-btn .icon, .action-btn .icon { width: 19px; height: 19px; margin-right: 4px; }
+.btn-reset { background: #e8e0d4; color: var(--ink-3); font-size: .82rem; }
+.btn-reset:hover { background: #ded3c3; color: var(--ink-1); }
+
+.topics-grid { margin: 2px 0 34px; }
+.section-title { color: var(--seal); }
+.section-title .icon { width: 21px; height: 21px; }
+.topic-card {
+  min-height: 126px;
+  border-color: #e1d5c4;
+  border-radius: 11px;
+  background: rgba(251, 247, 239, .9);
+}
+.topic-icon.icon { width: 38px; height: 38px; }
+.topic-card::before { content: none; }
+.quote-card { border-color: #ded2c0; border-radius: 12px; background: rgba(251, 247, 239, .94); }
+.quote-card::before { content: none; }
+.quote-card::after { opacity: .2; }
+.quote-card:hover::after { opacity: .42; }
+.quote-list { gap: 16px; }
+.count-info { letter-spacing: .04em; }
+footer { background: #252a28; }
+
+:focus-visible {
+  outline: 3px solid rgba(158, 36, 27, .55);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  header { min-height: 326px; padding: 40px 18px 72px; }
+  header h1 { gap: 8px; letter-spacing: .1em; }
+  header h1 .icon { width: 27px; height: 27px; }
+  nav.site-nav { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: -48px auto 26px; padding: 8px; }
+  nav.site-nav .nav-item { min-height: 58px; border-right: 0; font-size: .78rem; }
+  nav.site-nav .nav-item .icon { width: 23px; height: 23px; }
+  .home-page > .container { padding: 0 16px; }
+  .daily-section { padding: 18px 16px 20px; }
+  .daily-header { flex-wrap: wrap; gap: 8px; }
+  .daily-header .date-label { padding-left: 9px; }
+  .daily-card .quote-text { min-height: 122px; padding: 18px 26px; }
+  .quote-tags > span, .pair-tags > span,
+  .markdown-content strong ~ code { min-height: 29px; padding: 4px 11px; font-size: .8rem; }
+  .filter-bar { padding: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+
+/* Raster icon alignment inside metadata and tags */
+.quote-meta .icon, .quote-trans .icon, .quote-interp .icon { width: 17px; height: 17px; margin-right: 3px; }
+.quote-tags .icon { width: 14px; height: 14px; margin-right: 2px; padding: 0; border-radius: 0; background-color: transparent; vertical-align: -0.2em; }
+.daily-card .quote-interp .icon, .daily-card .quote-trans .icon { width: 18px; height: 18px; }
+.home-page > .container { max-width: 1000px; }
+.coin-icon { display: inline-block; width: 32px; height: 32px; }

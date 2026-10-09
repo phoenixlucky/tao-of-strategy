@@ -1,4 +1,4 @@
-/* 🌟 韬略之道 · 人物谱系图样式 */
+/* 韬略之道 · 人物谱系图样式 */
 
 /* ---- 谱系图容器 ---- */
 .lineage-wrapper {
@@ -177,10 +177,9 @@
 }
 
 .person-node .node-icon {
-  font-size: 1rem;
   flex-shrink: 0;
   width: 24px;
-  text-align: center;
+  height: 24px;
 }
 
 /* ---- SVG 连线层 ---- */

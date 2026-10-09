@@ -6,35 +6,30 @@
   <title>古籍全文检索 · 韬略之道</title>
   <meta name="description" content="在兵家、诸子、道家古籍原文中全文检索">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/icons.css">
 </head>
 <body>
   <header>
     <div class="ink-landscape"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="ink-particle"></div>
-    <div class="seal-stamp">道</div>
-    <h1><span class="jin">⚔</span> 韬略之道 <span class="bi">☯</span></h1>
+    <span class="seal-stamp icon icon--seal-stamp" aria-hidden="true"></span>
+    <h1><span class="icon icon--strategist" aria-hidden="true"></span> 韬略之道 <span class="icon icon--dao" aria-hidden="true"></span></h1>
     <p class="subtitle">Tao of Strategy — <em>The one coin with two sides: Wuwei &amp; War</em></p>
     <p class="slogan"><strong>以道观势，以兵成事。</strong></p>
   </header>
 
   <div class="container">
-    <nav>
-      <a href="index.html">🏠 首页</a>
-      <a href="people/bingjia/index.html">🏯 兵家</a>
-      <a href="people/daojia/index.html">☯️ 道家</a>
-      <a href="people/crossover/index.html">🔄 跨界</a>
-      <a href="comparison.html">🪙 对比</a>
-      <a href="lineage.html">🕸 谱系</a>
-      <a href="overview.html">📚 主题</a>
-      <a href="search.html" class="active">🔍 检索</a>
-      <a href="about.html">📖 关于</a>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="nav-item" href="/tao-of-strategy/"><span class="icon icon--home" aria-hidden="true"></span><span>首页</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/bingjia/index.html"><span class="icon icon--strategist" aria-hidden="true"></span><span>兵家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/daojia/index.html"><span class="icon icon--dao" aria-hidden="true"></span><span>道家</span></a>
+      <a class="nav-item" href="/tao-of-strategy/people/crossover/index.html"><span class="icon icon--crossover" aria-hidden="true"></span><span>跨界</span></a>
+      <a class="nav-item" href="/tao-of-strategy/comparison.html"><span class="icon icon--comparison" aria-hidden="true"></span><span>对比</span></a>
+      <a class="nav-item" href="/tao-of-strategy/overview.html"><span class="icon icon--topics" aria-hidden="true"></span><span>主题</span></a>
+      <a class="nav-item" href="/tao-of-strategy/about.html"><span class="icon icon--about" aria-hidden="true"></span><span>关于</span></a>
     </nav>
 
     <section class="search-section">
-      <h2 class="section-title">🔍 古籍全文检索</h2>
+      <h2 class="section-title"><span class="icon icon--search" aria-hidden="true"></span> 古籍全文检索</h2>
       <p class="search-hint">在殆知阁古籍原文（已繁简归一）中检索，覆盖兵家 / 诸子 / 道家。</p>
       <div class="search-groups" id="searchGroups"></div>
       <div class="search-row">
@@ -48,7 +43,7 @@
 
   <footer>
     <p>韬略之道 · Tao of Strategy — 一枚硬币的两面：无为与战争</p>
-    <p><a href="index.html">🏠 首页</a> · <a href="about.html">关于本项目</a></p>
+    <p><a href="/tao-of-strategy/">首页</a> · <a href="about.html">关于本项目</a></p>
   </footer>
 
   <script src="assets/js/search.js"></script>

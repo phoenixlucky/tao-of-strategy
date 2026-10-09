@@ -6,11 +6,11 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：新增黄石公、鬼谷子、谭峭、三十六计 | **34 位人物，共 679 条格言**
+> 数据更新日期：新增黄石公、鬼谷子、谭峭、三十六计、李筌、许洞、何去非、赵蕤、无能子、鹖冠子、刘安、揭暄、刘邵、亢仓子、尸佼 | **45 位人物，共 899 条格言**
 
 ## 人物统计
 
-### ⚔️🛡️ 兵家（共 15 人，300 条格言）
+### ⚔️🛡️ 兵家（共 19 人，380 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -29,8 +29,12 @@ description: 人物统计、格言数、Roadmap 进度
 | [黄石公](people/bingjia/huangshigong.html) | 《三略》《素书》 | 20 |
 | [鬼谷子](people/bingjia/guiguzi.html) | 《鬼谷子》 | 20 |
 | [三十六计](people/bingjia/sanshiliuji.html) | 《三十六计》（佚名） | 20 |
+| [李筌](people/bingjia/liquan.html) | 《太白阴经》 | 20 |
+| [许洞](people/bingjia/xudong.html) | 《虎钤经》 | 20 |
+| [何去非](people/bingjia/hequfei.html) | 《何博士备论》 | 20 |
+| [揭暄](people/bingjia/jiexuan.html) | 《兵经百言》 | 20 |
 
-### ☯️ 道家（共 10 人，200 条格言）
+### ☯️ 道家（共 14 人，280 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -44,8 +48,12 @@ description: 人物统计、格言数、Roadmap 进度
 | [陶渊明](people/daojia/taoyuanming.html) | 《桃花源记》 | 20 |
 | [嵇康](people/daojia/jikang.html) | 《声无哀乐论》 | 20 |
 | [谭峭](people/daojia/tanqiao.html) | 《化书》 | 20 |
+| [无能子](people/daojia/wunengzi.html) | 《无能子》 | 20 |
+| [鹖冠子](people/daojia/heguanzi.html) | 《鹖冠子》 | 20 |
+| [刘安](people/daojia/liuan.html) | 《淮南子》 | 20 |
+| [亢仓子](people/daojia/kangcangzi.html) | 《亢仓子》 | 20 |
 
-### 🔄 跨界者（共 9 人，179 条格言）
+### 🔄 跨界者（共 12 人，239 条格言）
 
 | 人物 | 核心著作 | 格言 | 跨界特色 |
 |------|---------|------|---------|
@@ -58,6 +66,9 @@ description: 人物统计、格言数、Roadmap 进度
 | [郭子仪](people/crossover/guoziyi.html) | —（以功业闻名） | 20 | 功盖一代而主不疑 |
 | [荀子](people/crossover/xunzi.html) | 《荀子》 | 20 | 性恶论者亦论兵亦修道 |
 | [轩辕黄帝](people/crossover/huangdi.html) | 《黄帝阴符经》《内经》 | 20 | 征战与修道合一的始祖 |
+| [赵蕤](people/crossover/zhaorui.html) | 《长短经》 | 20 | 王霸并用，长短权变 |
+| [刘邵](people/crossover/liushao.html) | 《人物志》 | 20 | 观人察质，先察平淡 |
+| [尸佼](people/crossover/shijiao.html) | 《尸子》 | 20 | 砺剑不如砺身，杂采诸家 |
 
 ## 主题聚合（共 6 个主题）
 
@@ -72,7 +83,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 格言总数
 
-**当前总计：679 条**（34 位人物，完整 quotes.json）
+**当前总计：899 条**（45 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -80,14 +91,14 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 当前 679 条（34 位人物）|
+| [📦 结构化数据](quotes/quotes.json) | 当前 899 条（45 位人物）|
 | [🔍 古籍全文检索](search.html) | 兵家 / 诸子 / 道家原文检索 |
 
 ## Roadmap
 
 - ✅ 30 位人物，全部 20 条
 - ✅ 6 个主题聚合
-- ✅ quotes.json 已至 679 条（新增黄石公、鬼谷子、谭峭、三十六计）
+- ✅ quotes.json 已至 899 条（新增黄石公、鬼谷子、谭峭、三十六计、李筌、许洞、何去非、赵蕤、无能子、鹖冠子、刘安、揭暄、刘邵、亢仓子、尸佼）
 - ✅ 古籍全文检索（兵家/诸子/道家）
 - ✅ 全量校对报告（tools/audit-report.md）
 - 🚧 更多主题持续扩展

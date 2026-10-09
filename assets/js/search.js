@@ -1,4 +1,4 @@
-/* 🔍 古籍全文检索 — 零依赖，按分组懒加载 */
+/* 古籍全文检索 — 零依赖，按分组懒加载 */
 
 const GROUPS = [];          // [{group, books, paras}]
 let current = null;         // 当前分组名
@@ -68,10 +68,10 @@ async function doSearch() {
     if (hits.length >= MAX) break;
   }
   $("searchMeta").textContent = `「${q}」在 ${current}：命中 ${hits.length}${hits.length >= MAX ? "+" : ""} 段（扫描 ${scanned} 段）`;
-  if (!hits.length) { box.innerHTML = `<div class="quote-card" style="text-align:center;color:var(--text-muted);padding:32px;">📭 未找到「${esc(q)}」</div>`; return; }
+  if (!hits.length) { box.innerHTML = `<div class="quote-card" style="text-align:center;color:var(--text-muted);padding:32px;"><span class="icon icon--search" aria-hidden="true"></span> 未找到「${esc(q)}」</div>`; return; }
   box.innerHTML = hits.map((h) =>
     `<div class="quote-card search-hit">
-       <div class="quote-meta"><span>📖 ${esc(h.title)}</span><span class="src">${esc(h.file)}</span></div>
+       <div class="quote-meta"><span><span class="icon icon--about" aria-hidden="true"></span> ${esc(h.title)}</span><span class="src">${esc(h.file)}</span></div>
        <div class="quote-text">${snippet(h.text, q)}</div>
      </div>`
   ).join("");
@@ -86,7 +86,7 @@ async function init() {
     renderGroups();
     await selectGroup(current);
   } catch (e) {
-    $("searchMeta").textContent = "⚠️ 索引加载失败，请先生成 search/ 索引";
+    $("searchMeta").textContent = "索引加载失败，请先生成 search/ 索引";
   }
   const inp = $("searchInput");
   inp.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(doSearch, 200); });

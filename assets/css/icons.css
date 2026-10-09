@@ -1,0 +1,26 @@
+/* Project illustration icon library. Icons are cropped raster WebP assets under public/assets/icons/. */
+.icon {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  vertical-align: -0.16em;
+}
+.icon--home { background-image: url("../../public/assets/icons/home.webp"); }
+.icon--strategist { background-image: url("../../public/assets/icons/strategist.webp"); }
+.icon--dao { background-image: url("../../public/assets/icons/dao.webp"); }
+.icon--crossover { background-image: url("../../public/assets/icons/crossover.webp"); }
+.icon--comparison { background-image: url("../../public/assets/icons/comparison.webp"); }
+.icon--topics { background-image: url("../../public/assets/icons/topics.webp"); }
+.icon--about { background-image: url("../../public/assets/icons/about.webp"); }
+.icon--search { background-image: url("../../public/assets/icons/search.webp"); }
+.icon--grid { background-image: url("../../public/assets/icons/grid.webp"); }
+.icon--calendar { background-image: url("../../public/assets/icons/calendar.webp"); }
+.icon--scholar { background-image: url("../../public/assets/icons/scholar.webp"); }
+.icon--seal { background-image: url("../../public/assets/icons/seal.webp"); }
+.icon--seal-stamp { background-image: url("../../public/assets/icons/seal-stamp.webp"); }
+.icon--light { background-image: url("../../public/assets/icons/light.webp"); }
+.icon--knot { background-image: url("../../public/assets/icons/knot.webp"); }

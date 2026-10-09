@@ -92,6 +92,10 @@
 | [黄石公](people/bingjia/huangshigong.md) | 《三略》《素书》 |
 | [鬼谷子](people/bingjia/guiguzi.md) | 《鬼谷子》 |
 | [三十六计](people/bingjia/sanshiliuji.md) | 《三十六计》 |
+| [李筌](people/bingjia/liquan.md) | 《太白阴经》 |
+| [许洞](people/bingjia/xudong.md) | 《虎钤经》 |
+| [何去非](people/bingjia/hequfei.md) | 《何博士备论》 |
+| [揭暄](people/bingjia/jiexuan.md) | 《兵经百言》 |
 
 ### ☯️ 道家人物（避世面）
 
@@ -103,6 +107,10 @@
 | [文子](people/daojia/wenzi.md) | 《文子》 |
 | [河上公](people/daojia/heshanggong.md) | 《老子河上公章句》 |
 | [谭峭](people/daojia/tanqiao.md) | 《化书》 |
+| [无能子](people/daojia/wunengzi.md) | 《无能子》 |
+| [鹖冠子](people/daojia/heguanzi.md) | 《鹖冠子》 |
+| [刘安](people/daojia/liuan.md) | 《淮南子》 |
+| [亢仓子](people/daojia/kangcangzi.md) | 《亢仓子》 |
 
 ### 🔄 跨界人物（一体两面）
 
@@ -113,6 +121,9 @@
 | [诸葛亮](people/crossover/zhugeliang.md) | 淡泊明志 + 六出祁山 |
 | [刘伯温](people/crossover/liubowen.md) | 开国谋臣 + 归隐寓言 |
 | [王阳明](people/crossover/wangyangming.md) | 心学宗师 + 平定宁王 |
+| [赵蕤](people/crossover/zhaorui.md) | 王霸并用 + 长短权变 |
+| [刘邵](people/crossover/liushao.md) | 知人善任 + 中和养德 |
+| [尸佼](people/crossover/shijiao.md) | 杂采诸家 + 立身治道 |
 
 ### 📚 主题聚合
 
@@ -131,7 +142,7 @@
 | [🪙 反者道之动 · 对比](comparison.html) | 兵家进取 vs 道家避世，8 组精选对比 + 随机配对 |
 | [📈 项目总览](overview.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](about.md) | 哲学、核心特色、标签体系 |
-| [📦 结构化数据](quotes/quotes.json) | 679 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 899 条格言 JSON 数据 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
 
 ### 💻 部署为 GitHub Pages
@@ -151,7 +162,7 @@ git push -u origin main
 | [📈 项目总览](总览.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](关于.md) | 哲学、核心特色、标签体系 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
-| [📦 结构化数据](quotes/quotes.json) | 679 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 899 条格言 JSON 数据 |
 
 ---
 

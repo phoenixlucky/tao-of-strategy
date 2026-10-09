@@ -68,3 +68,10 @@
 2. **样式丢失** → 检查路径是 `/tao-of-strategy/assets/css/style.css`
 3. **表格不渲染** → 检查 `.md` 文件有 frontmatter（`---`）且有 `layout: default`
 4. **中文乱码** → 确保文件保存为 UTF-8
+
+## 图片与图标资源规范
+
+- 新增配图统一放在 `public/assets/images/`，绘制图标统一放在 `public/assets/icons/`。
+- 网页引用的图片统一使用 WebP；图标使用项目自绘的栅格 WebP 图标库，不使用 SVG、Emoji 或字符图形代替。
+- 新增图标先按页面所需绘制并加入图标库，再由页面通过统一的 `.icon--{name}` 类引用。
+- 字体文件统一放在 `public/assets/fonts/`；更新格言或页面文案时，需同步更新网站字体子集，确保新增中文字形可用。

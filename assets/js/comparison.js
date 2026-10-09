@@ -140,7 +140,7 @@ function buildPairCard(pair) {
   // Header
   const header = document.createElement('div');
   header.className = 'pair-header';
-  header.innerHTML = `🪙 ${pair.title}`;
+  header.innerHTML = `<span class="icon icon--comparison" aria-hidden="true"></span> ${pair.title}`;
   card.appendChild(header);
 
   // Body
@@ -149,13 +149,13 @@ function buildPairCard(pair) {
 
   // Left side
   if (flipped) {
-    body.appendChild(buildSide(pair.bi, 'bi', '☯️ 避世面·道家'));
+    body.appendChild(buildSide(pair.bi, 'bi', '避世面·道家'));
     // Right side
-    body.appendChild(buildSide(pair.jin, 'jin', '⚔️ 进取面·兵家'));
+    body.appendChild(buildSide(pair.jin, 'jin', '进取面·兵家'));
   } else {
-    body.appendChild(buildSide(pair.jin, 'jin', '⚔️ 进取面·兵家'));
+    body.appendChild(buildSide(pair.jin, 'jin', '进取面·兵家'));
     // Right side
-    body.appendChild(buildSide(pair.bi, 'bi', '☯️ 避世面·道家'));
+    body.appendChild(buildSide(pair.bi, 'bi', '避世面·道家'));
   }
 
   card.appendChild(body);
@@ -163,7 +163,7 @@ function buildPairCard(pair) {
   // Insight footer
   const footer = document.createElement('div');
   footer.style.cssText = 'padding:16px 24px;background:#f8f6f2;border-top:1px solid var(--border);font-size:0.88rem;color:var(--text);line-height:1.7;border-radius:0 0 14px 14px;';
-  footer.innerHTML = `<strong>💡 一体两面</strong>：${pair.insight}`;
+  footer.innerHTML = `<strong><span class="icon icon--dao" aria-hidden="true"></span> 一体两面</strong>：${pair.insight}`;
   card.appendChild(footer);
 
   return card;
@@ -175,7 +175,7 @@ function buildSide(data, faceClass, labelText) {
 
   const label = document.createElement('span');
   label.className = `pair-side-label label-${faceClass}`;
-  label.textContent = labelText;
+  label.innerHTML = `<span class="icon icon--${faceClass === 'jin' ? 'strategist' : 'dao'}" aria-hidden="true"></span> ${labelText}`;
   side.appendChild(label);
 
   const text = document.createElement('div');
@@ -197,7 +197,12 @@ function buildSide(data, faceClass, labelText) {
   tags.className = 'pair-tags';
   data.tags.forEach(t => {
     const span = document.createElement('span');
-    span.textContent = `#${t}`;
+    const hash = document.createElement('span');
+    hash.className = 'tag-hash';
+    hash.textContent = '#';
+    const label = document.createElement('span');
+    label.textContent = t;
+    span.append(hash, label);
     tags.appendChild(span);
   });
   side.appendChild(tags);
@@ -218,8 +223,8 @@ function flipComparison() {
   flipped = !flipped;
   const pair = currentComparison;
   // Reset title each time — the visual swap speaks for itself
-  pair.title = pair.title.replace(' 🔄 翻转', '');
-  if (flipped) pair.title = pair.title + ' 🔄 翻转';
+  pair.title = pair.title.replace(' 翻转', '');
+  if (flipped) pair.title = pair.title + ' 翻转';
   const container = document.getElementById('comparisonContainer');
   container.innerHTML = '';
   container.appendChild(buildPairCard(pair));
@@ -240,7 +245,7 @@ async function autoCompare() {
     const bi = biQuotes[Math.floor(Math.random() * biQuotes.length)];
 
     const autoPair = {
-      title: `🎲 随机配对：${jin.titleEn || '进取'} ↔ ${bi.titleEn || '避世'}`,
+      title: `随机配对：${jin.titleEn || '进取'} ↔ ${bi.titleEn || '避世'}`,
       jin: {
         text: jin.text,
         source: jin.source,
@@ -264,7 +269,7 @@ async function autoCompare() {
     container.innerHTML = '';
     container.appendChild(buildPairCard(autoPair));
     currentComparison = autoPair;
-    document.getElementById('pairCount').textContent = '🎲 随机配对';
+    document.getElementById('pairCount').textContent = '随机配对';
 
   } catch (e) {
     document.getElementById('comparisonContainer').innerHTML =
