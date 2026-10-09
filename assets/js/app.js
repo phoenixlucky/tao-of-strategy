@@ -70,7 +70,9 @@ function personDisplayName(id) {
     liubowen:'刘伯温', wangyangming:'王阳明',
     'zeng-guofan':'曾国藩', guoziyi:'郭子仪', xunzi:'荀子', huangdi:'轩辕黄帝',
 
-    huangshigong:'黄石公', guiguzi:'鬼谷子'
+    huangshigong:'黄石公', guiguzi:'鬼谷子',
+
+    tanqiao:'谭峭', sanshiliuji:'三十六计'
   }; return m[id] || id;
 }
 

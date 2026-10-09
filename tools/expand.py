@@ -163,11 +163,13 @@ QUOTES = {
 }
 
 
-def build():
+def build(people=None, quotes=None):
+    people = people or PEOPLE
+    quotes = quotes or QUOTES
     data = json.load(open(QP, encoding="utf-8"))
     existing = {q["id"] for q in data["quotes"]}
     added = 0
-    for pid, items in QUOTES.items():
+    for pid, items in quotes.items():
         for n, text, source, face, tags, trans, interp in items:
             qid = f"{pid}-{n}"
             if qid in existing:
@@ -182,7 +184,7 @@ def build():
     json.dump(data, open(QP, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"quotes.json: +{added} -> total {len(data['quotes'])}")
 
-    for pid, p in PEOPLE.items():
+    for pid, p in people.items():
         lines = ["---",
                  f"name: {p['name']}", f"name_en: {p['name_en']}",
                  f"born: {p['born']}", f"died: {p['died']}",
@@ -190,7 +192,7 @@ def build():
                  f"core_text: {p['core_text']}",
                  f"tags: [{', '.join(p['tags'])}]",
                  "---", "", "## 生平掠影", "", p["bio"], "", "---", "", "## 核心格言", ""]
-        for n, text, source, face, tags, trans, interp in QUOTES[pid]:
+        for n, text, source, face, tags, trans, interp in quotes[pid]:
             lines += [f"### 格言{n}", "",
                       f"- **原文**：{text}",
                       f"- **出处**：{source}",

@@ -6,11 +6,11 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：新增黄石公、鬼谷子 | **32 位人物，共 639 条格言**
+> 数据更新日期：新增黄石公、鬼谷子、谭峭、三十六计 | **34 位人物，共 679 条格言**
 
 ## 人物统计
 
-### ⚔️🛡️ 兵家（共 14 人，280 条格言）
+### ⚔️🛡️ 兵家（共 15 人，300 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -28,8 +28,9 @@ description: 人物统计、格言数、Roadmap 进度
 | [白起](people/bingjia/baiqi.html) | —（无专著） | 20 |
 | [黄石公](people/bingjia/huangshigong.html) | 《三略》《素书》 | 20 |
 | [鬼谷子](people/bingjia/guiguzi.html) | 《鬼谷子》 | 20 |
+| [三十六计](people/bingjia/sanshiliuji.html) | 《三十六计》（佚名） | 20 |
 
-### ☯️ 道家（共 9 人，180 条格言）
+### ☯️ 道家（共 10 人，200 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -42,6 +43,7 @@ description: 人物统计、格言数、Roadmap 进度
 | [葛洪](people/daojia/gehong.html) | 《抱朴子》 | 20 |
 | [陶渊明](people/daojia/taoyuanming.html) | 《桃花源记》 | 20 |
 | [嵇康](people/daojia/jikang.html) | 《声无哀乐论》 | 20 |
+| [谭峭](people/daojia/tanqiao.html) | 《化书》 | 20 |
 
 ### 🔄 跨界者（共 9 人，179 条格言）
 
@@ -70,7 +72,7 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 格言总数
 
-**当前总计：639 条**（32 位人物，完整 quotes.json）
+**当前总计：679 条**（34 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -78,14 +80,14 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 当前 639 条（32 位人物）|
+| [📦 结构化数据](quotes/quotes.json) | 当前 679 条（34 位人物）|
 | [🔍 古籍全文检索](search.html) | 兵家 / 诸子 / 道家原文检索 |
 
 ## Roadmap
 
 - ✅ 30 位人物，全部 20 条
 - ✅ 6 个主题聚合
-- ✅ quotes.json 已至 639 条（新增黄石公、鬼谷子）
+- ✅ quotes.json 已至 679 条（新增黄石公、鬼谷子、谭峭、三十六计）
 - ✅ 古籍全文检索（兵家/诸子/道家）
 - ✅ 全量校对报告（tools/audit-report.md）
 - 🚧 更多主题持续扩展
