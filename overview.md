@@ -10,14 +10,14 @@ description: 人物统计、格言数、Roadmap 进度
 
 ## 人物统计
 
-### ⚔️🛡️ 兵家（共 25 人，518 条格言）
+### ⚔️🛡️ 兵家（共 25 人，527 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
 | [孙子](people/bingjia/sunzi.html) | 《孙子兵法》 | 20 |
 | [吴起](people/bingjia/wuzi.html) | 《吴子》 | 20 |
 | [孙膑](people/bingjia/sunbin.html) | 《孙膑兵法》 | 20 |
-| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 38 |
+| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 47 |
 | [曹操](people/bingjia/caocao.html) | 注《孙子》 | 20 |
 | [李靖](people/bingjia/lijing.html) | 《唐太宗李卫公问对》 | 20 |
 | [韩信](people/bingjia/hanxin.html) | 《韩信兵法》（已佚） | 20 |
@@ -92,19 +92,19 @@ description: 人物统计、格言数、Roadmap 进度
 
 | 主题 | 核心命题 | 关联人物 |
 |------|---------|---------|
-| [☯ 柔与刚](topics/rou-gang.html) | 常胜之道曰柔 | 老子、孙子、列子、尉缭子、李靖 |
-| [⚔ 先与后](topics/xian-yu-hou.html) | 先唱者穷，后动者达 | 孙子、范蠡、文子、尉缭子、刘伯温 |
-| [🔄 有为与无为](topics/youwei-wuwei.html) | 道常无为而无不为 | 老子、孙子、李靖、王阳明 |
-| [🛡 全与破](topics/quan-yu-po.html) | 全国为上，破国次之 | 孙子、司马穰苴、庄子、刘伯温 |
-| [🌀 虚与实](topics/xu-yu-shi.html) | 兵之形避实而击虚 | 老子、孙子、孙膑、庄子 |
-| [🎯 奇与正](topics/qi-yu-zheng.html) | 以正合，以奇胜 | 老子、孙子、孙膑、尉缭子、韩信、李靖 |
-| [☯️ 争与不争](topics/zheng-yu-bu-zheng.html) | 不战而屈人之兵 | 老子、孙子、文子、尉缭子 |
-| [⚖️ 知足与进取](topics/zhi-zu-yu-jin-qu.html) | 知止不殆，择势而行 | 老子、孙子 |
-| [🧭 进与退](topics/jin-yu-tui.html) | 进退有度，功成身退 | 吴起、尉缭子、郭子仪 |
+| [☯ 柔与刚](topics/rou-gang.html) | 常胜之道曰柔 | 老子、列子、文子、庄子、孙子、尉缭子、黄石公、刘安、李靖 |
+| [⚔ 先与后](topics/xian-yu-hou.html) | 先唱者穷，后动者达 | 老子、文子、范蠡、孙子、尉缭子、鬼谷子、三十六计、韩信、刘伯温 |
+| [🔄 有为与无为](topics/youwei-wuwei.html) | 道常无为而无不为 | 老子、文子、河上公、孙子、尉缭子、王真、慎到、张良、李靖、王阳明 |
+| [🛡 全与破](topics/quan-yu-po.html) | 全国为上，破国次之 | 孙子、尉缭子、揭暄、王真、李靖、孙膑、司马穰苴、范蠡、刘伯温、老子、庄子 |
+| [🌀 虚与实](topics/xu-yu-shi.html) | 兵之形避实而击虚 | 孙子、孙膑、尉缭子、鬼谷子、刘安、韩信、老子、庄子 |
+| [🎯 奇与正](topics/qi-yu-zheng.html) | 以正合，以奇胜 | 孙子、孙膑、尉缭子、三十六计、韩信、李靖、老子 |
+| [☯️ 争与不争](topics/zheng-yu-bu-zheng.html) | 不战而屈人之兵 | 孙子、尉缭子、王真、揭暄、老子、文子 |
+| [⚖️ 知足与进取](topics/zhi-zu-yu-jin-qu.html) | 知止不殆，择势而行 | 孙子、尉缭子、张良、黄石公、老子 |
+| [🧭 进与退](topics/jin-yu-tui.html) | 进退有度，功成身退 | 吴起、尉缭子、王真、揭暄、刘伯温、郭子仪、范蠡 |
 
 ## 格言总数
 
-**当前总计：1277 条**（63 位人物，完整 quotes.json）
+**当前总计：1286 条**（63 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -112,7 +112,7 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 当前 1277 条（63 位人物）|
+| [📦 结构化数据](quotes/quotes.json) | 当前 1286 条（63 位人物）|
 | [🔍 古籍全文检索](search.html) | 兵家 / 诸子 / 道家原文检索 |
 
 ## Roadmap

@@ -349,6 +349,87 @@ tags: [进取, 庙算, 治国, 法治]
 - **一面解读**：进取面——独立自主、择势而行。避世面：不倚外物。
 - **标签**：`进取` `任势` `庙算`
 
+### 格言44
+
+- **原文**：夫民无两畏也，畏我侮敌，畏敌侮我。见侮者败，立威者胜。
+- **出处**：《尉缭子·攻权》
+- **译文**：百姓没有两头都畏惧的：畏惧我就轻侮敌人，畏惧敌人就轻侮我。被轻侮的败，立威的胜。
+- **英文翻译**：The people cannot fear both sides at once: if they fear me they slight the enemy; if they fear the enemy they slight me. He who is slighted fails; he who establishes authority wins.
+- **一面解读**：进取面——立威则胜。避世面：威由法立、爱由恩生，刚柔一体。
+- **标签**：`进取` `形势` `任势`
+
+### 格言45
+
+- **原文**：先料敌而后动，是以击虚夺之也。
+- **出处**：《尉缭子·战威》
+- **译文**：先审察敌情而后行动，所以能击其虚弱、夺其气势。
+- **英文翻译**：Assess the enemy first, then move — thus you strike his weakness and seize his momentum.
+- **一面解读**：进取面——先料后动。避世面：不妄动。
+- **标签**：`进取` `庙算` `虚实`
+
+### 格言46
+
+- **原文**：故上无疑令，则众不二听；动无疑事，则众不二志。
+- **出处**：《尉缭子·战威》
+- **译文**：所以君主没有可疑之令，众人就不会有第二种听从；行动没有可疑之事，众人就不会有第二种心志。
+- **英文翻译**：When the ruler issues no doubtful orders, the people do not listen twice; when he acts with no doubtful affairs, the people do not hold two minds.
+- **一面解读**：转化面——避世面：令一而不扰，近于无为而治。进取面：上下同欲。
+- **标签**：`转化` `治国` `无为`
+
+### 格言47
+
+- **原文**：兵不血刃，而天下亲焉。
+- **出处**：《尉缭子·武议》
+- **译文**：兵不血刃，天下就亲附。
+- **英文翻译**：The blade is not blooded, yet all under heaven draw near.
+- **一面解读**：转化面——进取面：不战而天下归。避世面：止戈为武。
+- **标签**：`转化` `全胜` `治国`
+
+### 格言48
+
+- **原文**：战不必胜，不可以言战；攻不必拔，不可以言攻。
+- **出处**：《尉缭子·攻权》
+- **译文**：战不能必胜，就不可以言战；攻不能必拔，就不可以言攻。
+- **英文翻译**：If battle is not certain to be won, one may not speak of battle; if the attack is not certain to succeed, one may not speak of attack.
+- **一面解读**：进取面——审胜而后动。避世面：不妄战。
+- **标签**：`进取` `庙算` `虚实`
+
+### 格言49
+
+- **原文**：方亦胜，圆亦胜，错斜亦胜，临险亦胜。
+- **出处**：《尉缭子·勒卒令》
+- **译文**：方阵也胜，圆阵也胜，斜阵也胜，临险也胜。
+- **英文翻译**：Victory in square, in circle, in oblique order, and even on dangerous ground.
+- **一面解读**：进取面——阵法应变无穷。避世面：随形制变。
+- **标签**：`进取` `形势` `权变`
+
+### 格言50
+
+- **原文**：兵有五致：为将忘家，逾垠忘亲，指敌忘身，必死则生，急胜为下。
+- **出处**：《尉缭子·兵教下》
+- **译文**：用兵有五条极致：做将忘家，越境忘亲，临敌忘身，必死则生，急于求胜为下。
+- **英文翻译**：There are five extremes in war: as general, forget your family; crossing the border, forget your kin; facing the enemy, forget yourself; to dare death is to live; to crave quick victory is the lowest.
+- **一面解读**：进取面——忘身以进取。避世面：「必死则生」近于置之死地而后生。
+- **标签**：`进取` `修身` `全胜`
+
+### 格言51
+
+- **原文**：兵者，所以诛乱禁不义也。
+- **出处**：《尉缭子·武议》
+- **译文**：用兵，是为了诛除暴乱、禁止不义。
+- **英文翻译**：The army exists to suppress disorder and forbid injustice.
+- **一面解读**：转化面——进取面：兵以禁不义。避世面：义兵乃近于不争。
+- **标签**：`转化` `不争` `全胜`
+
+### 格言52
+
+- **原文**：凡兴师，必审内外之权，以计其去。
+- **出处**：《尉缭子·兵教下》
+- **译文**：凡兴兵，必须审察内外的权衡，来算计进退去留。
+- **英文翻译**：In raising an army, one must weigh the balance within and without, and reckon the going.
+- **一面解读**：避世面——审权而后动，近于知止。进取面：计定而兴师。
+- **标签**：`避世` `庙算` `知足`
+
 ---
 
 ## 后世评注与关联
