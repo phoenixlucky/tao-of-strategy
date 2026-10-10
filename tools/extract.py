@@ -5,12 +5,10 @@ sys.path.insert(0, os.path.dirname(__file__))
 import proofread as P
 
 BOOKS = {
-    "qiankun":    "子藏/兵家/乾坤大略.txt",
-    "shenzi":     "子藏/诸子/慎子.txt",
-    "zihuazi":    "子藏/诸子/子华子.txt",
-    "wenzhongzi": "子藏/诸子/文中子中说.txt",
-    "lvbuwei":    "子藏/诸子/吕氏春秋.txt",
-    "caolujinglue": "子藏/兵家/草庐经略.txt",
+    "shoucheng":  "史藏/志存记录/守城录.txt",
+    "jianshu":    "子藏/兵家/间书.txt",
+    "binglei":    "子藏/兵家/兵垒.txt",
+    "yuzi":       "道藏/正统道藏太清部/鬻子.txt",
 }
 BAD = re.compile(r"钦定|四库|提要|卷第|臣等谨案|一作|音释|篇第|目录")
 

@@ -1108,7 +1108,9 @@ nav.site-nav .nav-item.is-active .icon { filter: grayscale(1) brightness(0) inve
 .btn-reset { background: #e8e0d4; color: var(--ink-3); font-size: .82rem; }
 .btn-reset:hover { background: #ded3c3; color: var(--ink-1); }
 
-.topics-grid { margin: 2px 0 34px; }
+.topics-grid { margin: 2px 0 18px; }
+.quote-filter-bar { margin-bottom: 12px; }
+.random-action { display: flex; justify-content: center; margin: 0 0 12px; }
 .section-title { color: var(--seal); }
 .section-title .icon { width: 21px; height: 21px; }
 .topic-card {

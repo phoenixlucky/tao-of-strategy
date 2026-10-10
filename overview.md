@@ -6,18 +6,18 @@ description: 人物统计、格言数、Roadmap 进度
 
 # 项目总览
 
-> 数据更新日期：新增黄石公、鬼谷子、谭峭、三十六计、李筌、许洞、何去非、赵蕤、无能子、鹖冠子、刘安、揭暄、刘邵、亢仓子、尸佼、慎到、王余佑、子华子 | **48 位人物，共 959 条格言**
+> 数据更新日期：已扩充至 63 位人物 | **63 位人物，共 1277 条格言**（30 位原有人物 + 33 位新增；尉缭子据 phoenixlucky/weiliaozi 权威版补入 18 条主题格言）
 
 ## 人物统计
 
-### ⚔️🛡️ 兵家（共 20 人，400 条格言）
+### ⚔️🛡️ 兵家（共 25 人，518 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
 | [孙子](people/bingjia/sunzi.html) | 《孙子兵法》 | 20 |
 | [吴起](people/bingjia/wuzi.html) | 《吴子》 | 20 |
 | [孙膑](people/bingjia/sunbin.html) | 《孙膑兵法》 | 20 |
-| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 20 |
+| [尉缭](people/bingjia/weiliao.html) | 《尉缭子》 | 38 |
 | [曹操](people/bingjia/caocao.html) | 注《孙子》 | 20 |
 | [李靖](people/bingjia/lijing.html) | 《唐太宗李卫公问对》 | 20 |
 | [韩信](people/bingjia/hanxin.html) | 《韩信兵法》（已佚） | 20 |
@@ -34,8 +34,13 @@ description: 人物统计、格言数、Roadmap 进度
 | [何去非](people/bingjia/hequfei.html) | 《何博士备论》 | 20 |
 | [揭暄](people/bingjia/jiexuan.html) | 《兵经百言》 | 20 |
 | [王余佑](people/bingjia/wangyuyou.html) | 《乾坤大略》 | 20 |
+| [草庐经略](people/bingjia/caolujinglue.html) | 《草庐经略》（佚名） | 20 |
+| [何良臣](people/bingjia/heliangchen.html) | 《阵纪》 | 20 |
+| [投笔肤谈](people/bingjia/toubishitan.html) | 《投笔肤谈》（佚名） | 20 |
+| [兵垒](people/bingjia/binglei.html) | 《兵垒》（佚名） | 20 |
+| [朱逢甲](people/bingjia/zhufengjia.html) | 《间书》 | 20 |
 
-### ☯️ 道家（共 15 人，300 条格言）
+### ☯️ 道家（共 18 人，360 条格言）
 
 | 人物 | 核心著作 | 格言 |
 |------|---------|------|
@@ -54,8 +59,11 @@ description: 人物统计、格言数、Roadmap 进度
 | [刘安](people/daojia/liuan.html) | 《淮南子》 | 20 |
 | [亢仓子](people/daojia/kangcangzi.html) | 《亢仓子》 | 20 |
 | [子华子](people/daojia/zihuazi.html) | 《子华子》 | 20 |
+| [尹文子](people/daojia/yinwenzi.html) | 《尹文子》 | 20 |
+| [刘昼](people/daojia/liuzhou.html) | 《刘子》 | 20 |
+| [鬻子](people/daojia/yuzi.html) | 《鬻子》 | 20 |
 
-### 🔄 跨界者（共 13 人，259 条格言）
+### 🔄 跨界者（共 20 人，399 条格言）
 
 | 人物 | 核心著作 | 格言 | 跨界特色 |
 |------|---------|------|---------|
@@ -72,21 +80,31 @@ description: 人物统计、格言数、Roadmap 进度
 | [刘邵](people/crossover/liushao.html) | 《人物志》 | 20 | 观人察质，先察平淡 |
 | [尸佼](people/crossover/shijiao.html) | 《尸子》 | 20 | 砺剑不如砺身，杂采诸家 |
 | [慎到](people/crossover/shenzi.html) | 《慎子》 | 20 | 尚法重势，道法转关 |
+| [商鞅](people/crossover/shangzi.html) | 《商君书》 | 20 | 变法图强，农战立国 |
+| [王通](people/crossover/wenzhongzi.html) | 《中说》 | 20 | 儒道兼综，河汾王氏 |
+| [王真](people/crossover/wangzhen.html) | 《道德经论兵要义述》 | 20 | 以道论兵，无为弭兵 |
+| [王充](people/crossover/wangchong.html) | 《论衡》 | 20 | 疾虚妄，论遇命累害 |
+| [颜之推](people/crossover/yanshi.html) | 《颜氏家训》 | 20 | 修身齐家，儒道兼采 |
+| [唐甄](people/crossover/qianshu.html) | 《潜书》 | 20 | 定乱除暴，仁义事功 |
+| [萧绎](people/crossover/jinlouzi.html) | 《金楼子》 | 20 | 帝王杂家，戒速成 |
 
-## 主题聚合（共 6 个主题）
+## 主题聚合（共 9 个主题）
 
 | 主题 | 核心命题 | 关联人物 |
 |------|---------|---------|
-| [☯ 柔与刚](topics/rou-gang.html) | 常胜之道曰柔 | 老子、列子、孙子、李靖 |
-| [⚔ 先与后](topics/xian-yu-hou.html) | 先唱者穷，后动者达 | 文子、孙子、范蠡、刘伯温 |
-| [🔄 有为与无为](topics/youwei-wuwei.html) | 道常无为而无不为 | 老子、孙子、王阳明、李靖 |
+| [☯ 柔与刚](topics/rou-gang.html) | 常胜之道曰柔 | 老子、孙子、列子、尉缭子、李靖 |
+| [⚔ 先与后](topics/xian-yu-hou.html) | 先唱者穷，后动者达 | 孙子、范蠡、文子、尉缭子、刘伯温 |
+| [🔄 有为与无为](topics/youwei-wuwei.html) | 道常无为而无不为 | 老子、孙子、李靖、王阳明 |
 | [🛡 全与破](topics/quan-yu-po.html) | 全国为上，破国次之 | 孙子、司马穰苴、庄子、刘伯温 |
-| [🌀 虚与实](topics/xu-yu-shi.html) | 兵之形避实而击虚 | 孙子、孙膑、老子、庄子 |
-| [🎯 奇与正](topics/qi-yu-zheng.html) | 以正合，以奇胜 | 孙子、李靖、韩信、孙膑 |
+| [🌀 虚与实](topics/xu-yu-shi.html) | 兵之形避实而击虚 | 老子、孙子、孙膑、庄子 |
+| [🎯 奇与正](topics/qi-yu-zheng.html) | 以正合，以奇胜 | 老子、孙子、孙膑、尉缭子、韩信、李靖 |
+| [☯️ 争与不争](topics/zheng-yu-bu-zheng.html) | 不战而屈人之兵 | 老子、孙子、文子、尉缭子 |
+| [⚖️ 知足与进取](topics/zhi-zu-yu-jin-qu.html) | 知止不殆，择势而行 | 老子、孙子 |
+| [🧭 进与退](topics/jin-yu-tui.html) | 进退有度，功成身退 | 吴起、尉缭子、郭子仪 |
 
 ## 格言总数
 
-**当前总计：959 条**（48 位人物，完整 quotes.json）
+**当前总计：1277 条**（63 位人物，完整 quotes.json）
 
 ## 网站功能
 
@@ -94,14 +112,14 @@ description: 人物统计、格言数、Roadmap 进度
 |------|------|
 | [🏠 格言主页](index.html) | 标签筛选、随机卡片、每日一面 |
 | [🪙 反者道之动](comparison.html) | 兵家 vs 道家格言并列对比 |
-| [📦 结构化数据](quotes/quotes.json) | 当前 959 条（48 位人物）|
+| [📦 结构化数据](quotes/quotes.json) | 当前 1277 条（63 位人物）|
 | [🔍 古籍全文检索](search.html) | 兵家 / 诸子 / 道家原文检索 |
 
 ## Roadmap
 
 - ✅ 30 位人物，全部 20 条
-- ✅ 6 个主题聚合
-- ✅ quotes.json 已至 959 条（新增黄石公、鬼谷子、谭峭、三十六计、李筌、许洞、何去非、赵蕤、无能子、鹖冠子、刘安、揭暄、刘邵、亢仓子、尸佼、慎到、王余佑、子华子）
+- ✅ 9 个主题聚合
+- ✅ quotes.json 已至 1259 条（30 位原有人物 + 33 位本轮新增）
 - ✅ 古籍全文检索（兵家/诸子/道家）
 - ✅ 全量校对报告（tools/audit-report.md）
 - 🚧 更多主题持续扩展

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 959,
+    "total": 1277,
     "version": "0.6.0",
     "description": "韬略之道结构化格言数据 — 仅含真实格言"
   },
@@ -12938,6 +12938,4196 @@
       "personId": "zihuazi",
       "id": "zihuazi-2",
       "translation": "所以保全生命为上，亏损生命次之，死再次之，迫生为下。"
+    },
+    {
+      "text": "以不教民战，是谓弃之。",
+      "source": "《草庐经略》",
+      "interp": "进取面——教战是治军之先。避世面：与「不教而杀谓之虐」相照。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-1",
+      "translation": "用未经训练的百姓去作战，这就叫抛弃他们。"
+    },
+    {
+      "text": "兵无选锋曰北。",
+      "source": "《草庐经略》",
+      "interp": "进取面——选锋是精锐制胜。避世面：精不在多。",
+      "tags": [
+        "进取",
+        "任势"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-2",
+      "translation": "军队没有精选的前锋，就会败北。"
+    },
+    {
+      "text": "兵务精不务多。",
+      "source": "《草庐经略》",
+      "interp": "进取面——精兵主义。避世面：与「少则得」相通。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-3",
+      "translation": "军队务求精锐，不务人多。"
+    },
+    {
+      "text": "故万人可操，百人可操，虽数人亦可操。",
+      "source": "《草庐经略》",
+      "interp": "进取面——操练不择众寡。避世面：积少成多。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-4",
+      "translation": "所以万人可以操练，百人可以操练，即使几个人也可以操练。"
+    },
+    {
+      "text": "操其技艺使之精熟，操其耳目使之不惊，操其心志使之不乱，操其胆气使之外不畏敌、内不爱身。",
+      "source": "《草庐经略》",
+      "interp": "进取面——操练兼及技艺与心胆。避世面：治心即修身。",
+      "tags": [
+        "进取",
+        "治国",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-5",
+      "translation": "操练其技艺使之精熟，操练其耳目使之不惊，操练其心志使之不乱，操练其胆气使之在外不怕敌、在内不惜身。"
+    },
+    {
+      "text": "善师者不阵，善阵者不战。",
+      "source": "《草庐经略》",
+      "interp": "转化面——进取面：不战为上。避世面：不争而善胜。",
+      "tags": [
+        "转化",
+        "不争",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-6",
+      "translation": "善于用兵的人不必布阵，善于布阵的人不必交战。"
+    },
+    {
+      "text": "若区区依古阵法以求胜，愚将也。",
+      "source": "《草庐经略》",
+      "interp": "进取面——阵法因敌而变。避世面：不可泥古。",
+      "tags": [
+        "进取",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-7",
+      "translation": "如果拘泥于古阵法来求胜，是愚将。"
+    },
+    {
+      "text": "夫阵亦何常之有，而可拘泥为哉。",
+      "source": "《草庐经略》",
+      "interp": "进取面：兵无常势。避世面：无常即道。",
+      "tags": [
+        "进取",
+        "权变",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-8",
+      "translation": "阵法何曾有固定不变的，怎可拘泥呢。"
+    },
+    {
+      "text": "所谓阵者，不泥法而法自在。",
+      "source": "《草庐经略》",
+      "interp": "转化面——进取面：守法而不泥法。避世面：法法自然。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-9",
+      "translation": "所谓阵法，是不拘泥于成法而法自然在其中。"
+    },
+    {
+      "text": "故吾使兵识将意，将识士情，投之所往，如臂使指，兵将相习，人自为战。",
+      "source": "《草庐经略》",
+      "interp": "进取面——官兵相习则人人自战。避世面：不待驱迫而自成。",
+      "tags": [
+        "进取",
+        "任势",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-10",
+      "translation": "所以我要让兵懂将的意图、将懂兵的情状，指向哪里都如臂使指，兵将相熟，人人能各自为战。"
+    },
+    {
+      "text": "凡为战阵，先立家计；家计既固，则可以胜不可以败。",
+      "source": "《草庐经略》",
+      "interp": "进取面——先为不可胜。避世面：先立根基。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-11",
+      "translation": "凡布战阵，先要立好根本打算；根本既固，就能只胜不败。"
+    },
+    {
+      "text": "攻不必取，不苟出师；战不必胜，不苟接刃。",
+      "source": "《草庐经略》",
+      "interp": "进取面——慎战、不轻战。避世面：与老子「不敢为主而为客」相合。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-12",
+      "translation": "进攻不一定非要夺取，但不轻易出师；交战胜负不定，但不轻易接刃。"
+    },
+    {
+      "text": "任贤，一贤可退千里之敌，一士强于十万之师。",
+      "source": "《草庐经略》",
+      "interp": "进取面——任贤是军中首务。避世面：尊贤则众归。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-13",
+      "translation": "任用贤才，一个贤人可以退千里之敌，一个士人强于十万之师。"
+    },
+    {
+      "text": "主将务揽英雄之心，《三略》首语也。",
+      "source": "《草庐经略》",
+      "interp": "进取面——揽英雄之心是驭众之要。避世面：谦恭下士。",
+      "tags": [
+        "进取",
+        "任势",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-14",
+      "translation": "主将务必收揽英雄之心，这是《三略》的篇首语。"
+    },
+    {
+      "text": "将军三军疴痒相关，三军与将生死共命者也。",
+      "source": "《草庐经略》",
+      "interp": "进取面——与士卒同休戚则得死力。避世面：慈爱及人。",
+      "tags": [
+        "进取",
+        "修身",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-15",
+      "translation": "将军与三军痛痒相关，三军与将是生死共命的。"
+    },
+    {
+      "text": "为将者必使三军畏我而侮敌。",
+      "source": "《草庐经略》",
+      "interp": "进取面——内畏威、外轻敌。避世面：威由法立。",
+      "tags": [
+        "进取",
+        "任势",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-16",
+      "translation": "做将帅的，一定要使三军敬畏自己而轻侮敌人。"
+    },
+    {
+      "text": "必胜在乎死战，死战在知必死。",
+      "source": "《草庐经略》",
+      "interp": "转化面——进取面：置之死地而后生。避世面：绝境激发生机。",
+      "tags": [
+        "转化",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-17",
+      "translation": "必胜在于死战，死战在于士卒知道不战必死。"
+    },
+    {
+      "text": "小犯则宥，大犯则诛；无心之犯则宥，有心之犯则诛。",
+      "source": "《草庐经略》",
+      "interp": "进取面——赏罚有度、原心定罪。避世面：宽严相济。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-18",
+      "translation": "小过就宽宥，大过就诛杀；无心的过失就宽宥，有心的过失就诛杀。"
+    },
+    {
+      "text": "赏不逾时。",
+      "source": "《草庐经略》",
+      "interp": "进取面——赏速则劝。避世面：把握时机之道。",
+      "tags": [
+        "进取",
+        "治国",
+        "速决"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-19",
+      "translation": "奖赏不拖延时间。"
+    },
+    {
+      "text": "杀一人而三军震者，杀之也。",
+      "source": "《草庐经略》",
+      "interp": "进取面——刑威所立。避世面：法不虚设。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "caolujinglue",
+      "id": "caolujinglue-20",
+      "translation": "杀一人能使三军震动，就杀他。"
+    },
+    {
+      "text": "疑行无成，疑事无功。",
+      "source": "《商君书》",
+      "interp": "进取面——决断是成事之要。避世面：谋定而后动，动则无疑。",
+      "tags": [
+        "进取",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-1",
+      "translation": "行动迟疑就没有成效，做事迟疑就没有功绩。"
+    },
+    {
+      "text": "三代不同礼而王，五霸不同法而霸。",
+      "source": "《商君书》",
+      "interp": "转化面——进取面：因时而变。避世面：与时推移。",
+      "tags": [
+        "转化",
+        "权变",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "shangzi",
+      "id": "shangzi-2",
+      "translation": "三代礼制不同却都称王，五霸法度不同却都称霸。"
+    },
+    {
+      "text": "知者作法，而愚者制焉；贤者更礼，而不肖者拘焉。",
+      "source": "《商君书》",
+      "interp": "进取面——变法须智者。避世面：不肖者拘于成法。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-3",
+      "translation": "智者创制法度，愚者被法度所制约；贤者变革礼制，不肖者被礼制所拘束。"
+    },
+    {
+      "text": "治世不一道，便国不必法古。",
+      "source": "《商君书》",
+      "interp": "进取面——变法图强。避世面：因时制宜。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-4",
+      "translation": "治理天下没有一成不变的方法，有利国家就不必效法古代。"
+    },
+    {
+      "text": "反古者未必可非，循礼者未足多是也。",
+      "source": "《商君书》",
+      "interp": "转化面——进取面：不以古今定是非。避世面：唯变所适。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "shangzi",
+      "id": "shangzi-5",
+      "translation": "违反古制的未必可以非议，遵循礼制的未必值得称许。"
+    },
+    {
+      "text": "穷巷多怪，曲学多辩，愚者之笑，智者哀焉。",
+      "source": "《商君书》",
+      "interp": "避世面——众口难调，智者独立。进取面：不随流俗。",
+      "tags": [
+        "避世",
+        "大智若愚"
+      ],
+      "face": "bi",
+      "personId": "shangzi",
+      "id": "shangzi-6",
+      "translation": "穷僻的巷子里多怪异之见，曲解之学多巧辩，愚者的嘲笑，正是智者所悲哀的。"
+    },
+    {
+      "text": "凡人主之所以劝民者，官爵也；国之所以兴者，农战也。",
+      "source": "《商君书》",
+      "interp": "进取面——农战立国。避世面：务本则强。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-7",
+      "translation": "君主用来劝勉百姓的是官爵，国家赖以兴盛的是农战。"
+    },
+    {
+      "text": "国待农战而安，主待农战而尊。",
+      "source": "《商君书》",
+      "interp": "进取面——农战是立国之本。避世面：务实则不虚。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-8",
+      "translation": "国家靠农战而安，君主靠农战而尊。"
+    },
+    {
+      "text": "常官则国治，壹务则国富。",
+      "source": "《商君书》",
+      "interp": "进取面——法治与专一是强国之道。避世面：专一则不散。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-9",
+      "translation": "官吏守法则国家治理，专一于农战则国家富足。"
+    },
+    {
+      "text": "民朴壹则官爵不可巧而取也。",
+      "source": "《商君书》",
+      "interp": "进取面——民朴则政清。避世面：朴即近道。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-10",
+      "translation": "百姓朴实专一，官爵就不能靠机巧取得。"
+    },
+    {
+      "text": "夫曲主虑私，非国利也。",
+      "source": "《商君书》",
+      "interp": "进取面——去私为公。避世面：公则近道。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-11",
+      "translation": "曲从君主意、只谋私利，不是国家的利益。"
+    },
+    {
+      "text": "王道作外，身作壹而已矣。",
+      "source": "《商君书》",
+      "interp": "进取面——君专一则民专一。避世面：正己而后正人。",
+      "tags": [
+        "进取",
+        "修身",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-12",
+      "translation": "王道在于外施一事，而君主自身专一不二罢了。"
+    },
+    {
+      "text": "禄厚而税多，食口众者，败农者也。",
+      "source": "《商君书》",
+      "interp": "进取面——省费去冗则农兴。避世面：俭以养民。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-13",
+      "translation": "俸禄厚、赋税多、吃闲饭的人多，都是败坏农业的。"
+    },
+    {
+      "text": "重刑而连其罪，则褊急之民不斗，很刚之民不讼，怠惰之民不游，费资之民不作，巧谀恶心之民无变也。",
+      "source": "《商君书》",
+      "interp": "进取面——以刑去刑。避世面：重刑非仁，反照「法令滋彰」之戒。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-14",
+      "translation": "重刑并连坐其罪，那么偏急的人不斗，刚愎的人不讼，怠惰的人不游荡，浪费的人不妄为，巧谀恶心的人不敢变乱。"
+    },
+    {
+      "text": "五民者不生于境内，则草必垦矣。",
+      "source": "《商君书》",
+      "interp": "进取面——去害民则事兴。避世面：除弊则本立。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-15",
+      "translation": "这五种人不产生于境内，荒地就必定被开垦了。"
+    },
+    {
+      "text": "农战之民千人，而有诗书辩慧者一人焉，千人者皆怠于农战矣。",
+      "source": "《商君书》",
+      "interp": "进取面——务本抑末。避世面：此论偏激，反照道家「绝圣弃智」之辨。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-16",
+      "translation": "农战之民有千人，而有一个诗书辩慧的人，这一千人就都懈怠于农战了。"
+    },
+    {
+      "text": "今民求官爵皆不以农战，而以巧言虚道，此谓劳民。",
+      "source": "《商君书》",
+      "interp": "进取面——黜虚言贵实功。避世面：与道家「绝巧弃利」相照。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-17",
+      "translation": "如今百姓求官爵都不靠农战，而靠巧言虚道，这叫劳民。"
+    },
+    {
+      "text": "善为国者仓廪虽满，不偷于农；国大民众，不淫于言。",
+      "source": "《商君书》",
+      "interp": "进取面——居安思危、务实黜虚。避世面：满而不溢。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-18",
+      "translation": "善治国的人，粮仓虽满也不懈怠农事；国家大、民众，也不放纵空谈。"
+    },
+    {
+      "text": "国去言则民朴，民朴则不淫。",
+      "source": "《商君书》",
+      "interp": "进取面——去言则民朴。避世面：朴则近道。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "shangzi",
+      "id": "shangzi-19",
+      "translation": "国家舍弃空谈，百姓就朴实；百姓朴实就不放荡。"
+    },
+    {
+      "text": "今为国者多无要。",
+      "source": "《商君书》",
+      "interp": "避世面——无要则乱。进取面：治国贵握要领。",
+      "tags": [
+        "避世",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "shangzi",
+      "id": "shangzi-20",
+      "translation": "如今治国的人大多没有要领。"
+    },
+    {
+      "text": "天下无赏罚，三百载矣。",
+      "source": "《中说》",
+      "interp": "进取面——赏罚不行则世乱。避世面：褒贬代赏罚。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-1",
+      "translation": "天下没有赏罚，已经三百年了。"
+    },
+    {
+      "text": "圣人达而赏罚行，圣人穷而褒贬作。",
+      "source": "《中说》",
+      "interp": "转化面——进取面：赏罚与褒贬皆治世之具。避世面：穷则立言。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-2",
+      "translation": "圣人显达则赏罚得以施行，圣人困穷则褒贬得以兴起。"
+    },
+    {
+      "text": "顺之则吉，逆之则凶。",
+      "source": "《中说》",
+      "interp": "避世面——顺道则吉。进取面：顺时而动。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-3",
+      "translation": "顺从它就吉，违背它就凶。"
+    },
+    {
+      "text": "今言政而不及化，是天下无礼也。",
+      "source": "《中说》",
+      "interp": "进取面——政须及化。避世面：教化近于不言之教。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-4",
+      "translation": "如今只谈政而不及教化，这是天下没有礼。"
+    },
+    {
+      "text": "或安而行之，或利而行之，或畏而行之，及其成功一也。",
+      "source": "《中说》",
+      "interp": "转化面——进取面：不同动机，成事则同。避世面：殊途同归。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-5",
+      "translation": "有的安然而行，有的为利而行，有的因畏而行，等到成功，是一样的。"
+    },
+    {
+      "text": "小人不激不励，不见利不劝。",
+      "source": "《中说》",
+      "interp": "进取面——驭众须明激励之道。避世面：君子则不然，近于「安而行之」。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-6",
+      "translation": "小人不激励就不奋勉，不见利就不努力。"
+    },
+    {
+      "text": "兵卫少而征求寡也。",
+      "source": "《中说》",
+      "interp": "进取面——省役则民不劳。避世面：无为而民自安。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-7",
+      "translation": "舜巡五岳而不劳民，是因为兵卫少、征求也少。"
+    },
+    {
+      "text": "悠悠素餐者，天下皆是，王道从何而兴乎。",
+      "source": "《中说》",
+      "interp": "进取面——黜素餐则政举。避世面：与尸位素餐相照。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-8",
+      "translation": "悠悠然白食俸禄的人，天下都是，王道从哪里兴起呢。"
+    },
+    {
+      "text": "夫子得志于朝廷，有不言之化、不杀之严矣。",
+      "source": "《中说》",
+      "interp": "避世面——不言之化，是道家。进取面：威不待杀。",
+      "tags": [
+        "避世",
+        "无为",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-9",
+      "translation": "夫子若在朝廷得志，会有不言之教化和不杀之威严。"
+    },
+    {
+      "text": "三纲五常，自可出也。",
+      "source": "《中说》",
+      "interp": "进取面——纲常为治道之本。避世面：道在日用。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-10",
+      "translation": "三纲五常，于六经之中自然可以体会出来。"
+    },
+    {
+      "text": "上不荡于虚无，下不局于器用，惟变所适，惟义所在，此中之大略也。",
+      "source": "《中说·序》",
+      "interp": "避世面——守中而不偏，是儒道兼综。进取面：惟变所适，是应变之道。",
+      "tags": [
+        "避世",
+        "权变"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-11",
+      "translation": "上不涉于虚无，下不拘于器用，唯变所适，唯义所在，这就是「中」的大略。"
+    },
+    {
+      "text": "天道则简而功密矣。",
+      "source": "《中说》",
+      "interp": "避世面——大道至简而功博。进取面：简则易行。",
+      "tags": [
+        "避世",
+        "无为"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-12",
+      "translation": "天道看起来简约，而功用却很周密。"
+    },
+    {
+      "text": "乐天知命，吾何忧；穷理尽性，吾何疑。",
+      "source": "《中说》",
+      "interp": "避世面——乐天知命，是安命顺化。进取面：穷理尽性，是格致功夫。",
+      "tags": [
+        "避世",
+        "逍遥",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-13",
+      "translation": "乐天知命，我有什么可忧；穷理尽性，我有什么可疑。"
+    },
+    {
+      "text": "道之不胜时，久矣。",
+      "source": "《中说》",
+      "interp": "避世面——道屈于时，是隐者的感叹。进取面：待时而行。",
+      "tags": [
+        "避世",
+        "形势"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-14",
+      "translation": "道不能胜过时势，已经很久了。"
+    },
+    {
+      "text": "六国之弊，亡秦之酷，吾不忍闻也。",
+      "source": "《中说》",
+      "interp": "避世面——悲悯厌乱，是仁者之心。进取面：以史为鉴。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-15",
+      "translation": "六国的弊端、亡秦的酷烈，我不忍心听。"
+    },
+    {
+      "text": "生民厌乱久矣。",
+      "source": "《中说》",
+      "interp": "避世面——厌乱思治，是民心。进取面：顺民心者得天下。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-16",
+      "translation": "百姓厌恶动乱已经很久了。"
+    },
+    {
+      "text": "封禅之费，非古也，徒以夸天下，其秦汉之侈心乎。",
+      "source": "《中说》",
+      "interp": "避世面——反对奢靡夸耀。进取面：戒侈则国足。",
+      "tags": [
+        "避世",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-17",
+      "translation": "封禅的花费，不是古制，只是用来向天下夸耀，大概是秦汉的奢侈之心吧。"
+    },
+    {
+      "text": "化至九变，王道其明乎。",
+      "source": "《中说》",
+      "interp": "进取面——教化至深则王道明。避世面：化民成俗。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-18",
+      "translation": "教化到九变，王道就显现了吧。"
+    },
+    {
+      "text": "天命不于常，惟归乃有德。",
+      "source": "《中说》",
+      "interp": "转化面——进取面：天命归德，德者得天下。避世面：与「天道无亲，常与善人」相通。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-19",
+      "translation": "天命不是固定不变的，只归向有德的人。"
+    },
+    {
+      "text": "周孔之道，其神之所为乎。",
+      "source": "《中说》",
+      "interp": "避世面——叹道之广大。进取面：崇道尚文。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wenzhongzi",
+      "id": "wenzhongzi-20",
+      "translation": "周公孔子之道，大概是神之所为吧。"
+    },
+    {
+      "text": "有形者必有名，有名者未必有形。",
+      "source": "《尹文子》",
+      "interp": "避世面——形名之辨，是名家之理。进取面：循名责实。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-2",
+      "translation": "有形的必定有名，有名的未必有形。"
+    },
+    {
+      "text": "名有三科，法有四呈。",
+      "source": "《尹文子》",
+      "interp": "进取面——名法相配是治术。避世面：名法为末，道为本。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-3",
+      "translation": "名有三类，法有四种表现。"
+    },
+    {
+      "text": "故名以正形。",
+      "source": "《尹文子》",
+      "interp": "进取面——以名正物。避世面：正名以正实。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-4",
+      "translation": "所以用名来端正形。"
+    },
+    {
+      "text": "善名命善，恶名命恶。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：名以别善恶而劝惩。避世面：名实相符。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-5",
+      "translation": "好的名称命名善，坏的名称命名恶。"
+    },
+    {
+      "text": "名称者，别彼此而检虚实者也。",
+      "source": "《尹文子》",
+      "interp": "进取面——名以检实。避世面：去其名之混。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-6",
+      "translation": "名称，是用来区别彼此、检验虚实的。"
+    },
+    {
+      "text": "名分不可相乱也。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：正名分则事治。避世面：分明则争息。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-7",
+      "translation": "名分不可相互混乱。"
+    },
+    {
+      "text": "定此名分，则万事不乱也。",
+      "source": "《尹文子》",
+      "interp": "进取面——定分止乱。避世面：分明不争。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-8",
+      "translation": "确定这些名分，则万事不乱。"
+    },
+    {
+      "text": "故明主不为治外之理。",
+      "source": "《尹文子》",
+      "interp": "进取面——专注实务。避世面：不为无益。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-9",
+      "translation": "所以明主不做治理之外的事理。"
+    },
+    {
+      "text": "故所言者不出于名法权术，所为者不出于农稼军阵周务而已。",
+      "source": "《尹文子》",
+      "interp": "进取面——务实黜玄。避世面：与道家「大道至简」相照。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-10",
+      "translation": "所讲的不过名法权术，所做的不过农事、军阵、政务罢了。"
+    },
+    {
+      "text": "为善与众行之，为巧与众能之，此善之善者、巧之巧者也。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：与众人共善共巧。避世面：不独善其身。",
+      "tags": [
+        "转化",
+        "玄同"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-11",
+      "translation": "行善与众人一同行，弄巧与众人一同能，这才是善之善、巧之巧。"
+    },
+    {
+      "text": "所贵圣人之治，不贵其独治，贵其能与众共治。",
+      "source": "《尹文子》",
+      "interp": "进取面——与众共治，是无弃人。避世面：无为而众自治。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-12",
+      "translation": "圣人之治的可贵，不在于他独自治国，而在于他能与众人共治。"
+    },
+    {
+      "text": "雉兔在野，众人逐之，分未定也。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：名分未定则争。避世面：定分则相安。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-13",
+      "translation": "野地的雉兔，众人争逐，因为名分未定。"
+    },
+    {
+      "text": "道行于世，则贫贱者不怨，富贵者不骄。",
+      "source": "《尹文子》",
+      "interp": "避世面——守道则各安其分。进取面：以德化民。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-14",
+      "translation": "道行于天下，贫贱的人不怨恨，富贵的人不骄纵。"
+    },
+    {
+      "text": "法行于世，则贫贱者不敢怨富贵，富贵者不敢陵贫贱。",
+      "source": "《尹文子》",
+      "interp": "进取面——法治则强弱不凌。避世面：法以齐众。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-15",
+      "translation": "法行于天下，贫贱的人不敢怨恨富贵，富贵的人不敢欺凌贫贱。"
+    },
+    {
+      "text": "仁以道之，义以宜之，礼以行之，乐以和之，名以正之，法以齐之，刑以威之，赏以劝之。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：八者并用，是治世之术。避世面：仁义礼乐为本，名法刑赏为用。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-16",
+      "translation": "用仁来引导，用义来适宜，用礼来施行，用乐来调和，用名来端正，用法来齐一，用刑来威慑，用赏来劝勉。"
+    },
+    {
+      "text": "凡此八者，五帝三王治世之术也。",
+      "source": "《尹文子》",
+      "interp": "进取面——综合治理。避世面：术以载道。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-17",
+      "translation": "这八者，是五帝三王治世的方法。"
+    },
+    {
+      "text": "是虽常是，有时而不用；非虽常非，有时而必行。",
+      "source": "《尹文子》",
+      "interp": "转化面——进取面：是非随时而变。避世面：与道家「无常」相照。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-18",
+      "translation": "是虽通常是，有时却不用；非虽通常非，有时却必行。"
+    },
+    {
+      "text": "人君处权乘势，处所是之地，则人所不得非也。",
+      "source": "《尹文子》",
+      "interp": "进取面——任势正名则人莫能非。避世面：势位之重。",
+      "tags": [
+        "进取",
+        "任势",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-19",
+      "translation": "君主据权乘势、处于所是之地，那么别人就不能非议他。"
+    },
+    {
+      "text": "君宠臣，臣爱君，公法废，私欲行，乱国也。",
+      "source": "《尹文子》",
+      "interp": "进取面——公法废则国乱。避世面：去私则安。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-20",
+      "translation": "君宠臣、臣爱君，公法废弃、私欲横行，这是乱国之象。"
+    },
+    {
+      "text": "形正由名，则名不可差；故仲尼云：必也正名乎。",
+      "source": "《尹文子》",
+      "interp": "进取面——名正言顺是治世之始。避世面：正名即正本。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yinwenzi",
+      "id": "yinwenzi-1",
+      "translation": "形由名来端正，所以名不可有差错；所以孔子说：一定要端正名分啊。"
+    },
+    {
+      "text": "忘战则危，好战则亡。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——进取面：不忘战、不好战，是兵家之度。避世面：与老子「佳兵者不祥」相合。",
+      "tags": [
+        "转化",
+        "全胜",
+        "不争"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-1",
+      "translation": "忘记战争就会危险，好战就会灭亡。"
+    },
+    {
+      "text": "争者，兵战之源，祸乱之本也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——去争则乱息，是老子之旨。进取面：先知争之本，方能息争。",
+      "tags": [
+        "避世",
+        "不争"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-2",
+      "translation": "争，是兵战的源头、祸乱的根本。"
+    },
+    {
+      "text": "夫唯不争，则兵革何由而兴，战阵何因而列。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——不争是弭兵之本。进取面：不争而善胜。",
+      "tags": [
+        "避世",
+        "不争"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-3",
+      "translation": "只有不争，那么兵革从哪里兴起、战阵从哪里排列呢。"
+    },
+    {
+      "text": "争者，人之所甚恶也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——恶争是人之常情。进取面：不得已而用兵。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-4",
+      "translation": "争，是人们所深恶的。"
+    },
+    {
+      "text": "圣人用兵之道，不以其愠怒也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——进取面：怒不兴师。避世面：制怒以静，是修身。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-5",
+      "translation": "圣人用兵之道，不因愤怒而用兵。"
+    },
+    {
+      "text": "上德者天下归之，上仁者海内归之，上义者一国归之，上礼者一乡归之。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——进取面：德愈厚则归者愈众。避世面：德为归人之本。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-6",
+      "translation": "有上德的人天下归附他，有上仁的人海内归附他，有上义的人一国归附他，有上礼的人一乡归附他。"
+    },
+    {
+      "text": "无此四德者，人不归也；人不归，即用兵；用兵，即危之道也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "进取面——德不立则兵危。避世面：以德服人。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wangzhen",
+      "id": "wangzhen-7",
+      "translation": "没有这四种德行，人就不归附；人不归附才用兵，用兵就是危险之道。"
+    },
+    {
+      "text": "故谓不祥之器，又曰死地。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——兵为凶器，是老子。进取面：慎用兵。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-8",
+      "translation": "所以兵被称为不祥之器，又叫死地。"
+    },
+    {
+      "text": "王者必先务于道德，而重用兵也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——进取面：先道德而后兵。避世面：道德为本。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-9",
+      "translation": "称王的人必先致力于道德，而慎重用兵。"
+    },
+    {
+      "text": "圣人处无为之事，行不言之教。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——无为不言之教，是老子。进取面：正身率下。",
+      "tags": [
+        "避世",
+        "无为"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-10",
+      "translation": "圣人行无为之事，施不言之教。"
+    },
+    {
+      "text": "无为之事，盖欲令潜运其功，阴施其德，使百姓日用而不知之，此之谓无为也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——无为的真义在潜运阴施。进取面：功成而不显。",
+      "tags": [
+        "避世",
+        "无为"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-11",
+      "translation": "无为之事，是想让人潜运其功、暗施其德，使百姓日用而不知，这才叫无为。"
+    },
+    {
+      "text": "不言之教，盖欲令正身率下，而不欲使躬之不逮也。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——正己而后化人。进取面：以身作则。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-12",
+      "translation": "不言之教，是想让人正身率下，而不使自己言行不符。"
+    },
+    {
+      "text": "王者无为于喜怒，则刑赏不溢，金革不起。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——避世面：无喜怒则弭兵。进取面：制情则政平。",
+      "tags": [
+        "转化",
+        "无为",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-13",
+      "translation": "君王对喜怒无为，那么刑赏就不会泛滥、兵革就不会兴起。"
+    },
+    {
+      "text": "无为于百姓，则天下安矣。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——无为而民自安。进取面：不扰民。",
+      "tags": [
+        "避世",
+        "无为",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-14",
+      "translation": "对百姓无为，那么天下就安定了。"
+    },
+    {
+      "text": "为无为，则无不治矣。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——避世面：无为之治。进取面：无为而事成。",
+      "tags": [
+        "转化",
+        "无为",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-15",
+      "translation": "行无为，就没有治理不好的。"
+    },
+    {
+      "text": "王者既不责于人，则刑罚自然不用矣；刑罚不用，则兵革自然不兴矣。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——不责则刑措兵息。进取面：宽以得民。",
+      "tags": [
+        "避世",
+        "无为",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-16",
+      "translation": "君王既不苛责于人，刑罚就自然不用；刑罚不用，兵革就自然不起。"
+    },
+    {
+      "text": "多言数穷，不如守中。",
+      "source": "《道德经论兵要义述》",
+      "interp": "避世面——守中，是老子。进取面：慎言守正。",
+      "tags": [
+        "避世",
+        "无为"
+      ],
+      "face": "bi",
+      "personId": "wangzhen",
+      "id": "wangzhen-17",
+      "translation": "多言就会穷困，不如持守中道。"
+    },
+    {
+      "text": "上善之兵，方之于水。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——进取面：兵形象水，避实击虚。避世面：上善若水，柔弱胜刚强。",
+      "tags": [
+        "转化",
+        "守柔"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-18",
+      "translation": "最善的用兵，可比之于水。"
+    },
+    {
+      "text": "兵者所尚，谋虑精微。",
+      "source": "《道德经论兵要义述》",
+      "interp": "进取面——谋贵精微。避世面：静以生谋。",
+      "tags": [
+        "进取",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "wangzhen",
+      "id": "wangzhen-19",
+      "translation": "用兵所崇尚的，是谋虑精微。"
+    },
+    {
+      "text": "夫无为者，戢兵之源；不争者，息战之本。",
+      "source": "《道德经论兵要义述》",
+      "interp": "转化面——避世面：无为不争则兵息。进取面：握其本源则胜。",
+      "tags": [
+        "转化",
+        "不争",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "wangzhen",
+      "id": "wangzhen-20",
+      "translation": "无为是弭兵之源，不争是息战之本。"
+    },
+    {
+      "text": "募非握机无以合众，众非精选无以得用。",
+      "source": "《阵纪》",
+      "interp": "进取面——募兵贵精、贵握机。避世面：精则得用。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-1",
+      "translation": "招募若不能掌握机要就不能聚集大众，兵众若不精选就不能得其用。"
+    },
+    {
+      "text": "能举铁石器，更观其耳目伶俐、手足便捷者，为中选。",
+      "source": "《阵纪》",
+      "interp": "进取面——选兵须力与灵俱。避世面：兼取不偏。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-2",
+      "translation": "能举铁石器、又看其耳目伶俐、手足便捷的，是中选。"
+    },
+    {
+      "text": "年齿膂力、耳目手足如式而胆艺过者，为上选。",
+      "source": "《阵纪》",
+      "interp": "进取面——选兵首重胆艺。避世面：尚质不尚华。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-3",
+      "translation": "年齿膂力、耳目手足合式而胆艺过人的，是上选。"
+    },
+    {
+      "text": "重诱以爵赏，而使其慕战乐斗也。",
+      "source": "《阵纪》",
+      "interp": "进取面——重赏励战。避世面：以利动之，亦兵家之常。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-4",
+      "translation": "用爵赏重赏来诱导，使他们慕战乐斗。"
+    },
+    {
+      "text": "激发以忠义，而启之以怨仇也。",
+      "source": "《阵纪》",
+      "interp": "进取面——激忠义、启怨仇，同仇敌忾。避世面：忠义为本。",
+      "tags": [
+        "进取",
+        "治国",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-5",
+      "translation": "用忠义来激励，又用怨仇来启发。"
+    },
+    {
+      "text": "束伍以致其节，因力以授其器，信必以服其心，分门以教其技。",
+      "source": "《阵纪》",
+      "interp": "进取面——治军四要。避世面：「信必以服其心」近于信德。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-6",
+      "translation": "约束行伍以使其有节制，按力授器，赏罚必信以服其心，分门别类教其技艺。"
+    },
+    {
+      "text": "士畏我法令，乃行矣。",
+      "source": "《阵纪》",
+      "interp": "进取面——法令先行。避世面：法以立威。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-7",
+      "translation": "士卒敬畏我的法令，命令才能施行。"
+    },
+    {
+      "text": "人有耻，必知进死为荣、退生为辱。",
+      "source": "《阵纪》",
+      "interp": "转化面——进取面：养耻则效死。避世面：知耻近乎勇。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "heliangchen",
+      "id": "heliangchen-8",
+      "translation": "人有羞耻之心，必然懂得进死为荣、退生为辱。"
+    },
+    {
+      "text": "实伍为用兵之至要。",
+      "source": "《阵纪》",
+      "interp": "进取面——伍实则教行。避世面：本固则末从。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-9",
+      "translation": "充实行伍是用兵最重要的。"
+    },
+    {
+      "text": "善练兵者，必练兵之胆气。",
+      "source": "《阵纪》",
+      "interp": "进取面——胆气是兵之本。避世面：养气即养心。",
+      "tags": [
+        "进取",
+        "治国",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-10",
+      "translation": "善于练兵的人，必先练兵的胆气。"
+    },
+    {
+      "text": "气为一身之用，死生荣辱系焉。",
+      "source": "《阵纪》",
+      "interp": "转化面——进取面：养气则胜。避世面：气者道之用。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "heliangchen",
+      "id": "heliangchen-11",
+      "translation": "气是一身之用，死生荣辱都系于它。"
+    },
+    {
+      "text": "军而无阵，犹人之无四维、虎之无山谷，不可以一日存也。",
+      "source": "《阵纪》",
+      "interp": "进取面——阵法是军队的骨架。避世面：无阵则危。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-12",
+      "translation": "军队没有阵，就像人没有四维、虎没有山谷，一天也存不下去。"
+    },
+    {
+      "text": "齐勇合一，如奔潮之入钱塘。",
+      "source": "《阵纪》",
+      "interp": "进取面——万众一心之势。避世面：势合则强。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-13",
+      "translation": "齐勇合一，像奔潮涌入钱塘。"
+    },
+    {
+      "text": "阵法为武艺之纲纪，而武艺为胆气之元臣，而我之号令又为阵法之司率也。",
+      "source": "《阵纪》",
+      "interp": "转化面——进取面：号令—阵法—武艺—胆气层层相因。避世面：执本驭末。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "heliangchen",
+      "id": "heliangchen-14",
+      "translation": "阵法是武艺的纲纪，武艺是胆气的辅佐，而我的号令又是阵法的统帅。"
+    },
+    {
+      "text": "凡人之气力，日用则强，日惰则脆。",
+      "source": "《阵纪》",
+      "interp": "进取面——勤练则强。避世面：用进之理。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-15",
+      "translation": "人的气力，天天使用就强健，天天懒惰就脆弱。"
+    },
+    {
+      "text": "治兵之要，教戒为先；为国之道，先戒为宝。",
+      "source": "《阵纪》",
+      "interp": "进取面——教戒与戒备。避世面：先戒，近于豫。",
+      "tags": [
+        "进取",
+        "治国",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-16",
+      "translation": "治兵的要领，以教戒为先；治国的道理，以有备为宝。"
+    },
+    {
+      "text": "人常死其所不能，败其所不便也。",
+      "source": "《阵纪》",
+      "interp": "进取面——扬长避短。避世面：知短而后守。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-17",
+      "translation": "人常常死于自己所不能的、败于自己所不便的。"
+    },
+    {
+      "text": "天下无粹白之狐，而有纯白之裘者，取诸众白也。",
+      "source": "《阵纪》",
+      "interp": "转化面——进取面：集众成事。避世面：众白成裘，即无弃。",
+      "tags": [
+        "转化",
+        "玄同",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "heliangchen",
+      "id": "heliangchen-18",
+      "translation": "天下没有纯白的狐狸，却有纯白的裘衣，因为取之于众多之白。"
+    },
+    {
+      "text": "明赏不费，明刑不暴；赏罚明，则德之至者矣。",
+      "source": "《阵纪》",
+      "interp": "进取面——赏罚分明。避世面：明则近于德。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-19",
+      "translation": "赏得明就不浪费，刑得明就不残暴；赏罚分明，就是最高的德。"
+    },
+    {
+      "text": "用赏贵诚，用刑贵必。",
+      "source": "《阵纪》",
+      "interp": "进取面——赏信罚必。避世面：诚必则人服。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "heliangchen",
+      "id": "heliangchen-20",
+      "translation": "用赏贵在诚信，用刑贵在必行。"
+    },
+    {
+      "text": "恬和养神，则自安于内；清虚栖心，则不诱于外。",
+      "source": "《刘子》",
+      "interp": "避世面——恬和清虚，是道家养神。进取面：心不外诱则明。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-1",
+      "translation": "恬淡温和地养神，就内心自安；清虚无欲地栖心，就不受外诱。"
+    },
+    {
+      "text": "将全其形，先在理神。",
+      "source": "《刘子》",
+      "interp": "避世面——理神全形，是道家养生。进取面：养神则精力足。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-2",
+      "translation": "要想保全形体，先要调理精神。"
+    },
+    {
+      "text": "虚室生白，吉祥至矣。",
+      "source": "《刘子》",
+      "interp": "避世面——虚静生明，是庄子「虚室生白」。进取面：心虚则明。",
+      "tags": [
+        "避世",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-3",
+      "translation": "空室生白（虚静则明），吉祥就到来了。"
+    },
+    {
+      "text": "不鉴于流波而鉴于静水者，以静能清也。",
+      "source": "《刘子》",
+      "interp": "避世面——静能照物，是修身。进取面：静以观变。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-4",
+      "translation": "不在流水上照影而在静水上照影，因为静能清澈。"
+    },
+    {
+      "text": "七窍者，精神之户牖也；志气者，五藏之使候也。",
+      "source": "《刘子》",
+      "interp": "避世面——耳目形藏皆关精神。进取面：养其户牖则神全。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-5",
+      "translation": "七窍是精神的门窗，志气是五脏的使者。"
+    },
+    {
+      "text": "圣人清目而不视，静耳而不听，闭口而不言，弃心而不虑。",
+      "source": "《刘子》",
+      "interp": "避世面——关闭感官以养神，是道家。进取面：有所不为而后有为。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-6",
+      "translation": "圣人清目而不看，静耳而不听，闭口而不说，弃心而不思。"
+    },
+    {
+      "text": "形不养而性自全，心不劳而道自至也。",
+      "source": "《刘子》",
+      "interp": "避世面——无为而全生。进取面：不劳而事成。",
+      "tags": [
+        "避世",
+        "修身",
+        "无为"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-7",
+      "translation": "形体不刻意养而本性自全，心不劳累而道自至。"
+    },
+    {
+      "text": "欲者，贵爱之原，奢淫之本也。",
+      "source": "《刘子》",
+      "interp": "避世面——去欲则守俭，是道家。进取面：寡欲则志清。",
+      "tags": [
+        "避世",
+        "知足"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-8",
+      "translation": "欲望，是贪贵爱利的根源、奢侈淫逸的根本。"
+    },
+    {
+      "text": "身之有欲，如树之有蝎；树抱蝎则还自凿，身抱欲而返自害。",
+      "source": "《刘子》",
+      "interp": "避世面——欲自戕身。进取面：戒欲则全。",
+      "tags": [
+        "避世",
+        "知足",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-9",
+      "translation": "身有欲望，像树有蠹虫；树抱虫反被虫凿，身抱欲反被欲害。"
+    },
+    {
+      "text": "将收情欲，先敛五关。",
+      "source": "《刘子》",
+      "interp": "避世面——塞感官之漏。进取面：守其门户。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-10",
+      "translation": "想要收束情欲，先收敛五关（感官）。"
+    },
+    {
+      "text": "外疾之害轻于秋毫，人知避之；内疾之害重于太山，而莫之避。",
+      "source": "《刘子》",
+      "interp": "避世面——内欲之害甚于外患。进取面：治内为本。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-11",
+      "translation": "外来的病害轻如秋毫，人却知道躲避；内在的病害重于泰山，却没人躲避。"
+    },
+    {
+      "text": "情欲之萌，如木之将蘖、火之始荧，手可掣而断，露可滴而灭。",
+      "source": "《刘子》",
+      "interp": "避世面——绝欲于微。进取面：防患于初。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-12",
+      "translation": "情欲初萌，像树将发蘖、火刚微明，手可以拉断、露可以滴灭。"
+    },
+    {
+      "text": "情者，是非之主，而利害之根。",
+      "source": "《刘子》",
+      "interp": "避世面——去情则无是非。进取面：去情则判明。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-13",
+      "translation": "情，是是非的主宰、利害的根源。"
+    },
+    {
+      "text": "圣人弃智以全真，遣情以接物。",
+      "source": "《刘子》",
+      "interp": "避世面——弃智全真，是道家。进取面：以情接物则碍。",
+      "tags": [
+        "避世",
+        "大智若愚"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-14",
+      "translation": "圣人舍弃智巧以保全本真，排遣私情以接应外物。"
+    },
+    {
+      "text": "街异露才者，未有不以此伤性毁命者也。",
+      "source": "《刘子》",
+      "interp": "避世面——藏才避祸，是道家韬光。进取面：藏锋待时。",
+      "tags": [
+        "避世",
+        "大智若愚"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-15",
+      "translation": "炫异露才的人，没有不因此伤性毁命的。"
+    },
+    {
+      "text": "古之德者，韬迹隐智以密其外，澄心封情以定其内。",
+      "source": "《刘子》",
+      "interp": "避世面——内外兼守，是道家韬光。进取面：藏而后发。",
+      "tags": [
+        "避世",
+        "修身",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "liuzhou",
+      "id": "liuzhou-16",
+      "translation": "古时有德的人，韬隐行迹智慧以密其外，澄清其心、封住其情以定其内。"
+    },
+    {
+      "text": "青出于蓝而青于蓝，染使然也。",
+      "source": "《刘子》",
+      "interp": "转化面——进取面：学习可超越。避世面：如冰寒于水。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "liuzhou",
+      "id": "liuzhou-17",
+      "translation": "青出于蓝而比蓝更青，是浸染使然。"
+    },
+    {
+      "text": "不登峻岑，不知天之高；不瞰深谷，不知地之厚。",
+      "source": "《刘子》",
+      "interp": "转化面——进取面：躬行而后知。避世面：见大而后小己。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "liuzhou",
+      "id": "liuzhou-18",
+      "translation": "不登高山，不知道天有多高；不看深谷，不知道地有多厚。"
+    },
+    {
+      "text": "人性美而不监道者，不学也。",
+      "source": "《刘子》",
+      "interp": "进取面——学以明道。避世面：学以近道。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "liuzhou",
+      "id": "liuzhou-19",
+      "translation": "人性虽美却不以道为镜的，是不学习。"
+    },
+    {
+      "text": "以圣贤之性，犹好学无倦。",
+      "source": "《刘子》",
+      "interp": "进取面——好学不倦。避世面：精进即道。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "liuzhou",
+      "id": "liuzhou-20",
+      "translation": "以圣贤的天性，尚且好学不倦。"
+    },
+    {
+      "text": "位卑在下未必愚，不遇也。",
+      "source": "《论衡》",
+      "interp": "避世面——不遇非愚，是士之叹。进取面：遇与不遇系于天时。",
+      "tags": [
+        "避世",
+        "形势"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-1",
+      "translation": "地位卑微的未必愚笨，只是没有遇到（明主）罢了。"
+    },
+    {
+      "text": "能御骥者必王良也，能臣禹稷皋陶者必尧舜也。",
+      "source": "《论衡》",
+      "interp": "进取面——大才须大主。避世面：相须而济。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wangchong",
+      "id": "wangchong-2",
+      "translation": "能驾驭良马的必是王良，能驾驭禹稷皋陶的必是尧舜。"
+    },
+    {
+      "text": "至言弃捐，圣贤距逆，非憎圣贤、不甘至言也。",
+      "source": "《论衡》",
+      "interp": "避世面——言之难行，在于世主。进取面：知言之难。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-3",
+      "translation": "至理之言被弃，圣贤被拒，不是厌恶圣贤、不爱至言。"
+    },
+    {
+      "text": "道虽同，同中有异；志虽合，合中有离。",
+      "source": "《论衡》",
+      "interp": "转化面——进取面：辨证同盟之难。避世面：与合离之数相通。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "wangchong",
+      "id": "wangchong-4",
+      "translation": "道虽相同，同中有异；志虽相合，合中有离。"
+    },
+    {
+      "text": "贤不肖可豫知，遇难先图。",
+      "source": "《论衡》",
+      "interp": "避世面——命遇难图。进取面：知人可豫，遇则在天。",
+      "tags": [
+        "避世",
+        "庙算"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-5",
+      "translation": "贤与不肖可以预先知道，但际遇难以事先谋划。"
+    },
+    {
+      "text": "逢遭外祸，累害之也。",
+      "source": "《论衡》",
+      "interp": "避世面——祸由外至，非己之罪。进取面：明察累害之源。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-6",
+      "translation": "遭遇外来的祸患，是被连累加害。"
+    },
+    {
+      "text": "为累害修身正行不能来福，战栗戒慎不能避祸，祸福之至，幸不幸也。",
+      "source": "《论衡》",
+      "interp": "避世面——祸福有时不由己。进取面：尽人事而听天命。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-7",
+      "translation": "受到连累加害的人，修身正行不能招福，战栗戒慎不能免祸，祸福之来，只是幸与不幸。"
+    },
+    {
+      "text": "福来不由我。",
+      "source": "《论衡》",
+      "interp": "避世面——福非可强求。进取面：尽其在己。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-8",
+      "translation": "福的到来不由我自己。"
+    },
+    {
+      "text": "伟士坐以俊杰之才，招致群吠之声。",
+      "source": "《论衡》",
+      "interp": "避世面——才高招谤，是世态。进取面：不因谤而废。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-9",
+      "translation": "伟士因俊杰之才而招来群犬狂吠之声。"
+    },
+    {
+      "text": "非俊疑杰，固庸能也。",
+      "source": "《论衡》",
+      "interp": "避世面——庸者妒贤。进取面：不为所动。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-10",
+      "translation": "非难俊才、疑忌豪杰，本是庸人的能事。"
+    },
+    {
+      "text": "不肖奴下，非所勉也。",
+      "source": "《论衡》",
+      "interp": "避世面——对不可教化者不必强求。进取面：择人而教。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-11",
+      "translation": "不肖的奴下之人，不是可以劝勉的。"
+    },
+    {
+      "text": "德鸿者招谤，为士者多口。",
+      "source": "《论衡》",
+      "interp": "避世面——德高谤随。进取面：守德不悔。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-12",
+      "translation": "德行大的人招致诽谤，做士的人多受口舌。"
+    },
+    {
+      "text": "死灰百斛，人不沃者，光灭也。",
+      "source": "《论衡》",
+      "interp": "避世面——势尽则人所不顾。进取面：察势之明。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-13",
+      "translation": "百斛死灰，没人浇它，是因为光焰已灭。"
+    },
+    {
+      "text": "立卓异于俗，固常通人所谗妒也。",
+      "source": "《论衡》",
+      "interp": "避世面——卓异招妒。进取面：不随俗。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-14",
+      "translation": "在世俗中卓异突出，本就是常被小人谗妒的。"
+    },
+    {
+      "text": "凡人遇偶及遭累害，皆由命也。",
+      "source": "《论衡》",
+      "interp": "避世面——命定之叹。进取面：尽人事。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-15",
+      "translation": "人逢际遇或遭连累加害，都由命定。"
+    },
+    {
+      "text": "凡有首目之类，含血之属，莫不有命。",
+      "source": "《论衡》",
+      "interp": "避世面——万物有命。进取面：知命而后动。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-16",
+      "translation": "凡是有头有眼、有血气之类，没有不有命的。"
+    },
+    {
+      "text": "命当贫贱，虽富贵之，犹涉祸患矣。",
+      "source": "《论衡》",
+      "interp": "转化面——进取面：命不可强求。避世面：知命安分。",
+      "tags": [
+        "转化"
+      ],
+      "face": "zhuan",
+      "personId": "wangchong",
+      "id": "wangchong-17",
+      "translation": "命该贫贱的，即使让他富贵，仍会遇到祸患。"
+    },
+    {
+      "text": "才高行厚，未必保其必富贵。",
+      "source": "《论衡》",
+      "interp": "避世面——才德未必致富贵。进取面：尽性而已。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-18",
+      "translation": "才高行厚的人，未必能确保富贵。"
+    },
+    {
+      "text": "命则不可勉，时则不可力，知者归之于天。",
+      "source": "《论衡》",
+      "interp": "避世面——知命归天，与庄子安命相通。进取面：不妄求。",
+      "tags": [
+        "避世",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "wangchong",
+      "id": "wangchong-19",
+      "translation": "命不可强勉，时不可力取，智者归之于天。"
+    },
+    {
+      "text": "采玉者破石拔玉，选士者弃恶取善。",
+      "source": "《论衡》",
+      "interp": "进取面——取才有法。避世面：去取有度。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "wangchong",
+      "id": "wangchong-20",
+      "translation": "采玉的人破石取玉，选士的人弃恶取善。"
+    },
+    {
+      "text": "圣贤之书，教人诚孝、慎言、检迹、立身、扬名。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——立身扬名。避世面：慎言检迹。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-1",
+      "translation": "圣贤的书，教人诚实孝顺、谨慎言语、检点行为、立身扬名。"
+    },
+    {
+      "text": "同言而信，信其所亲；同命而行，行其所服。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：信在亲、行在服。避世面：亲服而后化。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-2",
+      "translation": "同样的话，信的是所亲近的人；同样的命令，行的是所信服的人。"
+    },
+    {
+      "text": "上智不教而成，下愚虽教无益，中庸之人，不教不知也。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：教在中庸。避世面：因材而教。",
+      "tags": [
+        "转化",
+        "修身",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-3",
+      "translation": "上智不用教就能成，下愚虽教也无益，中庸的人不教就不知。"
+    },
+    {
+      "text": "教妇初来，教儿婴孩。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——教贵及早。避世面：慎始。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-4",
+      "translation": "教导媳妇要在她初来之时，教导孩子要在婴孩之时。"
+    },
+    {
+      "text": "兄弟者，分形连气之人也。",
+      "source": "《颜氏家训》",
+      "interp": "避世面——亲亲之情。进取面：兄弟和睦则家齐。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yanshi",
+      "id": "yanshi-5",
+      "translation": "兄弟，是分形连气的人。"
+    },
+    {
+      "text": "二亲既殁，兄弟相顾，当如形之与影、声之与响。",
+      "source": "《颜氏家训》",
+      "interp": "避世面——兄弟相依，是亲亲。进取面：和睦则家固。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yanshi",
+      "id": "yanshi-6",
+      "translation": "双亲去世后，兄弟相互顾念，应如形与影、声与响。"
+    },
+    {
+      "text": "兄弟不睦，则子侄不爱。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——齐家自兄弟始。避世面：和睦为本。",
+      "tags": [
+        "进取",
+        "修身",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-7",
+      "translation": "兄弟不和睦，子侄就不相亲。"
+    },
+    {
+      "text": "风化者，自上而行于下者也，自先而施于后者也。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：上行下效。避世面：不言之教。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-8",
+      "translation": "风化，是自上而向下推行、自先而向后施加的。"
+    },
+    {
+      "text": "父不慈则子不孝，兄不友则弟不恭。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：上下相因。避世面：正己而后正人。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-9",
+      "translation": "父不慈则子不孝，兄不友则弟不恭。"
+    },
+    {
+      "text": "奢则不孙，俭则固；与其不孙也，宁固。",
+      "source": "《颜氏家训》",
+      "interp": "避世面——宁俭毋奢，是尚俭之训。进取面：俭以持家。",
+      "tags": [
+        "避世",
+        "知足"
+      ],
+      "face": "bi",
+      "personId": "yanshi",
+      "id": "yanshi-10",
+      "translation": "奢侈就不谦逊，节俭就固陋；与其不逊，宁可固陋。"
+    },
+    {
+      "text": "可俭而不可吝。",
+      "source": "《颜氏家训》",
+      "interp": "避世面——俭而不吝，是中道。进取面：俭以养德。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yanshi",
+      "id": "yanshi-11",
+      "translation": "可以节俭，但不可吝啬。"
+    },
+    {
+      "text": "施而不奢，俭而不吝，可矣。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：执中。避世面：中庸之道。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-12",
+      "translation": "施与而不奢侈，节俭而不吝啬，就可以了。"
+    },
+    {
+      "text": "父慈而子逆，兄友而弟傲，夫义而妇陵，则天之凶民，乃刑戮之所摄，非训导之所移也。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——刑罚与教化并用。避世面：教化亦有穷时。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-13",
+      "translation": "父慈而子逆、兄友而弟傲、夫义而妇陵，这是天生的凶民，是刑罚所摄制的，不是训导所能改变的。"
+    },
+    {
+      "text": "笞怒废于家，则竖子之过立见；刑罚不中，则民无所措手足。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——治家如治国，宽猛相济。避世面：刑罚不中则民无所措。",
+      "tags": [
+        "进取",
+        "治国",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-14",
+      "translation": "家中废止鞭打怒责，孩子的过错就立刻显现；刑罚不得当，百姓就手足无措。"
+    },
+    {
+      "text": "治家之宽猛，亦犹国焉。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——家国同理。避世面：宽猛相济。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-15",
+      "translation": "治家的宽严，也像治国一样。"
+    },
+    {
+      "text": "国不可使预政，家不可使干蛊。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——分职守正。避世面：各守其位。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-16",
+      "translation": "国家不可让（妇人）干预政事，家庭不可让（妇人）主持大计。"
+    },
+    {
+      "text": "蓬生麻中，不劳翰墨。",
+      "source": "《颜氏家训》",
+      "interp": "转化面——进取面：环境熏染之力。避世面：近朱者赤。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "yanshi",
+      "id": "yanshi-17",
+      "translation": "蓬草生在麻丛中，不用扶持自然挺直。"
+    },
+    {
+      "text": "子侄不爱，则群从疏薄；群从疏薄，则僮仆为雠敌矣。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——亲亲以固家。避世面：和顺则安。",
+      "tags": [
+        "进取",
+        "修身",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-18",
+      "translation": "子侄不相亲，则同族疏远；同族疏远，则僮仆也成仇敌。"
+    },
+    {
+      "text": "读书未竟，虽有急速，必待卷束整齐，然后得起。",
+      "source": "《颜氏家训》",
+      "interp": "进取面——敬书爱物。避世面：慎终如始。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "yanshi",
+      "id": "yanshi-19",
+      "translation": "书没读完，即使有急事，也一定等把书卷收拾整齐，然后才起身。"
+    },
+    {
+      "text": "故纸有五经词义及贤达姓名，不敢秽用也。",
+      "source": "《颜氏家训》",
+      "interp": "避世面——敬惜字纸。进取面：敬重学问。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yanshi",
+      "id": "yanshi-20",
+      "translation": "所以写有五经词义和贤达姓名的纸，不敢用来做污秽之用。"
+    },
+    {
+      "text": "圣贤之言，因时而变，所以救其失也；不模古而行，所以致其真也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：因时救失。避世面：不泥古。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-1",
+      "translation": "圣贤的话，因时而变，是为了补救时弊；不照摹古人而行，是为了求得真义。"
+    },
+    {
+      "text": "儒之为贵者，能定乱除暴、安百姓也。",
+      "source": "《潜书》",
+      "interp": "进取面——儒者以事功为贵。避世面：安民即道。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "qianshu",
+      "id": "qianshu-2",
+      "translation": "儒者之所以可贵，在于能平定祸乱、除去暴虐、安定百姓。"
+    },
+    {
+      "text": "心者，事之本也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：治事在治心。避世面：心为道本。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-3",
+      "translation": "心，是事物的根本。"
+    },
+    {
+      "text": "正心诚意，学之本也。",
+      "source": "《潜书》",
+      "interp": "避世面——正心为修身之本。进取面：本立而学成。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-4",
+      "translation": "正心诚意，是学问的根本。"
+    },
+    {
+      "text": "信者不欺仆妾、不欺童稚，是驯暴服蛮之根也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：信为服人之本。避世面：诚于内。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-5",
+      "translation": "守信的人不欺骗仆妾、不欺骗孩童，这是驯服暴戾、降服蛮夷的根。"
+    },
+    {
+      "text": "仁者不忍庖厨、不伤蛰宿，是泽覆四海之根也。",
+      "source": "《潜书》",
+      "interp": "避世面——仁及微物。进取面：仁大则服人。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-6",
+      "translation": "仁者不忍心看庖厨杀生、不伤害蛰伏的虫兽，这是恩泽遍及四海的根。"
+    },
+    {
+      "text": "义者不食利、不蔽爱、不徇恶，是诛暴乱、定天下之根也。",
+      "source": "《潜书》",
+      "interp": "进取面——义以定乱。避世面：守义不苟。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "qianshu",
+      "id": "qianshu-7",
+      "translation": "义者不贪利、不蔽于私爱、不曲从邪恶，这是诛除暴乱、平定天下的根。"
+    },
+    {
+      "text": "君子既得其根，又善其养也；善养则根生，不善养则根腐。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：养根则成。避世面：涵养为本。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-8",
+      "translation": "君子既得到了根本，又善于培养；善于培养则根本生长，不善于培养则根本腐烂。"
+    },
+    {
+      "text": "天下莫强于仁。",
+      "source": "《潜书》",
+      "interp": "避世面——仁者无敌。进取面：以仁胜天下。",
+      "tags": [
+        "避世",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-9",
+      "translation": "天下没有比仁更强的。"
+    },
+    {
+      "text": "其不能载舟者，水浅也；其不能服人者，仁小也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：仁大则服人。避世面：厚德载物。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-10",
+      "translation": "不能载舟的，是水太浅；不能服人的，是仁太小。"
+    },
+    {
+      "text": "愚者见形，智者见心。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：智者察心。避世面：明心见性。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-11",
+      "translation": "愚者只见表象，智者能见本心。"
+    },
+    {
+      "text": "战国致形，圣人致心。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：争天下在得人心。避世面：以心化人。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-12",
+      "translation": "战国争的是形迹，圣人求的是人心。"
+    },
+    {
+      "text": "贤才者，四者之舟车也；去之则四者皆去而国亡。",
+      "source": "《潜书》",
+      "interp": "进取面——贤才为国之舟车。避世面：尊贤。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "qianshu",
+      "id": "qianshu-13",
+      "translation": "贤才是四类人的舟车；失去贤才，则四者都失去，国家就会灭亡。"
+    },
+    {
+      "text": "气大则心定，心定则才足，固历险成功之道也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：养气则成功。避世面：定心为本。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-14",
+      "translation": "气大则心定，心定则才足，这本是历险成功之道。"
+    },
+    {
+      "text": "人皆可以为尧舜。",
+      "source": "《潜书》",
+      "interp": "避世面——人人可成圣，是平等之观。进取面：立志可为。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-15",
+      "translation": "人人都可以成为尧舜。"
+    },
+    {
+      "text": "天下之孩提皆同也。",
+      "source": "《潜书》",
+      "interp": "避世面——众生同然。进取面：一视同仁。",
+      "tags": [
+        "避世",
+        "玄同"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-16",
+      "translation": "天下的孩童都是一样的。"
+    },
+    {
+      "text": "良知者，心之见端也。",
+      "source": "《潜书》",
+      "interp": "避世面——良知本具。进取面：致良知以成事。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-17",
+      "translation": "良知，是心的端倪。"
+    },
+    {
+      "text": "是良知者，乃江汉之源，非积潦之水，岂有竭焉。",
+      "source": "《潜书》",
+      "interp": "避世面——良知不竭。进取面：源泉不穷。",
+      "tags": [
+        "避世",
+        "修身",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-18",
+      "translation": "这良知，是江汉的源头，不是积水，怎会枯竭呢。"
+    },
+    {
+      "text": "猛虎在深山，百兽震恐，乌知其见麟则伏也。",
+      "source": "《潜书》",
+      "interp": "转化面——进取面：一物降一物。避世面：强弱相制。",
+      "tags": [
+        "转化",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "qianshu",
+      "id": "qianshu-19",
+      "translation": "猛虎在深山，百兽震恐，哪知它见了麒麟就会伏下。"
+    },
+    {
+      "text": "仁之大者，无强不顺，无诈不附。",
+      "source": "《潜书》",
+      "interp": "避世面——仁服天下。进取面：以仁制强。",
+      "tags": [
+        "避世",
+        "治国"
+      ],
+      "face": "bi",
+      "personId": "qianshu",
+      "id": "qianshu-20",
+      "translation": "仁大到极处，没有强梁不顺服、没有狡诈不归附的。"
+    },
+    {
+      "text": "夫有生必有死，达人恒分。",
+      "source": "《金楼子》",
+      "interp": "避世面——达生死。进取面：知生死则不惧。",
+      "tags": [
+        "避世",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-1",
+      "translation": "有生必有死，是达观者的常理。"
+    },
+    {
+      "text": "物速成而疾亡，晚就而善终。",
+      "source": "《金楼子》",
+      "interp": "转化面——进取面：欲速不达。避世面：厚积。",
+      "tags": [
+        "转化",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-2",
+      "translation": "事物速成则快亡，晚成则善终。"
+    },
+    {
+      "text": "朝华之草，戒旦零落；松柏之茂，隆冬不衰。",
+      "source": "《金楼子》",
+      "interp": "转化面——进取面：速成易败。避世面：松柏后凋。",
+      "tags": [
+        "转化",
+        "守柔"
+      ],
+      "face": "zhuan",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-3",
+      "translation": "早晨开花的草，天亮就凋落；松柏的茂盛，隆冬也不衰。"
+    },
+    {
+      "text": "是以大雅君子，恶速成，戒阙党也。",
+      "source": "《金楼子》",
+      "interp": "避世面——戒速成。进取面：缓以图成。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-4",
+      "translation": "所以大雅君子厌恶速成，戒惧急躁。"
+    },
+    {
+      "text": "夫人有善鲜不自伐，有能寡不自矜；伐则掩人，矜则陵人。",
+      "source": "《金楼子》",
+      "interp": "避世面——戒矜伐。进取面：谦以处众。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-5",
+      "translation": "人有善行很少不自我夸耀，有才能很少不自我矜持；自夸就掩盖别人，自矜就欺凌别人。"
+    },
+    {
+      "text": "大喜荡心，微抑则定；甚怒倾性，小忍则歇。",
+      "source": "《金楼子》",
+      "interp": "避世面——制情。进取面：忍怒定喜。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-6",
+      "translation": "大喜会摇荡心神，稍微抑制就安定；大怒会倾覆性情，稍加忍耐就平息。"
+    },
+    {
+      "text": "欲求子孝，必先为慈；将责弟悌，务念为友。",
+      "source": "《金楼子》",
+      "interp": "转化面——进取面：先正己。避世面：反求诸己。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-7",
+      "translation": "想要儿子孝顺，必先自己慈爱；将要责备弟弟不悌，务必先念自己是否友爱。"
+    },
+    {
+      "text": "曾子曰：狎甚则相简，庄甚则不亲。",
+      "source": "《金楼子》",
+      "interp": "避世面——亲庄得中。进取面：交友有度。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-8",
+      "translation": "曾子说：过于亲昵就会相互轻慢，过于庄重就会不相亲近。"
+    },
+    {
+      "text": "言行，君子之枢机；枢机之发，荣辱之主，可不慎乎。",
+      "source": "《金楼子》",
+      "interp": "避世面——慎言慎行。进取面：言行为成败之枢。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-9",
+      "translation": "言行是君子的枢机；枢机一发，是荣辱的主宰，能不谨慎吗。"
+    },
+    {
+      "text": "凡读书必以五经为本。",
+      "source": "《金楼子》",
+      "interp": "进取面——立本。避世面：返本。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-10",
+      "translation": "读书必须以五经为根本。"
+    },
+    {
+      "text": "非圣人之书勿读，读之百遍，其义自见。",
+      "source": "《金楼子》",
+      "interp": "进取面——读书贵精。避世面：返复自得。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-11",
+      "translation": "不是圣人的书不要读；圣人之书读上百遍，其义自然显现。"
+    },
+    {
+      "text": "人或毁己，当退而求之于身。",
+      "source": "《金楼子》",
+      "interp": "避世面——反求诸己。进取面：自省则明。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-12",
+      "translation": "有人诋毁自己，应当退而反省自身。"
+    },
+    {
+      "text": "闻人毁己而忿者，恶丑声之加己；反报者滋甚，不如默而自修也。",
+      "source": "《金楼子》",
+      "interp": "避世面——默而自修。进取面：不辩自明。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-13",
+      "translation": "听人诋毁自己就愤怒的，是厌恶恶名加身；报复的人更甚，不如沉默而自我修养。"
+    },
+    {
+      "text": "欲使汝曹立身行己，遵儒者之教，履道家之言。",
+      "source": "《金楼子》",
+      "interp": "转化面——进取面：儒道兼修。避世面：履道。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-14",
+      "translation": "想让你们立身行事，遵循儒者的教诲、践行道家的话。"
+    },
+    {
+      "text": "孝敬仁义，百行之首，而立身之本也。",
+      "source": "《金楼子》",
+      "interp": "进取面——立身之本。避世面：孝仁为德基。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-15",
+      "translation": "孝敬仁义，是百行之首、立身的根本。"
+    },
+    {
+      "text": "未有干名要利、欲而不厌，而能保于世、永全福禄者也。",
+      "source": "《金楼子》",
+      "interp": "避世面——戒贪。进取面：知足保身。",
+      "tags": [
+        "避世",
+        "知足"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-16",
+      "translation": "没有贪名求利、欲望无厌，却能保身于世、永全福禄的。"
+    },
+    {
+      "text": "好论人长短、忘其善恶者，宁死不愿闻也。",
+      "source": "《金楼子》",
+      "interp": "避世面——不议人短。进取面：修己为先。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-17",
+      "translation": "喜欢议论别人长短、忘了自己善恶的人，我宁死也不愿听。"
+    },
+    {
+      "text": "夫和之不备，或应以不和，犹信不足焉。",
+      "source": "《金楼子》",
+      "interp": "转化面——进取面：和则相应。避世面：和为本。",
+      "tags": [
+        "转化",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-18",
+      "translation": "和顺不具备，就会有不和回应，就像诚信不足一样。"
+    },
+    {
+      "text": "古者般金盂有铭，几杖有戒，俯仰察焉。",
+      "source": "《金楼子》",
+      "interp": "避世面——随处自警。进取面：戒惧。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-19",
+      "translation": "古时盘盂有铭文、几杖有戒语，俯仰之间都能省察。"
+    },
+    {
+      "text": "依隐玩世，诡时不逢。",
+      "source": "《金楼子》",
+      "interp": "避世面——玩世自适。进取面：识时。",
+      "tags": [
+        "避世",
+        "逍遥"
+      ],
+      "face": "bi",
+      "personId": "jinlouzi",
+      "id": "jinlouzi-20",
+      "translation": "依隐玩世，不合于时遇。"
+    },
+    {
+      "text": "谋乃行师之本，非谋无以制胜于万全。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——谋为制胜之本。避世面：谋定后动。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-1",
+      "translation": "谋是行军之本，没有谋就不能万全制胜。"
+    },
+    {
+      "text": "帝王之兵，贵谋而贱战。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——贵谋贱战。避世面：不战而胜。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-2",
+      "translation": "帝王之兵，重谋略而轻战斗。"
+    },
+    {
+      "text": "勇不足恃，用兵在先定谋。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——谋先于勇。避世面：智胜于力。",
+      "tags": [
+        "进取",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-3",
+      "translation": "勇不可依恃，用兵在于先定谋略。"
+    },
+    {
+      "text": "凡兵之兴，不得已也。",
+      "source": "《投笔肤谈》",
+      "interp": "避世面——兵为凶器，不得已而用。进取面：慎战。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "toubishitan",
+      "id": "toubishitan-4",
+      "translation": "凡是用兵，都是出于不得已。"
+    },
+    {
+      "text": "国乱之是除，民暴之是去，非以残民而生乱也。",
+      "source": "《投笔肤谈》",
+      "interp": "转化面——进取面：兵以除暴安民。避世面：止戈为武。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "toubishitan",
+      "id": "toubishitan-5",
+      "translation": "用兵是为除国之乱、去民之暴，不是为残害百姓、制造动乱。"
+    },
+    {
+      "text": "国不富不可以兴兵，民不和不可以合战。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——富国和民而后兵。避世面：本固而后用。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-6",
+      "translation": "国家不富足不可以起兵，百姓不和睦不可以交战。"
+    },
+    {
+      "text": "兵以销兵。",
+      "source": "《投笔肤谈》",
+      "interp": "转化面——进取面：以战止战。避世面：兵以弭兵。",
+      "tags": [
+        "转化",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "toubishitan",
+      "id": "toubishitan-7",
+      "translation": "用兵是为了消弭兵祸。"
+    },
+    {
+      "text": "用兵之道，难保其必胜，而可保其必不败。",
+      "source": "《投笔肤谈》",
+      "interp": "转化面——进取面：先为不可胜。避世面：守不败。",
+      "tags": [
+        "转化",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "toubishitan",
+      "id": "toubishitan-8",
+      "translation": "用兵之道，难保一定胜，却可保一定不败。"
+    },
+    {
+      "text": "不立于不败之地而欲求以胜人者，此徼幸之道也。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——先为不可胜。避世面：不侥幸。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-9",
+      "translation": "不先立于不败之地而想求胜于人的，这是侥幸之道。"
+    },
+    {
+      "text": "营实则敌难冲突，阵虚则人易展施。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——营阵各有攸当。避世面：虚实相济。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-10",
+      "translation": "营垒坚实，敌人就难以冲突；阵形虚活，人就容易施展。"
+    },
+    {
+      "text": "宁不胜，毋或陷众；宁久持，毋惑欺敌。",
+      "source": "《投笔肤谈》",
+      "interp": "避世面——不贪胜、不轻进。进取面：持重。",
+      "tags": [
+        "避世",
+        "全胜"
+      ],
+      "face": "bi",
+      "personId": "toubishitan",
+      "id": "toubishitan-11",
+      "translation": "宁可不胜，也不要陷没部众；宁可长久相持，也不要被敌人欺惑。"
+    },
+    {
+      "text": "兵不贵分，分则力寡；兵不贵远，远则势疏。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——合势。避世面：不分则固。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-12",
+      "translation": "兵不贵在分散，分散则力量单薄；兵不贵在远离，远离则声势疏远。"
+    },
+    {
+      "text": "敌诱吾以利者，我思其灾；激吾以怒者，我思其变。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——不贪利、不轻怒。避世面：制怒。",
+      "tags": [
+        "进取",
+        "权变",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-13",
+      "translation": "敌人用利来引诱我，我思考其中的灾祸；用怒来激我，我思考其中的变故。"
+    },
+    {
+      "text": "天下之乘，不在敌则在我，不在我则在敌。",
+      "source": "《投笔肤谈》",
+      "interp": "转化面——进取面：乘人者胜。避世面：我备则不被乘。",
+      "tags": [
+        "转化",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "toubishitan",
+      "id": "toubishitan-14",
+      "translation": "天下的可乘之机，不在敌就在我，不在我就在敌。"
+    },
+    {
+      "text": "凡此等法，千载不磨。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——兵家常法。避世面：守常。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-15",
+      "translation": "凡此等法则，千年也不会磨灭。"
+    },
+    {
+      "text": "权变而不可胶弦袭辙也。",
+      "source": "《投笔肤谈》",
+      "interp": "转化面——进取面：灵活权变。避世面：不拘。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "toubishitan",
+      "id": "toubishitan-16",
+      "translation": "权变不可像胶柱调弦、沿辙而行那样拘泥。"
+    },
+    {
+      "text": "用兵先须立定家计。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——先立家计。避世面：本立。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-17",
+      "translation": "用兵先要立定自己的根本打算。"
+    },
+    {
+      "text": "我未可战则谨守弗失，待敌之敝而胜之。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——后发制人。避世面：待时。",
+      "tags": [
+        "进取",
+        "形势",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-18",
+      "translation": "我不可以战时，就谨慎固守不失，等待敌人出现破绽而胜之。"
+    },
+    {
+      "text": "敌若有衅，机不可失，则警吾之备而乘之。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——乘隙而备己。避世面：有隙尚警。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-19",
+      "translation": "敌人若有破绽，机不可失，但要警戒自己的防备而后乘之。"
+    },
+    {
+      "text": "敌虽寡我亦举众以待之，敌虽弱我亦坚阵以迎之。",
+      "source": "《投笔肤谈》",
+      "interp": "进取面——不轻敌。避世面：慎守。",
+      "tags": [
+        "进取",
+        "全胜",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "toubishitan",
+      "id": "toubishitan-20",
+      "translation": "敌人虽少，我也举全军来等待它；敌人虽弱，我也坚阵来迎它。"
+    },
+    {
+      "text": "故可与之赴深溪，视卒如爱子。",
+      "source": "《兵垒》",
+      "interp": "进取面——爱兵得死力。避世面：慈爱及人。",
+      "tags": [
+        "进取",
+        "修身"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-1",
+      "translation": "所以可与之共赴深溪，看待士卒如爱子。"
+    },
+    {
+      "text": "先胜而后战，非先战而后胜也。",
+      "source": "《兵垒》",
+      "interp": "进取面——先胜后战。避世面：先为不可胜。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-2",
+      "translation": "先立于胜再战，不是先战再求胜。"
+    },
+    {
+      "text": "时不再来，机不可失，则速攻之、速围之、速逐之、速捣之，靡有不胜。",
+      "source": "《兵垒》",
+      "interp": "进取面——兵贵神速。避世面：乘时。",
+      "tags": [
+        "进取",
+        "速决",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-3",
+      "translation": "时不再来、机不可失，就速攻、速围、速逐、速捣，没有不胜利的。"
+    },
+    {
+      "text": "攻敌欲疾，是脱兔之说也。",
+      "source": "《兵垒》",
+      "interp": "进取面——疾则不及防。避世面：动静有时。",
+      "tags": [
+        "进取",
+        "速决"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-4",
+      "translation": "攻敌要快，这是「动如脱兔」的说法。"
+    },
+    {
+      "text": "必匿其爪，猛兽之搏也。",
+      "source": "《兵垒》",
+      "interp": "进取面——藏锋而后发。避世面：大智若愚。",
+      "tags": [
+        "进取",
+        "诡道"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-5",
+      "translation": "猛兽搏击，必先藏起爪子。"
+    },
+    {
+      "text": "故羸为制敌之一奇也。",
+      "source": "《兵垒》",
+      "interp": "进取面——示弱诱敌。避世面：能而示之不能。",
+      "tags": [
+        "进取",
+        "诡道",
+        "奇正"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-6",
+      "translation": "所以示弱是用奇制敌之一法。"
+    },
+    {
+      "text": "必胜之术，合变之形，妙在于乘；乘者，乘人之不及，攻其所不戒焉。",
+      "source": "《兵垒》",
+      "interp": "进取面——乘机。避世面：因势。",
+      "tags": [
+        "进取",
+        "形势",
+        "奇正"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-7",
+      "translation": "必胜之术、合变之形，妙处在于「乘」；乘，就是趁人不及、攻其不戒。"
+    },
+    {
+      "text": "骄可乘，劳可乘，懈可乘，饥可乘，渴可乘，乱可乘，疑可乘，怖可乘，困可乘，险可乘；可乘者，敌也。",
+      "source": "《兵垒》",
+      "interp": "进取面——察敌之隙而乘之。避世面：因敌。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-8",
+      "translation": "骄、劳、懈、饥、渴、乱、疑、怖、困、险都可乘；可乘之处，在敌。"
+    },
+    {
+      "text": "揣其可乘而乘之，善制敌者也。",
+      "source": "《兵垒》",
+      "interp": "进取面——因机而乘。避世面：审势。",
+      "tags": [
+        "进取",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-9",
+      "translation": "揣度其可乘之处而乘之，是善于制敌的人。"
+    },
+    {
+      "text": "故圣人贵静，静则不躁，而后能应躁。",
+      "source": "《兵垒》",
+      "interp": "避世面——静以制动。进取面：静而后应。",
+      "tags": [
+        "避世",
+        "形势"
+      ],
+      "face": "bi",
+      "personId": "binglei",
+      "id": "binglei-10",
+      "translation": "圣人贵在静，静就不躁，然后能应对躁动。"
+    },
+    {
+      "text": "兵以静胜，甚哉。",
+      "source": "《兵垒》",
+      "interp": "避世面——以静胜躁。进取面：静观其变。",
+      "tags": [
+        "避世",
+        "形势"
+      ],
+      "face": "bi",
+      "personId": "binglei",
+      "id": "binglei-11",
+      "translation": "用兵靠静取胜，很对啊。"
+    },
+    {
+      "text": "人莫不有长，莫不有短，善为将者，假人之长以补其短。",
+      "source": "《兵垒》",
+      "interp": "进取面——集众长。避世面：因材。",
+      "tags": [
+        "进取",
+        "任势",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-12",
+      "translation": "人都有长处和短处，善为将的人，借人之长来补其短。"
+    },
+    {
+      "text": "夫泰山不辞壤石，江海不逆小流，所以成大也。",
+      "source": "《兵垒》",
+      "interp": "转化面——进取面：广纳则大。避世面：厚德。",
+      "tags": [
+        "转化",
+        "玄同"
+      ],
+      "face": "zhuan",
+      "personId": "binglei",
+      "id": "binglei-13",
+      "translation": "泰山不拒绝土壤石块，江海不排斥细流，所以能成就其大。"
+    },
+    {
+      "text": "能审因而加胜，则不可穷也。",
+      "source": "《兵垒》",
+      "interp": "转化面——进取面：因势制胜。避世面：因是道家核心。",
+      "tags": [
+        "转化",
+        "无为",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "binglei",
+      "id": "binglei-14",
+      "translation": "能审察「因」而加之以胜，就不可穷尽。"
+    },
+    {
+      "text": "三代所宝莫如因：舜因民之心，禹因水之力，汤武因人之欲。",
+      "source": "《兵垒》",
+      "interp": "转化面——进取面：因势利导。避世面：因即道法自然。",
+      "tags": [
+        "转化",
+        "无为",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "binglei",
+      "id": "binglei-15",
+      "translation": "三代所珍视的莫过于「因」：舜因民心，禹因水力，汤武因人之欲。"
+    },
+    {
+      "text": "凡因则无敌。",
+      "source": "《兵垒》",
+      "interp": "转化面——进取面：因势无敌。避世面：顺物则通。",
+      "tags": [
+        "转化",
+        "无为"
+      ],
+      "face": "zhuan",
+      "personId": "binglei",
+      "id": "binglei-16",
+      "translation": "凡能「因」，就无敌。"
+    },
+    {
+      "text": "兵法有虚有实，实而示之以虚，虚而示之以实。",
+      "source": "《兵垒》",
+      "interp": "进取面——虚实示形。避世面：有无相生。",
+      "tags": [
+        "进取",
+        "虚实",
+        "诡道"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-17",
+      "translation": "兵法有虚有实，实而示以虚，虚而示以实。"
+    },
+    {
+      "text": "夫一人之身，举百万之众，俛首伏喙，束肩敛息，而莫敢仰视，法制整也。",
+      "source": "《兵垒》",
+      "interp": "进取面——法制整则令行。避世面：法以立威。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-18",
+      "translation": "一人之身，能指挥百万之众，使他们低头屏息不敢仰视，是法制严整。"
+    },
+    {
+      "text": "忽操兵权，申之以法令，威之以赏罚，人未敢有逆其命者，整之时义大矣。",
+      "source": "《兵垒》",
+      "interp": "进取面——法令赏罚立威。避世面：整而后动。",
+      "tags": [
+        "进取",
+        "治国",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "binglei",
+      "id": "binglei-19",
+      "translation": "一旦执掌兵权，申明法令、威慑以赏罚，就没有人敢违抗命令，「整」的意义真大啊。"
+    },
+    {
+      "text": "猛虎失势，童子曳戟而逐之，乘其惫也。",
+      "source": "《兵垒》",
+      "interp": "转化面——进取面：乘敌之疲。避世面：势不可恃。",
+      "tags": [
+        "转化",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "binglei",
+      "id": "binglei-20",
+      "translation": "猛虎失势，童子拿着戟就能追赶它，是趁其疲惫。"
+    },
+    {
+      "text": "用间者胜。",
+      "source": "《间书》",
+      "interp": "进取面——用间制胜。避世面：先知在人。",
+      "tags": [
+        "进取",
+        "用间",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-1",
+      "translation": "会用间的人能取胜。"
+    },
+    {
+      "text": "欲知虚实，在先用间。",
+      "source": "《间书》",
+      "interp": "进取面——用间以知虚实。避世面：先知。",
+      "tags": [
+        "进取",
+        "用间",
+        "虚实"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-2",
+      "translation": "想要知道虚实，在于先用间。"
+    },
+    {
+      "text": "五间相济成，而以反间为乡间、内间、生间、死间之本。",
+      "source": "《间书》",
+      "interp": "进取面——五间相济、反间为本。避世面：用间之枢。",
+      "tags": [
+        "进取",
+        "用间",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-3",
+      "translation": "五种间谍相互配合而成，而以反间为乡间、内间、生间、死间的根本。"
+    },
+    {
+      "text": "故反间不可不厚也。",
+      "source": "《间书》",
+      "interp": "进取面——厚待反间。避世面：重赏。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-4",
+      "translation": "所以对反间不可不厚待。"
+    },
+    {
+      "text": "机事不密则害成；兵机皆贵密，不独用间为然也。",
+      "source": "《间书》",
+      "interp": "进取面——机事贵密。避世面：藏机。",
+      "tags": [
+        "进取",
+        "用间",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-5",
+      "translation": "机密之事不保密就会危害成功；兵机都贵在保密，不只间谍是这样。"
+    },
+    {
+      "text": "非重金不能行间也。",
+      "source": "《间书》",
+      "interp": "进取面——重赏以行间。避世面：以利动之。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-6",
+      "translation": "不用重金就不能行间。"
+    },
+    {
+      "text": "凡见皆须隐密，重之以赏，密之又密，始可行焉。",
+      "source": "《间书》",
+      "interp": "进取面——行间贵密。避世面：藏。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-7",
+      "translation": "凡间事都须隐密，再加厚赏，密之又密，才能施行。"
+    },
+    {
+      "text": "夫无报人之志而令人疑之，拙也；有报人之意而令人知之，殆也；事未发而先闻者，危也。三者举事之大患也。",
+      "source": "《间书》",
+      "interp": "转化面——进取面：谋事贵密。避世面：藏机。",
+      "tags": [
+        "转化",
+        "权变",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-8",
+      "translation": "没有报复之心却让人怀疑，是笨拙；有报复之意却让人知道，是危险；事情没发生就先泄露，是危殆。这三者是举事的大患。"
+    },
+    {
+      "text": "读古人兵书，不必泥其词而刻舟求剑，贵神明而变通之也。",
+      "source": "《间书》",
+      "interp": "转化面——进取面：不泥古。避世面：唯变所适。",
+      "tags": [
+        "转化",
+        "权变"
+      ],
+      "face": "zhuan",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-9",
+      "translation": "读古人兵书，不必拘泥其词而刻舟求剑，贵在神而明之、灵活变通。"
+    },
+    {
+      "text": "以良民与逆民互相伤，非计也。",
+      "source": "《间书》",
+      "interp": "进取面——以敌制敌、保存己力。避世面：爱民。",
+      "tags": [
+        "进取",
+        "治国",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-10",
+      "translation": "让良民与逆民互相残伤，不是好计。"
+    },
+    {
+      "text": "间之道有五。",
+      "source": "《间书》",
+      "interp": "进取面——五间之目。避世面：知人之术。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-11",
+      "translation": "用间之道有五种。"
+    },
+    {
+      "text": "五间之事，主必知之。",
+      "source": "《间书》",
+      "interp": "进取面——君当知间。避世面：知机。",
+      "tags": [
+        "进取",
+        "用间",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-12",
+      "translation": "五间之事，君主必须知道。"
+    },
+    {
+      "text": "凡军之所欲击、城之所欲攻，必先知其守将、左右、谒者、门者、舍人之姓名。",
+      "source": "《间书》",
+      "interp": "进取面——知敌之详。避世面：先知。",
+      "tags": [
+        "进取",
+        "用间",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-13",
+      "translation": "凡要攻击的军队、要攻打的城池，必须先知道其守将、左右、谒者、门者、舍人的姓名。"
+    },
+    {
+      "text": "故就而用之，可使伺候也。",
+      "source": "《间书》",
+      "interp": "进取面——因乡人而用间。避世面：因。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-14",
+      "translation": "所以就势而用之，可使它伺察。"
+    },
+    {
+      "text": "敌使间来视我，我知之，因厚赂重许，反使为我间也。",
+      "source": "《间书》",
+      "interp": "进取面——反用敌间。避世面：以敌之器为我用。",
+      "tags": [
+        "进取",
+        "用间",
+        "权变"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-15",
+      "translation": "敌派间来窥我，我知之后，就厚赂重许，反过来让他为我所用。"
+    },
+    {
+      "text": "故死间为诳事，可使告敌。",
+      "source": "《间书》",
+      "interp": "进取面——死间行诳。避世面：诡道。",
+      "tags": [
+        "进取",
+        "用间",
+        "诡道"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-16",
+      "translation": "所以死间行诳事，可使他告敌以假情报。"
+    },
+    {
+      "text": "故生间可使如期。",
+      "source": "《间书》",
+      "interp": "进取面——生间回报。避世面：知彼。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-17",
+      "translation": "所以生间可使其如期回报。"
+    },
+    {
+      "text": "因敌反间而知敌情，乡间、内间者皆可得使。",
+      "source": "《间书》",
+      "interp": "进取面——反间为枢。避世面：因敌。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-18",
+      "translation": "借敌之反间而得知敌情，乡间、内间就都可以驱使。"
+    },
+    {
+      "text": "至于行间，贵密，则大易言之矣。",
+      "source": "《间书》",
+      "interp": "进取面——行间贵密。避世面：密。",
+      "tags": [
+        "进取",
+        "用间"
+      ],
+      "face": "jin",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-19",
+      "translation": "至于行间，贵在保密，《易》已经讲得很明白了。"
+    },
+    {
+      "text": "信陵善间，而后魏中秦间，信陵竟以间废，亦可慨也。",
+      "source": "《间书》",
+      "interp": "避世面——善间者亦为人所间。进取面：用间与防间并重。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "zhufengjia",
+      "id": "zhufengjia-20",
+      "translation": "信陵君善于用间，后来魏王中了秦国的反间，信陵君竟因此被废，也可叹啊。"
+    },
+    {
+      "text": "故君子之谋，能必用道。",
+      "source": "《鬻子》",
+      "interp": "避世面——谋必用道。进取面：道为谋本。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-2",
+      "translation": "所以君子的谋略，必定合乎道。"
+    },
+    {
+      "text": "故有道之君，上下亲爱，忠谠进用。",
+      "source": "《鬻子》",
+      "interp": "进取面——纳忠进贤。避世面：亲爱。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-3",
+      "translation": "所以有道之君，上下亲爱，忠直之言得以进用。"
+    },
+    {
+      "text": "君子非人者，不出之于辞，而施之于行。",
+      "source": "《鬻子》",
+      "interp": "避世面——以行非言。进取面：以身正人。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-4",
+      "translation": "君子反对别人，不表现在言辞上，而表现在行动上。"
+    },
+    {
+      "text": "夫为政以德，必贵于道，为化国之福焉。",
+      "source": "《鬻子》",
+      "interp": "转化面——进取面：政以德道。避世面：道为福本。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yuzi",
+      "id": "yuzi-5",
+      "translation": "为政以德，必以道为贵，这是化育国家的福。"
+    },
+    {
+      "text": "昔之君子，其所以为功者，以其民也。",
+      "source": "《鬻子》",
+      "interp": "进取面——得民则功成。避世面：民为本。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-6",
+      "translation": "古时君子之所以能建功，是因为依靠民众。"
+    },
+    {
+      "text": "人惟邦本，得众斯昌。",
+      "source": "《鬻子》",
+      "interp": "进取面——民本。避世面：得众。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-7",
+      "translation": "人民是国家的根本，得众才能昌盛。"
+    },
+    {
+      "text": "政之兴亡，在于卿相：得贤者和辑，失贤者离散。",
+      "source": "《鬻子》",
+      "interp": "进取面——任贤。避世面：贤辅。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-8",
+      "translation": "政治的兴亡在于卿相：得贤人则和谐，失贤人则离散。"
+    },
+    {
+      "text": "故十人爱之，则十人之吏也；百人爱之，则百人之吏也；千人爱之，则千人之吏也；万人爱之，则万人之吏也。",
+      "source": "《鬻子》",
+      "interp": "进取面——爱戴愈广则职位愈高。避世面：民心为秤。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-9",
+      "translation": "十人爱戴的，是十人的官吏；百人爱戴的，是百人的官吏；千人爱戴的，是千人的官吏；万人爱戴的，是万人的官吏。"
+    },
+    {
+      "text": "故万人之吏，撰卿相矣。",
+      "source": "《鬻子》",
+      "interp": "进取面——众望所归者任大。避世面：民心。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-10",
+      "translation": "所以万人爱戴的官吏，可以选拔为卿相。"
+    },
+    {
+      "text": "知善不行者谓之狂。",
+      "source": "《鬻子》",
+      "interp": "避世面——知行合一。进取面：见善即行。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-11",
+      "translation": "知道善却不实行的，叫做狂。"
+    },
+    {
+      "text": "知善而不行，知恶而不改，终至狂惑者，此圣王之明戒也。",
+      "source": "《鬻子》",
+      "interp": "进取面——戒狂戒惑。避世面：改过迁善。",
+      "tags": [
+        "进取",
+        "修身",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-12",
+      "translation": "知善而不行、知恶而不改，最终陷于狂惑，这是圣王的明戒。"
+    },
+    {
+      "text": "不肖者不自谓不肖也。",
+      "source": "《鬻子》",
+      "interp": "避世面——自知之难。进取面：察人之明。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-13",
+      "translation": "不肖的人不会自称不肖。"
+    },
+    {
+      "text": "虽自谓贤人，犹谓之不肖也。",
+      "source": "《鬻子》",
+      "interp": "避世面——自誉者不贤。进取面：听其行。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-14",
+      "translation": "即使自称贤人，还是被称为不肖。"
+    },
+    {
+      "text": "故曰民者，贤不肖之杖也。",
+      "source": "《鬻子》",
+      "interp": "进取面——察吏于民。避世面：民心为鉴。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-15",
+      "translation": "所以说，民众是衡量贤与不肖的凭杖。"
+    },
+    {
+      "text": "不肖者岂自谓不肖哉，以贤者视之，不肖之迹见矣。",
+      "source": "《鬻子》",
+      "interp": "避世面——明者见人。进取面：识人之明。",
+      "tags": [
+        "避世"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-16",
+      "translation": "不肖的人哪会自称不肖，以贤者的眼光看，他不肖的行迹就显现了。"
+    },
+    {
+      "text": "天下者岂可妄理哉，亦由积德累业以有之也。",
+      "source": "《鬻子》",
+      "interp": "转化面——进取面：积德累业。避世面：厚积。",
+      "tags": [
+        "转化",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "yuzi",
+      "id": "yuzi-17",
+      "translation": "天下怎可妄加治理，也是靠积累德业才拥有的。"
+    },
+    {
+      "text": "其道昭昭，若日月之明然，若以昼代夜然。",
+      "source": "《鬻子》",
+      "interp": "避世面——道明如日月。进取面：道照天下。",
+      "tags": [
+        "避世",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-18",
+      "translation": "其道昭昭，像日月的光明，像以昼代夜。"
+    },
+    {
+      "text": "帝王之功，莫此为盛。",
+      "source": "《鬻子》",
+      "interp": "进取面——五帝之功。避世面：道化。",
+      "tags": [
+        "进取",
+        "治国"
+      ],
+      "face": "jin",
+      "personId": "yuzi",
+      "id": "yuzi-19",
+      "translation": "帝王之功，没有比这更盛大的。"
+    },
+    {
+      "text": "夫圣人与天地合德，日月齐明，道大不沦，可以崇远也。",
+      "source": "《鬻子》",
+      "interp": "避世面——与天地合德。进取面：道大。",
+      "tags": [
+        "避世",
+        "玄同"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-20",
+      "translation": "圣人与天地合德、与日月齐明，道大而不沉沦，可以崇高久远。"
+    },
+    {
+      "text": "君子不与人谋之则已矣。",
+      "source": "《鬻子》",
+      "interp": "避世面——谋必由道。进取面：以道谋事。",
+      "tags": [
+        "避世",
+        "修身"
+      ],
+      "face": "bi",
+      "personId": "yuzi",
+      "id": "yuzi-1",
+      "translation": "君子不与人谋划也就罢了。"
+    },
+    {
+      "text": "胜兵似水。夫水至柔弱者也，然所以触，丘陵必为之崩，无异也，性专而触诚也。",
+      "source": "《尉缭子·武议》",
+      "interp": "转化面——进取面：以柔克刚、专一而诚则无坚不摧。避世面：水至柔而胜刚，正是老子「天下莫柔弱于水」。",
+      "tags": [
+        "转化",
+        "守柔",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-21",
+      "translation": "胜利的军队像水。水是最柔弱的，但它所冲击的地方，丘陵也必定崩坏，没有别的原因，是它专一而冲击真诚。"
+    },
+    {
+      "text": "故善将者，爱与威而已。",
+      "source": "《尉缭子·攻权》",
+      "interp": "转化面——进取面：爱与威（柔与刚）并用。避世面：爱近于慈、威近于法，刚柔一体。",
+      "tags": [
+        "转化",
+        "修身",
+        "治国"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-22",
+      "translation": "所以善于做将帅的，不过是爱与威罢了。"
+    },
+    {
+      "text": "故正兵贵先，奇兵贵后，或先或后，制敌者也。",
+      "source": "《尉缭子·勒卒令》",
+      "interp": "转化面——进取面：先后之择在于制敌。避世面：不固定先后，随时而变。",
+      "tags": [
+        "转化",
+        "奇正",
+        "形势"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-24",
+      "translation": "所以正兵贵在先动，奇兵贵在后动，或先或后，都是为了制敌。"
+    },
+    {
+      "text": "兵贵先胜于此，则胜彼矣；弗胜于此，则弗胜彼矣。",
+      "source": "《尉缭子·战权》",
+      "interp": "进取面——先胜于己。避世面：先为不可胜。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-25",
+      "translation": "用兵贵在先在自身立于胜，才能胜敌；自身不能立于胜，就不能胜敌。"
+    },
+    {
+      "text": "兵胜于朝廷，胜于丧纪，胜于土功，胜于市井。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "转化面——进取面：胜负早在庙堂、制度、民生中决定。避世面：不战而胜，近于无为。",
+      "tags": [
+        "转化",
+        "治国",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-27",
+      "translation": "用兵的胜利在于朝廷（庙算），在于丧纪，在于土功，在于市井。"
+    },
+    {
+      "text": "治兵者，若秘于地，若邃于天，生于无。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "避世面——「生于无」，近于老子「有生于无」。进取面：无形而不可测。",
+      "tags": [
+        "避世",
+        "无为",
+        "归根"
+      ],
+      "face": "bi",
+      "personId": "weiliao",
+      "id": "weiliao-28",
+      "translation": "治理军队，像秘藏于地、深邃如天，生于「无」。"
+    },
+    {
+      "text": "百战百胜，非善之善者也；不战而胜，善之善者也。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "转化面——进取面：以不战为最高。避世面：与老子「善胜敌者不与」相合。",
+      "tags": [
+        "转化",
+        "不争",
+        "全胜"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-30",
+      "translation": "百战百胜，不是最好的；不战而胜，才是最好的。"
+    },
+    {
+      "text": "凡兵不攻无过之城，不杀无罪之人。",
+      "source": "《尉缭子·武议》",
+      "interp": "转化面——避世面：仁及无辜，兵所以诛乱禁不义。进取面：义兵乃能全胜。",
+      "tags": [
+        "转化",
+        "全胜",
+        "修身"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-31",
+      "translation": "凡用兵不攻打无过之城，不杀害无罪之人。"
+    },
+    {
+      "text": "兵以静固，以专胜。力分者弱，心疑者背。",
+      "source": "《尉缭子·攻权》",
+      "interp": "避世面——以静以专，近于老子「清静」「抱一」。进取面：专一则胜。",
+      "tags": [
+        "避世",
+        "形势",
+        "守柔"
+      ],
+      "face": "bi",
+      "personId": "weiliao",
+      "id": "weiliao-33",
+      "translation": "军队靠静而稳固，靠专一而取胜。力量分散就弱，心怀疑虑就背离。"
+    },
+    {
+      "text": "矢射未交，长刃未接，先噪者虚，后噪谓之实，不噪谓之闭，虚实者兵之体也。",
+      "source": "《尉缭子·兵令上》",
+      "interp": "进取面——虚实示形。避世面：有无相生。",
+      "tags": [
+        "进取",
+        "虚实",
+        "诡道"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-34",
+      "translation": "箭未交锋、刃未相接，先鼓噪的为虚，后鼓噪的为实，不鼓噪的为闭——虚实是用兵的根本。"
+    },
+    {
+      "text": "今以莫邪之利，犀兕之坚，三军之众，有所奇正，则天下莫当其战矣。",
+      "source": "《尉缭子·武议》",
+      "interp": "进取面——奇正相配则无敌。避世面：奇正相生，如环无端。",
+      "tags": [
+        "进取",
+        "奇正",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-36",
+      "translation": "如今凭莫邪的锋利、犀兕的坚固、三军之众，再加上奇正的运用，天下就没有能抵挡它的了。"
+    },
+    {
+      "text": "善御敌者，正兵先合，而后振之，此必胜之术也。",
+      "source": "《尉缭子·兵令上》",
+      "interp": "进取面——以正合、以奇胜。避世面：先后有序。",
+      "tags": [
+        "进取",
+        "奇正",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-37",
+      "translation": "善于抵御敌人的人，正兵先交合，然后振起（奇兵），这是必胜之术。"
+    },
+    {
+      "text": "鼓之前如霆，动如风雨，莫敢当其前，莫敢蹑其后。",
+      "source": "《尉缭子·经卒令》",
+      "interp": "进取面——进不可当、退不可追。避世面：动如风雨、静如止水。",
+      "tags": [
+        "进取",
+        "速决",
+        "形势"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-38",
+      "translation": "鼓声一响前进如雷霆，行动如风雨，没有人敢挡在前，也没有人敢追在后。"
+    },
+    {
+      "text": "战胜其国，则攻其都；不胜其国，不攻其都。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "进取面——量力而进。避世面：知止不进。",
+      "tags": [
+        "进取",
+        "庙算",
+        "全胜"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-39",
+      "translation": "能战胜其国，才攻它的都城；不能战胜其国，就不攻它的都城。"
+    },
+    {
+      "text": "兵起，非可以忿也，见胜则兴，不见胜则止。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "转化面——进取面：见胜则兴。避世面：不见胜则止，近于知止。",
+      "tags": [
+        "转化",
+        "不争",
+        "庙算"
+      ],
+      "face": "zhuan",
+      "personId": "weiliao",
+      "id": "weiliao-41",
+      "translation": "起兵不可以因愤怒，见到能胜才发动，见不到能胜就停止。"
+    },
+    {
+      "text": "故知道者，必先图不知止之败。",
+      "source": "《尉缭子·战权》",
+      "interp": "避世面——知止则不殆。进取面：先图其败而后进。",
+      "tags": [
+        "避世",
+        "知足",
+        "庙算"
+      ],
+      "face": "bi",
+      "personId": "weiliao",
+      "id": "weiliao-42",
+      "translation": "所以懂得道的人，必先谋划「不知止」的失败。"
+    },
+    {
+      "text": "夫将者，上不制于天，下不制于地，中不制于人。",
+      "source": "《尉缭子·兵谈》",
+      "interp": "进取面——独立自主、择势而行。避世面：不倚外物。",
+      "tags": [
+        "进取",
+        "任势",
+        "庙算"
+      ],
+      "face": "jin",
+      "personId": "weiliao",
+      "id": "weiliao-43",
+      "translation": "将帅，上不受制于天，下不受制于地，中不受制于人。"
+    },
+    {
+      "text": "兵者凶器也，争者逆德也，将者死官也。故不得已而用之。",
+      "source": "《尉缭子·武议》",
+      "interp": "避世面——兵为凶器、争为逆德，近于老子。进取面：不得已而用之。",
+      "tags": [
+        "避世",
+        "不争"
+      ],
+      "face": "bi",
+      "personId": "weiliao",
+      "id": "weiliao-40",
+      "translation": "兵是凶器，争是逆德，将帅是死官。所以只有不得已才用它。"
     }
   ]
 }

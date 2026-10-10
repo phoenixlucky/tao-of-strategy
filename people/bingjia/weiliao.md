@@ -187,6 +187,168 @@ tags: [进取, 庙算, 治国, 法治]
 - **一面解读**：进取面——"审利害"就是庙算的核心——权衡利弊后再行动。避世面——"审"的功夫正是道家"致虚极，守静笃"——只有心静才能看清利害。
 - **标签**：`进取` `庙算` `无为`
 
+### 格言21
+
+- **原文**：胜兵似水。夫水至柔弱者也，然所以触，丘陵必为之崩，无异也，性专而触诚也。
+- **出处**：《尉缭子·武议》
+- **译文**：胜利的军队像水。水是最柔弱的，但它所冲击的地方，丘陵也必定崩坏，没有别的原因，是它专一而冲击真诚。
+- **英文翻译**：A victorious army is like water — the softest thing, yet what it strikes, even hills collapse; because it is single-minded and its impact is sincere.
+- **一面解读**：转化面——进取面：以柔克刚、专一而诚则无坚不摧。避世面：水至柔而胜刚，正是老子「天下莫柔弱于水」。
+- **标签**：`转化` `守柔` `形势`
+
+### 格言22
+
+- **原文**：故善将者，爱与威而已。
+- **出处**：《尉缭子·攻权》
+- **译文**：所以善于做将帅的，不过是爱与威罢了。
+- **英文翻译**：Thus the skilled general has nothing but love and authority.
+- **一面解读**：转化面——进取面：爱与威（柔与刚）并用。避世面：爱近于慈、威近于法，刚柔一体。
+- **标签**：`转化` `修身` `治国`
+
+### 格言24
+
+- **原文**：故正兵贵先，奇兵贵后，或先或后，制敌者也。
+- **出处**：《尉缭子·勒卒令》
+- **译文**：所以正兵贵在先动，奇兵贵在后动，或先或后，都是为了制敌。
+- **英文翻译**：The regular force values going first; the extraordinary force values going after — first or after, both serve to master the enemy.
+- **一面解读**：转化面——进取面：先后之择在于制敌。避世面：不固定先后，随时而变。
+- **标签**：`转化` `奇正` `形势`
+
+### 格言25
+
+- **原文**：兵贵先胜于此，则胜彼矣；弗胜于此，则弗胜彼矣。
+- **出处**：《尉缭子·战权》
+- **译文**：用兵贵在先在自身立于胜，才能胜敌；自身不能立于胜，就不能胜敌。
+- **英文翻译**：In war, first win where you stand; then you win over the enemy. Fail to win here, and you will not win there.
+- **一面解读**：进取面——先胜于己。避世面：先为不可胜。
+- **标签**：`进取` `庙算` `全胜`
+
+### 格言27
+
+- **原文**：兵胜于朝廷，胜于丧纪，胜于土功，胜于市井。
+- **出处**：《尉缭子·兵谈》
+- **译文**：用兵的胜利在于朝廷（庙算），在于丧纪，在于土功，在于市井。
+- **英文翻译**：Victory in arms is won in the court, in mourning rites, in public works, in the marketplace.
+- **一面解读**：转化面——进取面：胜负早在庙堂、制度、民生中决定。避世面：不战而胜，近于无为。
+- **标签**：`转化` `治国` `全胜`
+
+### 格言28
+
+- **原文**：治兵者，若秘于地，若邃于天，生于无。
+- **出处**：《尉缭子·兵谈》
+- **译文**：治理军队，像秘藏于地、深邃如天，生于「无」。
+- **英文翻译**：He who governs troops is hidden as in the earth, deep as heaven — born of nothing.
+- **一面解读**：避世面——「生于无」，近于老子「有生于无」。进取面：无形而不可测。
+- **标签**：`避世` `无为` `归根`
+
+### 格言30
+
+- **原文**：百战百胜，非善之善者也；不战而胜，善之善者也。
+- **出处**：《尉缭子·兵谈》
+- **译文**：百战百胜，不是最好的；不战而胜，才是最好的。
+- **英文翻译**：A hundred victories in a hundred battles is not the best; to win without fighting is the best.
+- **一面解读**：转化面——进取面：以不战为最高。避世面：与老子「善胜敌者不与」相合。
+- **标签**：`转化` `不争` `全胜`
+
+### 格言31
+
+- **原文**：凡兵不攻无过之城，不杀无罪之人。
+- **出处**：《尉缭子·武议》
+- **译文**：凡用兵不攻打无过之城，不杀害无罪之人。
+- **英文翻译**：The army never attacks a guiltless city nor kills the innocent.
+- **一面解读**：转化面——避世面：仁及无辜，兵所以诛乱禁不义。进取面：义兵乃能全胜。
+- **标签**：`转化` `全胜` `修身`
+
+### 格言33
+
+- **原文**：兵以静固，以专胜。力分者弱，心疑者背。
+- **出处**：《尉缭子·攻权》
+- **译文**：军队靠静而稳固，靠专一而取胜。力量分散就弱，心怀疑虑就背离。
+- **英文翻译**：The army is made firm by stillness and victorious by singleness of purpose. Divided strength is weak; a doubting heart turns away.
+- **一面解读**：避世面——以静以专，近于老子「清静」「抱一」。进取面：专一则胜。
+- **标签**：`避世` `形势` `守柔`
+
+### 格言34
+
+- **原文**：矢射未交，长刃未接，先噪者虚，后噪谓之实，不噪谓之闭，虚实者兵之体也。
+- **出处**：《尉缭子·兵令上》
+- **译文**：箭未交锋、刃未相接，先鼓噪的为虚，后鼓噪的为实，不鼓噪的为闭——虚实是用兵的根本。
+- **英文翻译**：Before arrows fly and blades meet: those who shout first are empty, those who shout later are full, those who do not shout are closed — emptiness and fullness are the very body of war.
+- **一面解读**：进取面——虚实示形。避世面：有无相生。
+- **标签**：`进取` `虚实` `诡道`
+
+### 格言36
+
+- **原文**：今以莫邪之利，犀兕之坚，三军之众，有所奇正，则天下莫当其战矣。
+- **出处**：《尉缭子·武议》
+- **译文**：如今凭莫邪的锋利、犀兕的坚固、三军之众，再加上奇正的运用，天下就没有能抵挡它的了。
+- **英文翻译**：With the keenness of Moye, the toughness of rhino-hide, the host of the three armies, and the use of the regular and the extraordinary, nothing under heaven can withstand it.
+- **一面解读**：进取面——奇正相配则无敌。避世面：奇正相生，如环无端。
+- **标签**：`进取` `奇正` `形势`
+
+### 格言37
+
+- **原文**：善御敌者，正兵先合，而后振之，此必胜之术也。
+- **出处**：《尉缭子·兵令上》
+- **译文**：善于抵御敌人的人，正兵先交合，然后振起（奇兵），这是必胜之术。
+- **英文翻译**：He who handles the enemy well joins with the regular force first, then rouses it — this is the art of certain victory.
+- **一面解读**：进取面——以正合、以奇胜。避世面：先后有序。
+- **标签**：`进取` `奇正` `全胜`
+
+### 格言38
+
+- **原文**：鼓之前如霆，动如风雨，莫敢当其前，莫敢蹑其后。
+- **出处**：《尉缭子·经卒令》
+- **译文**：鼓声一响前进如雷霆，行动如风雨，没有人敢挡在前，也没有人敢追在后。
+- **英文翻译**：At the drum they advance like thunder, move like wind and rain; none dare block their front, none dare tread their rear.
+- **一面解读**：进取面——进不可当、退不可追。避世面：动如风雨、静如止水。
+- **标签**：`进取` `速决` `形势`
+
+### 格言39
+
+- **原文**：战胜其国，则攻其都；不胜其国，不攻其都。
+- **出处**：《尉缭子·兵谈》
+- **译文**：能战胜其国，才攻它的都城；不能战胜其国，就不攻它的都城。
+- **英文翻译**：If you can prevail over the state, attack its capital; if you cannot prevail over the state, do not attack its capital.
+- **一面解读**：进取面——量力而进。避世面：知止不进。
+- **标签**：`进取` `庙算` `全胜`
+
+### 格言40
+
+- **原文**：兵者凶器也，争者逆德也，将者死官也。故不得已而用之。
+- **出处**：《尉缭子·武议》
+- **译文**：兵是凶器，争是逆德，将帅是死官。所以只有不得已才用它。
+- **英文翻译**：Weapons are inauspicious instruments, contention a contrary virtue, and the general an office of death — hence used only when there is no alternative.
+- **一面解读**：避世面——兵为凶器、争为逆德，近于老子。进取面：不得已而用之。
+- **标签**：`避世` `不争`
+
+### 格言41
+
+- **原文**：兵起，非可以忿也，见胜则兴，不见胜则止。
+- **出处**：《尉缭子·兵谈》
+- **译文**：起兵不可以因愤怒，见到能胜才发动，见不到能胜就停止。
+- **英文翻译**：War must not be raised in anger: if victory is foreseeable, rise; if not, stop.
+- **一面解读**：转化面——进取面：见胜则兴。避世面：不见胜则止，近于知止。
+- **标签**：`转化` `不争` `庙算`
+
+### 格言42
+
+- **原文**：故知道者，必先图不知止之败。
+- **出处**：《尉缭子·战权》
+- **译文**：所以懂得道的人，必先谋划「不知止」的失败。
+- **英文翻译**：Thus one who knows the Way first reckons the defeat that comes of not knowing when to stop.
+- **一面解读**：避世面——知止则不殆。进取面：先图其败而后进。
+- **标签**：`避世` `知足` `庙算`
+
+### 格言43
+
+- **原文**：夫将者，上不制于天，下不制于地，中不制于人。
+- **出处**：《尉缭子·兵谈》
+- **译文**：将帅，上不受制于天，下不受制于地，中不受制于人。
+- **英文翻译**：The general is bound by neither heaven above, nor earth below, nor men in between.
+- **一面解读**：进取面——独立自主、择势而行。避世面：不倚外物。
+- **标签**：`进取` `任势` `庙算`
+
 ---
 
 ## 后世评注与关联

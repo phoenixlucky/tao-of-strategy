@@ -116,6 +116,11 @@
 | [何去非](people/bingjia/hequfei.md) | 《何博士备论》 |
 | [揭暄](people/bingjia/jiexuan.md) | 《兵经百言》 |
 | [王余佑](people/bingjia/wangyuyou.md) | 《乾坤大略》 |
+| [草庐经略](people/bingjia/caolujinglue.md) | 《草庐经略》 |
+| [何良臣](people/bingjia/heliangchen.md) | 《阵纪》 |
+| [投笔肤谈](people/bingjia/toubishitan.md) | 《投笔肤谈》 |
+| [兵垒](people/bingjia/binglei.md) | 《兵垒》 |
+| [朱逢甲](people/bingjia/zhufengjia.md) | 《间书》 |
 
 ### ☯️ 道家人物（避世面）
 
@@ -132,6 +137,9 @@
 | [刘安](people/daojia/liuan.md) | 《淮南子》 |
 | [亢仓子](people/daojia/kangcangzi.md) | 《亢仓子》 |
 | [子华子](people/daojia/zihuazi.md) | 《子华子》 |
+| [尹文子](people/daojia/yinwenzi.md) | 《尹文子》 |
+| [刘昼](people/daojia/liuzhou.md) | 《刘子》 |
+| [鬻子](people/daojia/yuzi.md) | 《鬻子》 |
 
 ### 🔄 跨界人物（一体两面）
 
@@ -146,6 +154,13 @@
 | [刘邵](people/crossover/liushao.md) | 知人善任 + 中和养德 |
 | [尸佼](people/crossover/shijiao.md) | 杂采诸家 + 立身治道 |
 | [慎到](people/crossover/shenzi.md) | 尚法重势 + 道法转关 |
+| [商鞅](people/crossover/shangzi.md) | 变法图强 + 农战立国 |
+| [王通](people/crossover/wenzhongzi.md) | 儒道兼综 + 河汾王学 |
+| [王真](people/crossover/wangzhen.md) | 以道论兵 + 无为弭兵 |
+| [王充](people/crossover/wangchong.md) | 疾虚妄 + 论遇命累害 |
+| [颜之推](people/crossover/yanshi.md) | 修身齐家 + 儒道兼采 |
+| [唐甄](people/crossover/qianshu.md) | 定乱除暴 + 仁义事功 |
+| [萧绎](people/crossover/jinlouzi.md) | 帝王杂家 + 戒速成 |
 
 ### 📚 主题聚合
 
@@ -164,7 +179,7 @@
 | [🪙 反者道之动 · 对比](comparison.html) | 兵家进取 vs 道家避世，8 组精选对比 + 随机配对 |
 | [📈 项目总览](overview.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](about.md) | 哲学、核心特色、标签体系 |
-| [📦 结构化数据](quotes/quotes.json) | 959 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 1277 条格言 JSON 数据 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
 
 ### 💻 部署为 GitHub Pages
@@ -186,7 +201,7 @@ git push -u origin main
 | [📈 项目总览](总览.md) | 人物统计、格言数、Roadmap |
 | [📖 关于本项目](关于.md) | 哲学、核心特色、标签体系 |
 | [🤝 贡献指南](CONTRIBUTING.md) | 格言格式、一面解读要求 |
-| [📦 结构化数据](quotes/quotes.json) | 959 条格言 JSON 数据 |
+| [📦 结构化数据](quotes/quotes.json) | 1277 条格言 JSON 数据 |
 
 ---
 

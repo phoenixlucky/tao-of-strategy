@@ -67,6 +67,21 @@ LIB = {
     "shenzi":      ["子藏/诸子/慎子.txt"],
     "wangyuyou":   ["子藏/兵家/乾坤大略.txt"],
     "zihuazi":     ["子藏/诸子/子华子.txt"],
+    "caolujinglue": ["子藏/兵家/草庐经略.txt"],
+    "shangzi":     ["子藏/法家/商子.txt"],
+    "wenzhongzi":  ["子藏/诸子/文中子中说.txt"],
+    "yinwenzi":    ["子藏/诸子/尹文子.txt"],
+    "wangzhen":    ["子藏/兵家/道德经论兵要义述.txt"],
+    "heliangchen": ["子藏/兵家/阵纪.txt"],
+    "liuzhou":     ["道藏/正统道藏太玄部/刘子.txt"],
+    "wangchong":   ["子藏/诸子/论衡.txt"],
+    "yanshi":      ["儒藏/修身治家/颜氏家训.txt"],
+    "qianshu":     ["子藏/诸子/潜书.txt"],
+    "jinlouzi":    ["子藏/笔记/金楼子.txt"],
+    "toubishitan": ["子藏/兵家/投笔肤谈.txt"],
+    "binglei":     ["子藏/兵家/兵垒.txt"],
+    "zhufengjia":  ["子藏/兵家/间书.txt"],
+    "yuzi":        ["道藏/正统道藏太清部/鬻子.txt"],
 }
 
 # 反查用大语料（在首选未命中时用整句对齐找真正的出处）

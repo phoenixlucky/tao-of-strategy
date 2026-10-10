@@ -80,7 +80,15 @@ function personDisplayName(id) {
 
     jiexuan:'揭暄', liushao:'刘邵', kangcangzi:'亢仓子', shijiao:'尸佼',
 
-    shenzi:'慎到', wangyuyou:'王余佑', zihuazi:'子华子'
+    shenzi:'慎到', wangyuyou:'王余佑', zihuazi:'子华子',
+
+    caolujinglue:'草庐经略', shangzi:'商鞅', wenzhongzi:'王通', yinwenzi:'尹文子',
+
+    wangzhen:'王真', heliangchen:'何良臣', liuzhou:'刘昼', wangchong:'王充',
+
+    yanshi:'颜之推', qianshu:'唐甄', jinlouzi:'萧绎', toubishitan:'投笔肤谈',
+
+    binglei:'兵垒', zhufengjia:'朱逢甲', yuzi:'鬻子'
   }; return m[id] || id;
 }
 
